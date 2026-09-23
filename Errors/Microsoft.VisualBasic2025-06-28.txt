@@ -1,0 +1,255 @@
+-----------------------------
+-----------------------------
+The Date= 2025-06-28
+The Time= 14:06:48.8298248
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Data=System.Collections.ListDictionaryInternal
+Base Exception = System.InvalidCastException: التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+   عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+AdditionalMessage = جلب آخر سعر شراء
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Source= Microsoft.VisualBasic
+Exception StackTrace=    عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+Exception Method= Double ToDouble(System.Object, System.Globalization.NumberFormatInfo)
+-----------------------------
+-----------------------------
+The Date= 2025-06-28
+The Time= 14:06:52.3835765
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Data=System.Collections.ListDictionaryInternal
+Base Exception = System.InvalidCastException: التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+   عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+AdditionalMessage = جلب آخر سعر شراء
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Source= Microsoft.VisualBasic
+Exception StackTrace=    عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+Exception Method= Double ToDouble(System.Object, System.Globalization.NumberFormatInfo)
+-----------------------------
+-----------------------------
+The Date= 2025-06-28
+The Time= 14:06:55.5299704
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Data=System.Collections.ListDictionaryInternal
+Base Exception = System.InvalidCastException: التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+   عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+AdditionalMessage = جلب آخر سعر شراء
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Source= Microsoft.VisualBasic
+Exception StackTrace=    عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+Exception Method= Double ToDouble(System.Object, System.Globalization.NumberFormatInfo)
+-----------------------------
+-----------------------------
+The Date= 2025-06-28
+The Time= 14:06:56.6683671
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Data=System.Collections.ListDictionaryInternal
+Base Exception = System.InvalidCastException: التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+   عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+AdditionalMessage = جلب آخر سعر شراء
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Source= Microsoft.VisualBasic
+Exception StackTrace=    عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+Exception Method= Double ToDouble(System.Object, System.Globalization.NumberFormatInfo)
+-----------------------------
+-----------------------------
+The Date= 2025-06-28
+The Time= 14:06:58.1366655
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Data=System.Collections.ListDictionaryInternal
+Base Exception = System.InvalidCastException: التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+   عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+AdditionalMessage = جلب آخر سعر شراء
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Source= Microsoft.VisualBasic
+Exception StackTrace=    عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+Exception Method= Double ToDouble(System.Object, System.Globalization.NumberFormatInfo)
+-----------------------------
+-----------------------------
+The Date= 2025-06-28
+The Time= 14:07:07.8649815
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Data=System.Collections.ListDictionaryInternal
+Base Exception = System.InvalidCastException: التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+   عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+AdditionalMessage = جلب آخر سعر شراء
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Source= Microsoft.VisualBasic
+Exception StackTrace=    عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+Exception Method= Double ToDouble(System.Object, System.Globalization.NumberFormatInfo)
+-----------------------------
+-----------------------------
+The Date= 2025-06-28
+The Time= 14:07:08.8082627
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Data=System.Collections.ListDictionaryInternal
+Base Exception = System.InvalidCastException: التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+   عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+AdditionalMessage = جلب آخر سعر شراء
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Source= Microsoft.VisualBasic
+Exception StackTrace=    عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+Exception Method= Double ToDouble(System.Object, System.Globalization.NumberFormatInfo)
+-----------------------------
+-----------------------------
+The Date= 2025-06-28
+The Time= 14:07:10.9869037
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Data=System.Collections.ListDictionaryInternal
+Base Exception = System.InvalidCastException: التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+   عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+AdditionalMessage = جلب آخر سعر شراء
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Source= Microsoft.VisualBasic
+Exception StackTrace=    عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+Exception Method= Double ToDouble(System.Object, System.Globalization.NumberFormatInfo)
+-----------------------------
+-----------------------------
+The Date= 2025-06-28
+The Time= 15:00:31.9506318
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Data=System.Collections.ListDictionaryInternal
+Base Exception = System.InvalidCastException: التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+   عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+AdditionalMessage = جلب آخر سعر شراء
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Source= Microsoft.VisualBasic
+Exception StackTrace=    عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+Exception Method= Double ToDouble(System.Object, System.Globalization.NumberFormatInfo)
+-----------------------------
+-----------------------------
+The Date= 2025-06-28
+The Time= 15:22:20.0866836
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Data=System.Collections.ListDictionaryInternal
+Base Exception = System.InvalidCastException: التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+   عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+AdditionalMessage = جلب آخر سعر شراء
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Source= Microsoft.VisualBasic
+Exception StackTrace=    عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+Exception Method= Double ToDouble(System.Object, System.Globalization.NumberFormatInfo)
+-----------------------------
+-----------------------------
+The Date= 2025-06-28
+The Time= 15:22:21.3809346
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Data=System.Collections.ListDictionaryInternal
+Base Exception = System.InvalidCastException: التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+   عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+AdditionalMessage = جلب آخر سعر شراء
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Source= Microsoft.VisualBasic
+Exception StackTrace=    عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+Exception Method= Double ToDouble(System.Object, System.Globalization.NumberFormatInfo)
+-----------------------------
+-----------------------------
+The Date= 2025-06-28
+The Time= 15:22:26.3348018
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Data=System.Collections.ListDictionaryInternal
+Base Exception = System.InvalidCastException: التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+   عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+AdditionalMessage = جلب آخر سعر شراء
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Source= Microsoft.VisualBasic
+Exception StackTrace=    عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+Exception Method= Double ToDouble(System.Object, System.Globalization.NumberFormatInfo)
+-----------------------------
+-----------------------------
+The Date= 2025-06-28
+The Time= 15:22:29.2800847
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Data=System.Collections.ListDictionaryInternal
+Base Exception = System.InvalidCastException: التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+   عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+AdditionalMessage = جلب آخر سعر شراء
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Source= Microsoft.VisualBasic
+Exception StackTrace=    عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+Exception Method= Double ToDouble(System.Object, System.Globalization.NumberFormatInfo)
+-----------------------------
+-----------------------------
+The Date= 2025-06-28
+The Time= 17:23:45.8327159
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Data=System.Collections.ListDictionaryInternal
+Base Exception = System.InvalidCastException: التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+   عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+AdditionalMessage = جلب آخر سعر شراء
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Source= Microsoft.VisualBasic
+Exception StackTrace=    عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+Exception Method= Double ToDouble(System.Object, System.Globalization.NumberFormatInfo)
+-----------------------------
+-----------------------------
+The Date= 2025-06-28
+The Time= 17:23:49.5584923
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Data=System.Collections.ListDictionaryInternal
+Base Exception = System.InvalidCastException: التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+   عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+AdditionalMessage = جلب آخر سعر شراء
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Source= Microsoft.VisualBasic
+Exception StackTrace=    عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+Exception Method= Double ToDouble(System.Object, System.Globalization.NumberFormatInfo)
+-----------------------------
+-----------------------------
+The Date= 2025-06-28
+The Time= 17:23:53.6638152
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Data=System.Collections.ListDictionaryInternal
+Base Exception = System.InvalidCastException: التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+   عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+AdditionalMessage = جلب آخر سعر شراء
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Source= Microsoft.VisualBasic
+Exception StackTrace=    عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+Exception Method= Double ToDouble(System.Object, System.Globalization.NumberFormatInfo)
+-----------------------------
+-----------------------------
+The Date= 2025-06-28
+The Time= 17:23:55.9998579
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Data=System.Collections.ListDictionaryInternal
+Base Exception = System.InvalidCastException: التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+   عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+AdditionalMessage = جلب آخر سعر شراء
+Exception Message= التحويل من النوع 'DBNull' إلى النوع 'Double' غير صالح.
+Exception Source= Microsoft.VisualBasic
+Exception StackTrace=    عند Microsoft.VisualBasic.CompilerServices.Conversions.ToDouble(Object Value, NumberFormatInfo NumberFormat)
+   عند EBS.Trader.Item.Get_CostPrice_LastBuyInPriceWithSpending(Int64 ItemID, Int64 UnitID, Int64 CurrentCurrencyID, Int64 BranchID, Int64 StoreID, Double CurrentExchangePrice, Int64 ClientID, Boolean UpdateBuyExchangePrice, Int64 CostCenterID, Session Mysession, Boolean IsAddDiscountInvoice)
+Exception Method= Double ToDouble(System.Object, System.Globalization.NumberFormatInfo)

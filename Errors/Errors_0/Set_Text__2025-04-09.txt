@@ -1,0 +1,48 @@
+-----------------------------
+-----------------------------
+The Date= 2025-04-09
+The Time= 14:59:25.3640264
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-04-09
+The Time= 14:59:25.5358435
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-04-09
+The Time= 14:59:25.9262957
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-04-09
+The Time= 16:38:41.7372909
+Key = RunLog : True Blocked_Source
+Value = select * from vewpos_itemsbarcodes where [رقم الباركود]='   ;'  and branchid in (1,2)
+-----------------------------
+-----------------------------
+The Date= 2025-04-09
+The Time= 17:06:04.4726357
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-04-09
+The Time= 17:06:04.6042309
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-04-09
+The Time= 17:06:04.9206181
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-04-09
+The Time= 17:06:57.7373348
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')

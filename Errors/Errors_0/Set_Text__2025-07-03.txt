@@ -1,0 +1,96 @@
+-----------------------------
+-----------------------------
+The Date= 2025-07-03
+The Time= 00:19:54.2275149
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-07-03
+The Time= 00:20:05.5581316
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-07-03
+The Time= 00:21:38.8391932
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewinv_buyinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-07-03
+The Time= 00:21:38.9394555
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewinv_buyinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-07-03
+The Time= 00:21:41.0982209
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewinv_buyinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-07-03
+The Time= 00:21:45.8736522
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewinv_buyinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-07-03
+The Time= 00:21:48.5612042
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewinv_buyinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-07-03
+The Time= 10:00:25.6968980
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-07-03
+The Time= 10:00:25.8374847
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-07-03
+The Time= 10:00:26.1499198
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-07-03
+The Time= 19:11:54.7521458
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-07-03
+The Time= 19:11:54.8927492
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-07-03
+The Time= 19:11:55.2207847
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-07-03
+The Time= 19:59:20.1008624
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-07-03
+The Time= 19:59:20.2570761
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')
+-----------------------------
+-----------------------------
+The Date= 2025-07-03
+The Time= 19:59:20.5694996
+Key = RunLog : True Blocked_Source
+Value = select '[' + name + ']' from sys.all_columns where object_id=object_id('vewpos_salesinvoicedetails')

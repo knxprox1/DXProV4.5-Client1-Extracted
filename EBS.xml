@@ -1,0 +1,2598 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS
+</name>
+</assembly>
+<members>
+<member name="T:EBS.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources._10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources._2_copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources._2_copy1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources._3_copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.BBC_Arabic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.BBC_English">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.CodeProject">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.Down">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.IBS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.IBS_News">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.Ibsoft">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.ICON_DOT_X_PROv3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.ICON_DOT_X_PROv4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.index">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.LOG_INPlayGround">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.loginv3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.loginv4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.MyHashedKeyR">
+<summary>
+  Looks up a localized string similar to /TIZtVzM22aC9iLfkmHHJUUaJi+gxURUkYB1J6wh7MY=.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.New_York_Times">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.Nile">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.printer_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.repeat_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.RSS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.Rss_InvalidValue">
+<summary>
+  Looks up a localized string similar to Invalid value..
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.settings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.settings__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.splashRoomTrading">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.splashRoomTradingSana">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.SPv3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.SPv4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.Table">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.Up">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.v4_add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.v4_cancel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.v4_first">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.v4_last">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.v4_next">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.v4_option">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.v4_previous">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.v4_printer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.v4_redo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.v4_refresh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.v4_remove">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.v4_save">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resources.v4_search">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:EBS.My.Resources.Resource1">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1._new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1._Next">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.app">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.Apply">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.Cancel">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.Delete">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.Edit">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.EnglishLOG_IN">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.First">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.First16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.First24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.Last">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.Last16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.Last161">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.Last24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.login">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.Next16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.Next24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.Previous">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.Previous16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.Previous24">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.Print">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.Refresh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.refresh_copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.reload">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.My.Resources.Resource1.search">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:EBS.ArchiveDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.ArchiveDataSet.tblPhotoArchiveDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.ArchiveDataSet.tblPhotoArchiveDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.ArchiveDataSet.tblPhotoArchiveDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.ArchiveDataSetTableAdapters.tblPhotoArchiveDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.ArchiveDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.ArchiveDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.ArchiveDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.ArchiveDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.ArchiveDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.ArchiveDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.ArchiveDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.ArchiveDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.ArchiveDataSetTableAdapters.TableAdapterManager.UpdateAll(EBS.ArchiveDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.ArchiveDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.ArchiveDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:EBS.ComboBoxSource">
+ <summary>
+ Class used to store the datasource for the combobox
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:EBS.InputBoxResult">
+ <summary>
+ Class used to store the result of an InputBox.Show message.
+ </summary>
+</member>
+<member name="T:EBS.InputBox">
+ <summary>
+ Summary description for InputBox.
+ </summary>
+ 
+</member>
+<member name="M:EBS.Classes.Connections.GetProperties(System.Attribute[])">
+ <summary>
+ Called to get the properties of this type. Returns properties with certain
+ attributes. this restriction is not implemented here.
+ </summary>
+ <param name="attributes"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.Classes.Connections.GetProperties">
+ <summary>
+ Called to get the properties of this type.
+ </summary>
+ <returns></returns>
+</member>
+<member name="T:EBS.Classes.ConnectionsPropertyDescriptor">
+ <summary>
+ Summary description for CollectionPropertyDescriptor.
+ </summary>
+</member>
+<member name="M:EBS.Classes.CrytalReportHelper.AddClicheToMainReport(CrystalDecisions.CrystalReports.Engine.ReportDocument,CrystalDecisions.CrystalReports.Engine.ReportDocument,System.Boolean)">
+ <summary>
+ دالة اضافة الكليشة الى الكريستال ريبورت 
+ </summary>
+ <param name="mainReport"></param>
+ <param name="ClicheReport">الكليشة الافتراضية</param>
+ <param name="Widecliche"> كليشة بشكل عرض </param>
+ <returns>M.gholis</returns>
+</member>
+<member name="M:EBS.Classes.CrytalReportHelper.GetAddEditUserName(CrystalDecisions.CrystalReports.Engine.ReportDocument,System.Data.DataSet@,System.Data.DataTable,System.Boolean)">
+ <summary>
+ دالة جلب اسم مدخل العملية واسم معدل العملية في طباعة المستندات
+ </summary>
+ <param name="MainReport"></param>
+ <param name="TheReportDataSet"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.CrytalReportHelper.StyleFontReport(CrystalDecisions.CrystalReports.Engine.ReportDocument@)">
+ <summary>
+ دالة لتغيير خط الطباعه في المستندات -القوالب   بناء على اعداد
+ </summary>
+ <param name="MainReport"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.CrytalReportHelper.SortReportTable(CrystalDecisions.CrystalReports.Engine.ReportDocument,System.Data.DataSet@)">
+ <summary>
+ داله ترتيب عرض السجلات عند الطباعة
+ </summary>
+</member>
+<member name="M:EBS.Classes.CrytalReportHelper.AddQtyWrite(CrystalDecisions.CrystalReports.Engine.ReportDocument,System.Data.DataSet@)">
+ <summary>
+ دالة اضافة الكمية كتابة
+ </summary>
+</member>
+<member name="M:EBS.Classes.CorrectionData.PeriodIDs(System.Int64,System.String)">
+ <summary>
+ داله تعود بعدد فترات العمل 
+ </summary>
+ <param name="TheGrid"></param>
+ <param name="TheDataTable"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.CorrectionData.TimePeriod(System.Int64,System.String)">
+ <summary>
+ داله تعود باوقات الحضور والانصراف للفترة 
+ </summary>
+ <param name="TheGrid"></param>
+ <param name="TheDataTable"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.CorrectionData.LeaveTimePeriod(System.Int64,System.String)">
+ <summary>
+ داله تعود باوقات الحضور والانصراف للفترة 
+ </summary>
+ <param name="TheGrid"></param>
+ <param name="TheDataTable"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.CorrectionData.AttendTimePeriod(System.Int64,System.String)">
+ <summary>
+ داله تعود باوقات الحضور والانصراف للفترة 
+ </summary>
+ <param name="TheGrid"></param>
+ <param name="TheDataTable"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.CorrectionData.TimeAttendAndLeaveTime(System.Int64,System.String)">
+ <summary>
+ داله تعود ببصمات الموظف كامله او حسب التاريخ 
+ </summary>
+ <param name="TheGrid"></param>
+ <param name="TheDataTable"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.CorrectionData.ISVacation(System.Int64,System.String,System.String)">
+ <summary>
+ داله تعود هل الموظف في حالة اجازه 
+ </summary>
+ <param name="TheGrid"></param>
+ <param name="TheDataTable"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.Classes.Document.IDS(System.String)">
+ <summary>
+ دالة تمرر لها اسماء المستندات ترجع مجموعه ارقام المعرفات مفصولة بينها بفاصلة
+ Example Dim DocumentCondition=Document.IDS("'فاتورة بيع','فاتورة مردود المبيعات'")
+ </summary>
+ <param name="DocumentNames"></param>
+ Developed by Moath.Alwan
+ <returns></returns>
+</member>
+<member name="P:EBS.Classes.Entries.MCAmountCostItem">
+ <summary>
+ المقابل لتكلفة الوحدة بالعملة الاساسية
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:EBS.Classes.Entries.TestCostCenter">
+ <summary>
+ فحص مركز التكلفة قبل إعتماد القيود المحاسبية
+ </summary>
+ <returns></returns>
+</member>
+<member name="F:EBS.Classes.Database.ExcludeProtectedAccounts.AllProcess">
+ <summary>
+ كافة العمليات
+ </summary>
+</member>
+<member name="F:EBS.Classes.Database.ExcludeProtectedAccounts.DebitorsProcess">
+ <summary>
+ العمليات المدينة
+ </summary>
+</member>
+<member name="F:EBS.Classes.Database.ExcludeProtectedAccounts.CreditorsProcess">
+ <summary>
+ العمليات الدائنة
+ </summary>
+</member>
+<member name="F:EBS.Classes.Database.ExcludeProtectedAccounts.Reporting">
+ <summary>
+ التقارير
+ </summary>
+</member>
+<member name="M:EBS.Classes.Database.Test_Doc_Number_Add(System.String,System.String,System.Int64@,System.String,System.Boolean)">
+ <summary>
+ فحص رقم المستند عند الاضافة بدون الاعتماد على السنة أو الفرع
+ </summary>
+ <param name="TableName"></param>
+ <param name="FieldName"></param>
+ <param name="TheNumber"></param>
+ <param name="Condition"></param>
+ <param name="CanUpdateDocNumber"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.Database.Test_Doc_Number_Add(System.String,System.String,System.Double@,System.Int32,System.Int64,System.String,System.Boolean,System.Double,System.Boolean)">
+ <summary>
+ فحص رقم المستند عند الاضافة بالاعتماد على السنة أو الفرع
+ </summary>
+ <param name="TableName"></param>
+ <param name="FieldName"></param>
+ <param name="TheNumber"></param>
+ <param name="TheYear"></param>
+ <param name="Condition"></param>
+ <param name="CanUpdateDocNumber"></param>
+ <returns></returns>
+ <remarks></remarks>
+ 
+</member>
+<member name="M:EBS.Classes.Database.Test_Year_Ok(EBS.Services.ibsSimpleWindow,System.DateTime,System.Boolean)">
+ <summary>
+ داله لفحص تاريخ العملية اذا كان خارج السنه الماليه مع فحص حاله السنه
+ </summary>
+ <param name="CheckLockedOnly"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.Database.Test_Doc_Number_Update(System.String,System.String,System.Double@,System.Int64,System.String,System.Boolean)">
+ <summary>
+ فحص رقم المستند عند التعديل بدون الاعتماد على السنة أو الفرع
+ </summary>
+ <param name="TableName"></param>
+ <param name="FieldName"></param>
+ <param name="TheNumber"></param>
+ <param name="SavedNumber"></param>
+ <param name="Condition"></param>
+ <param name="CanUpdateDocNumber"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.Database.Test_Doc_Number_Update(System.String,System.String,System.Double@,System.Int32,System.Double,System.Int64,System.Int64,System.String,System.Boolean,System.Double)">
+ <summary>
+ فحص رقم المستند عند التعديل بالاعتماد على السنة أو الفرع
+ </summary>
+ <param name="TableName"></param>
+ <param name="FieldName"></param>
+ <param name="TheNumber"></param>
+ <param name="TheYear"></param>
+ <param name="SavedNumber"></param>
+ <param name="SavedYear"></param>
+ <param name="SavedBranchID"></param>
+ <param name="Condition"></param>
+ <param name="CanUpdateDocNumber"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.Database.Test_Doc_Number_Update_New(System.String,System.Int64,System.String,System.Double@,System.Int32,System.Double,System.Int64,System.Int64,System.String,System.Boolean,System.Double)">
+ <summary>
+ دالة لتعديل الرقم في الداتا بيس
+ </summary>
+ <param name="TableName"></param>
+ <param name="DocID"></param>
+ <param name="FieldName"></param>
+ <param name="TheNumber"></param>
+ <param name="TheYear"></param>
+ <param name="SavedNumber"></param>
+ <param name="SavedYear"></param>
+ <param name="SavedBranchID"></param>
+ <param name="Condition"></param>
+ <param name="CanUpdateDocNumber"></param>
+ <param name="GroupingCode"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.Database.Save_DataFinger(System.Data.DataTable,System.Int64,System.Int64,System.Int64)">
+ <summary>
+ داله لحفظ بيانات البصمه الى tblSPE_DownLoadData
+ </summary>
+ <param name="TheGrid"></param>
+ <param name="TheDataTable"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.Database.Save_TimeAttindance(System.Data.DataTable,System.Data.DataTable)">
+ <summary>
+ داله لحفظ بيانات البصمه الى tblSPE_TimeAttindance
+ </summary>
+ <param name="TheGrid"></param>
+ <param name="TheDataTable"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.CMainForm.GetForm(System.String)">
+ <summary>
+ يعود بالفورم حسب اسم الفورم
+ </summary>
+ <param name="TheFormName">الاسم الكامل للفورم أو اسم الفورم فقط</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.ReadNumber.Read_Number(System.String)">
+ <summary>
+ تحويل الارقام الى نصوص
+ </summary>
+ <param name="TheNumber">الرقم المراد تحويله</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.ReadNumber.Read_Number(System.String,System.Boolean)">
+ <summary>
+ تحويل الارقام الى نصوص
+ </summary>
+ <param name="TheNumber">الرقم المراد تحويله</param>
+ <param name="TrimZeros">تجاهل الاصفار بعد العلامة العشرية 123.1200000 => 123.12</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.modMain.ibsGetExchangePrice(System.Int64,System.Int64)">
+ <summary>
+ داله تعطي سعر التحويل بين عملتين
+ </summary>
+ <param name="CurrencyID"></param>
+ <param name="ExchangeCurrencyID"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.Classes.modMain.ChangeColumnDataType(System.Data.DataTable@,System.String,System.Type)">
+ <summary>
+ تابع لتغيير نوع حقل معين داخل جدول
+ </summary>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Classes.ColsTotal.Value">
+ <summary>
+ يعود هذا التابع بصيغة الاستعلام مع مجموع الأعمدة المحددة
+ </summary>
+ <param name="strSQL">نص الاستعلام التفصيلي</param>
+ <param name="GroupingCol">حقل التجميع إن وجد مثلا حقل العملة</param>
+ <param name="TotalAtEnd">لتحديد موقع أسطر الاجمالي اما في نهاية الاستعلام أو حسب حقل التجميع</param>
+ <param name="SumCols">لتحديد الحقول التي يتم جمعها</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.AgentsRights">
+ <summary>
+ حقوق الوكلاء
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.AgentsCommitments">
+ <summary>
+ التزامات الوكلاء
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.TransfersReceivingDiff">
+ <summary>
+ فوارق قبض الحوالات
+ </summary>
+ <remarks></remarks>            
+ 
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.TransfersDeliveringDiff">
+ <summary>
+ فوارق صرف الحوالات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.TransfersImportingDiff">
+ <summary>
+ فوارق توريد الحوالات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.TransfersExportingDiff">
+ <summary>
+ فوارق تصدير الحوالات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.ChequesUnderProcuring">
+ <summary>
+ شيكات تحت التحصيل
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.ChequesUnderDeserving">
+ <summary>
+ شيكات مؤجلة الدفع
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.ChequesProcuringDiff">
+ <summary>
+ فوارق تحصيل الشيكات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.IncomingCheques">
+ <summary>
+ الشيكات الواردة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.OutgoinCheques">
+ <summary>
+ الشيكات الصادرة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.HastyTransfers">
+ <summary>
+ الحوالات المستعجلة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.ChequesDeservingDiff">
+ <summary>
+ فوارق استحقاق الشيكات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.StockAccount">
+ <summary>
+ مخزون البضاعة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.BuyDiff">
+ <summary>
+ فوارق المشتريات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.SellDiff">
+ <summary>
+ فوارق المبيعات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.RedoneBuyDiff">
+ <summary>
+ فوارق مردود المشتريات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.RedoneSellDiff">
+ <summary>
+ فوارق مردود المبيعات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.StoreReceivingDiff">
+ <summary>
+ فوارق التوريد المخزني
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.StoreSpendingDiff">
+ <summary>
+ فوارق الصرف المخزني
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.ConvertingDiff">
+ <summary>
+ فوارق تحويل مخزني
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.TransferAccountBetweenBranch">
+ <summary>
+ تحويل مخزني بين الفروع
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Account.MediatorAccountsEnum.BranchesSpendingCommission">
+ <summary>
+ عمولة سحب عبر الفروع
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.Classes.Account.AccountType">
+ <summary>
+ جلب اسم الحساب الاب 
+ </summary>
+ <param name="AccountName"></param>
+ <returns></returns>
+ <remarks>M.gholis</remarks>
+ 
+</member>
+<member name="P:EBS.Classes.Account.IsInProtected(System.String,System.Boolean)">
+ <summary>
+ يفحص اذا كان هذا الحساب موجود ضمن مجموعة الحسابات المحمية
+ </summary>
+ <param name="AccountName">اسم الحساب</param>
+ <param name="blnShowMessage">عرض رسالة تنبيه للمستخدم بان الحساب محمي</param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.Classes.Account.IsOutBranch(System.String,EBS.Services.Service)">
+ <summary>
+ الحساب غير تابع للفرع الحالي
+ </summary>
+ <param name="AccountName"></param>
+ <param name="MyService"></param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.Classes.Account.Balance(System.String,System.String,System.Int64)">
+ <summary>
+ تعود برصيد الحساب من العملة المحددة
+ </summary>
+ <param name="AccountName"></param>
+ <param name="CurrencyName"></param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+ 
+</member>
+<member name="P:EBS.Classes.Account.Balance(System.String,System.Int64)">
+ <summary>
+ تعود برصيد الحساب بكافة العملات
+ </summary>
+ <param name="AccountName"></param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.Classes.Account.BalanceToDate(System.String,System.String,System.Int64,System.DateTime)">
+ <summary>
+ تعود برصيد الحساب من العملة المحددة حتى تاريخ معين
+ </summary>
+</member>
+<member name="P:EBS.Classes.Account.LocalBalance(System.String,System.Int64)">
+ <summary>
+ تعود بإجمالي رصيد الحساب بكافة العملات بعد تحويلها الى العملة المحلية بالسعر التاريخي
+ </summary>
+ <param name="AccountName"></param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.Classes.Account.LocalBalanceBeforeRelay(System.String,System.Int64)">
+ <summary>
+ تعود بإجمالي رصيد الحساب بكافة العملات بعد تحويلها الى العملة المحلية بالسعر التاريخي
+ </summary>
+ <param name="AccountName"></param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.Classes.Account.LocalBalanceInCurrentPriceByType(System.String,System.Int64)">
+ <summary>
+ تعود بإجمالي رصيد الحساب بكافة العملات بعد تحويلها الى العملة المحلية بالسعر الجاري
+ </summary>
+ <param name="AccountName"></param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.Classes.Account.LocalBalanceInCurrentPriceBeforeRelayByType(System.String,System.Int64)">
+ <summary>
+ تعود بإجمالي رصيد الحساب بكافة العملات بعد تحويلها الى العملة المحلية بالسعر الجاري
+ </summary>
+ <param name="AccountName"></param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.Classes.Account.LocalBalanceInCurrentPrice(System.String,System.Int64)">
+ <summary>
+ تعود بإجمالي رصيد الحساب بكافة العملات بعد تحويلها الى العملة المحلية بالسعر الجاري
+ </summary>
+ <param name="AccountName"></param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.Classes.Account.LocalBalanceInCurrentPriceBeforeRelay(System.String,System.Int64)">
+ <summary>
+ تعود بإجمالي رصيد الحساب بكافة العملات بعد تحويلها الى العملة المحلية بالسعر الجاري
+ </summary>
+ <param name="AccountName"></param>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Classes.CashedTableCollection.RefreshAllDynamic(System.Boolean)">
+ <summary>
+ تحديث البيانات الاساسية عند الدخول الى النظام 
+ </summary>
+ <param name="ShowSelectedTable"></param>
+ <remarks>M.gholis</remarks>
+</member>
+<member name="M:EBS.Classes.CashedTableCollection.RefreshOne(System.String)">
+ <summary>
+ ادراج السجلات المضافة مؤخرا فقط
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.Currency.UseMinMaxBuySellPrices">
+ <summary>
+ استخدام الحد الأدنى والأعلى لسعري الشراء والبيع بدلا من الحد الأدنى والأعلى لسعر التحويل
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Classes.CurrencyPrices.ExchangeTypeEnum._Default">
+ <summary>
+ الافتراضي
+ </summary>
+</member>
+<member name="F:EBS.Classes.CurrencyPrices.ExchangeTypeEnum.Multiply">
+ <summary>
+ ضرب
+ </summary>
+</member>
+<member name="F:EBS.Classes.CurrencyPrices.ExchangeTypeEnum.Dividing">
+ <summary>
+ قسمة
+ </summary>
+</member>
+<member name="P:EBS.Classes.CurrencyPrices.ExchangeType(System.Int64,System.Int64,System.Int64)">
+ <summary>
+  داله لجلب نوع العمليه حسب العمله المصدر والهدف وبحسب الفرع 
+ </summary>
+ <param name="SourceCurrencyID"></param>
+ <param name="TargetCurrencyID"></param>
+ <param name="BranchID"></param>
+ <returns>Ebrahim</returns>
+</member>
+<member name="P:EBS.Classes.CurrencyPrices.ExchangePrice(System.Int64,System.Int64,System.Int64)">
+ <summary>
+ داله لجلب سعر الصرف بين العمله المصدر والهدف حسب الفرع والسعر الجاري
+ </summary>
+ <param name="SourceCurrencyID"></param>
+ <param name="TargetCurrencyID"></param>
+ <param name="BranchID"></param>
+ <returns>Ebrahim</returns>
+</member>
+<member name="P:EBS.Classes.CurrencyPrices.ExchangePriceAndExchangeType(System.Int64,System.Int64,System.Int64)">
+ <summary>
+ داله لجلب سعر الصرف ونوع العمليه بين العمله المصدر والهدف حسب الفرع والسعر الجاري
+ </summary>
+ <param name="SourceCurrencyID"></param>
+ <param name="TargetCurrencyID"></param>
+ <param name="BranchID"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.Classes.CurrencyPrices.GetExchangeAmount_ByExchangePrice(System.Double,System.Int64,System.Int64,System.Int64,System.Double,EBS.Classes.CurrencyPrices.ExchangeTypeEnum)">
+ <summary>
+ داله لجلب المبلغ المرسل بعد تحويلها الى العمله الهدف بالسعر التاريخي  في حال تم ارسال سعر تحويل او الجاري في حال عدم ارسال 
+ بعد مرورها بالفحوصات التاليه 1- التاكد من قيمه العملات المرسله
+ 2-التاكد من ان العمله المصدر والهدف نفسها ويعود بالقيمه نفسها
+ 3- التاكد من وجود سجل لعمليه التحويل في اسعار العملات حسب الفرع
+ </summary>
+ <param name="SourceCurrencyID"></param>
+ <param name="TargetCurrencyID"></param>
+ <param name="BranchID"></param>
+ <returns>Ebrahim</returns>
+</member>
+<member name="M:EBS.Classes.CurrencyPrices.isExsistCurrencySourceAndTarget(System.Int64,System.Int64,System.Int64,System.Int64)">
+ <summary>
+ فحص وجود العملة المصدر والهدف في دليل اسعار العملات وفي حالة عدم وجودها يتم اضافتها تلقائيا
+ </summary>
+ <param name="SourceCurrencyID"></param>
+ <param name="TargetCurrencyID"></param>
+ <param name="Branchid"></param>
+ <param name="ExchangeType"></param>
+ <returns>Eng.GHolis</returns>
+</member>
+<member name="P:EBS.Classes.Group.IsItemInGroup(System.Int64,System.String,EBS.Classes.modMain.GroupSourceEnum,System.Int64)">
+ <summary>
+ داله فحص وجود عنصر في مجموعة معينة في دليل المجموعات
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:EBS.Classes.ibsDataManager.Show_Master_RecordNumber">
+ <summary>
+ دالة لاظهار الرقم بعد تعديلة بالرقم الحقيقي بعد اضافة اول تفصيل في التفاصيل
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:EBS.Email">
+ <summary>
+ كلاس التعامل مع البريد الالكتروني وتصدير الملفات من التقارير والمستندات
+ </summary>
+ <remarks>TAHA-MOHAMMED</remarks>
+</member>
+<member name="M:EBS.Email.SendEmail(System.String,System.String,System.String,System.String)">
+ <summary>
+ تابع ارسال رسالة الى البريد الالكتروني 
+ </summary>
+</member>
+<member name="M:EBS.Email.IsInternetExsit">
+ <summary>
+ فحص الاتصال بالانترنت
+ </summary>
+</member>
+<member name="M:EBS.Email.SendFile(EBS.ibsForm)">
+ <summary>
+ تابع تصدير مستند الى ملف ورفع الملف الى سريفر خارجي
+ </summary>
+</member>
+<member name="M:EBS.Email.UploadFile(System.String)">
+ <summary>
+ تابع رفع ملف الى سريفر خارجي
+ </summary>
+</member>
+<member name="M:EBS.Email.ExportToExcel(System.Windows.Forms.DataGridView,System.String)">
+ <summary>
+ تابع تصدير شبكة الى ملف اكسل
+ </summary>
+</member>
+<member name="M:EBS.Email.ExportCrystalToPDF(CrystalDecisions.CrystalReports.Engine.ReportDocument)">
+ <summary>
+ تابع تصدير تقرير كريستال الى ملف pdf
+ </summary>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemGroup.#ctor">
+ <summary>
+  Basic Constructor
+ </summary>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemGroup.#ctor(System.Collections.Generic.List{EBS.FilterDialog.FilterItemField})">
+ <summary>
+  Constructor
+ </summary>
+ <param name="fields">Sets the list of fields to be sent to each filter item</param>
+</member>
+<member name="P:EBS.FilterDialog.FilterItemGroup.Title">
+ <summary>
+   The title of the group
+ </summary>
+ <value>A string to set the value of the group</value>
+ <returns>The title of the group</returns>
+ 
+</member>
+<member name="P:EBS.FilterDialog.FilterItemGroup.Filter">
+ <summary>
+   The filter that this group represents
+ </summary>
+</member>
+<member name="P:EBS.FilterDialog.FilterItemGroup.Fields">
+ <summary>
+   The list of fields to be associated with each filter item.
+ </summary>
+ 
+</member>
+<member name="M:EBS.FilterDialog.FilterItemGroup.AddFilterItem(EBS.FilterDialog.FilterItem)">
+ <summary>
+   Adds a filterItem to the group 
+ </summary>
+ <param name="item">The item to add to the group</param>
+ <returns>Whether the group was able to add the basic filter item</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemGroup.ConvertToSubgroup(EBS.FilterDialog.FilterItem)">
+ <summary>
+  Converts the filterItem to a subgroup by creating a new group, adding the filterItem to it, and then
+  adding the new group to the old group in the same position
+ </summary>
+ <param name="item">The filterItem to convert to a subgroup</param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemGroup.SetReadableFilter">
+ <summary>
+  Sets the readable filter label for the group.
+ </summary>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemGroup.FilterItem_SelectedAndOr(System.Object,EBS.FilterDialog.FilterItemMenuButton.MenuButtonSelectionChangedEventArgs)">
+ <summary>
+   Handles whenever a filterItem or filterItemGroup selects 'and' or 'or'
+ </summary>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemGroup.FilterItem_SelectedDelete(System.Object,EBS.FilterDialog.FilterItemMenuButton.MenuButtonSelectionChangingEventArgs)">
+ <summary>
+   Handles whenever a filterItem or filterItemGroup selects 'delete'
+ </summary>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemGroup.FilterItem_SelectedInsert(System.Object,EBS.FilterDialog.FilterItemMenuButton.MenuButtonSelectionChangingEventArgs)">
+ <summary>
+  Handles whenever a filterItem or filterItemGroup selects 'insert'
+ </summary>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemGroup.FilterItem_SelectedEnd(System.Object,EBS.FilterDialog.FilterItemMenuButton.MenuButtonSelectionChangedEventArgs)">
+ <summary>
+   Handles whenever a filterItem or filterItemGroup selects 'end'
+ </summary>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemGroup.FilterItem_SelectedMakeSubgroup(System.Object,EBS.FilterDialog.FilterItemMenuButton.MenuButtonSelectionChangingEventArgs)">
+ <summary>
+ Handles whenever a filterItem selects 'make subgroup'
+ </summary>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemGroup.FilterItem_FilterChanged(System.Object,System.EventArgs)">
+ <summary>
+  Handles whenever a filterItem or filterItemGroup's filter changes
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemGroup.RemoveControlsAfter(System.Windows.Forms.Control)">
+ <summary>
+   Removes all the controls in a collection after a given control
+ </summary>
+ <param name="control">The control after which to remove controls</param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemGroup.SetGroupTitles">
+ <summary>
+  Sets the group titles by adding periods and numbers to the title of the container group.
+ </summary>
+</member>
+<member name="T:EBS.FilterDialog.DateExpression.Operands">
+ <summary>
+   An enumeration of the operands available and their indices in the dropdownlist
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.FilterDialog.DateExpression.#ctor(System.String)">
+ <summary>
+  Constructor
+ </summary>
+ <param name="field">Sets the name of the field to which this expression is tied</param>
+</member>
+<member name="M:EBS.FilterDialog.DateExpression.OperandsList_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+   Handles the changing of the operand
+ </summary>
+ <param name="sender">the sender of the event</param>
+ <param name="e">the arguments of the event</param>
+</member>
+<member name="M:EBS.FilterDialog.DateExpression.dtpFirstValue_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+  Handles the Date Selected event
+ </summary>
+ <param name="sender">the sender of the event.</param>
+ <param name="e">the arguments of the event.</param>
+</member>
+<member name="M:EBS.FilterDialog.DateExpression.SetValues">
+ <summary>
+   Sets the values of the operand, the criteria, and whether the expression should be inverted,
+   for use in building the filter string for this particular expression
+ </summary>
+</member>
+<member name="T:EBS.FilterDialog.FilterItem.FieldTypes">
+ <summary>
+   An enumeration of the different types of filter expressions
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.FilterDialog.FilterItem.#ctor">
+ <summary>
+  Basic constructor used by the designer
+ </summary>
+</member>
+<member name="M:EBS.FilterDialog.FilterItem.#ctor(System.Collections.Generic.List{EBS.FilterDialog.FilterItemField})">
+ <summary>
+  Constructor
+ </summary>
+ <param name="type">The type of expression (operand and criteria) to begin the filter with</param>
+ <param name="fields">The list used to populate the dropdownlist of fields to filter on</param>
+</member>
+<member name="P:EBS.FilterDialog.FilterItem.FieldType">
+ <summary>
+   The type of the field (or column) of the filter item.
+ </summary>
+ <value>One of the FilterItem.FieldTypes</value>
+ <remarks>Used to change the operands and criteria editor</remarks>
+</member>
+<member name="P:EBS.FilterDialog.FilterItem.SelectedMenuItem">
+ <summary>
+   Allows setting or retrieving of the menu for the filter item.
+ </summary>
+</member>
+<member name="P:EBS.FilterDialog.FilterItem.Filter">
+ <summary>
+   The filter built by the individual item.
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.FilterDialog.FilterItem.ReadableFilter">
+ <summary>
+  A human readable filter string that represents the actual filter string
+ </summary>
+</member>
+<member name="P:EBS.FilterDialog.FilterItem.Conjunction">
+ <summary>
+   The boolean conjunction to follow the filter
+ </summary>
+</member>
+<member name="P:EBS.FilterDialog.FilterItem.Fields">
+ <summary>
+   The list of fields to be filtered on
+ </summary>
+ <value>A List of filterItemFields</value>
+ <returns>An list of filterItemFields</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.FilterDialog.FilterItem.FieldsList_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+   Handles the changing of the selected field to filter on.
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.FilterDialog.FilterItem.FilterMenu_SelectionChanged(System.Object,EBS.FilterDialog.FilterItemMenuButton.MenuButtonSelectionChangedEventArgs)">
+ <summary>
+  Handles the selection changed event of the filterGroupMenuButton, and raises the corresponding events
+ </summary>
+ <param name="sender">the sender of the event</param>
+ <param name="e">the arguments of the event</param>
+</member>
+<member name="M:EBS.FilterDialog.FilterItem.FilterMenu_SelectionChanging(System.Object,EBS.FilterDialog.FilterItemMenuButton.MenuButtonSelectionChangingEventArgs)">
+ <summary>
+  Handles the filter menu selection changing event.  If the selection is delete, insert or make subgroup, then the
+  event is canceled (just so the checkbox position doesn't change), and an event is raised
+ </summary>
+ <param name="sender">the sender of the event</param>
+ <param name="e">the arguments of the event</param>
+</member>
+<member name="M:EBS.FilterDialog.FilterItem.Expression_FilterChanged(System.Object,System.EventArgs)">
+ <summary>
+  Handles the filter changed event of the expression object, and raises it's own event.
+ </summary>
+ <param name="sender">the sender of the event</param>
+ <param name="e">the arguments of the event</param>
+</member>
+<member name="T:EBS.FilterDialog.FilterItemMenuButton.ItemsEnum">
+ <summary>
+  An enumeration of the items in the menu button
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemMenuButton.#ctor">
+ <summary>
+  Basic Constructor
+ </summary>
+</member>
+<member name="P:EBS.FilterDialog.FilterItemMenuButton.ItemType">
+ <summary>
+   Sets which item is selected in the menu
+ </summary>
+</member>
+<member name="P:EBS.FilterDialog.FilterItemMenuButton.SelectedIndex">
+ <summary>
+   The selected index of the buttons menu
+ </summary>
+ <remarks>
+  When setting the index, the menu button will loop through all items in its menu and
+  uncheck all of them except for the one that was selected.  If you don't want this to happen
+  for certain menu items, you will need to handle the SelectionChanging Event and change e.Cancel
+  to true if the newIndex is one of those items
+ </remarks>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemMenuButton.Button1_Click(System.Object,System.EventArgs)">
+ <summary>
+   Shows the menu when the button is clicked
+ </summary>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemMenuButton.Menu_ItemClicked(System.Object,System.Windows.Forms.ToolStripItemClickedEventArgs)">
+ <summary>
+   Sets the selectedIndex whenever an item of the menu is clicked.
+ </summary>
+</member>
+<member name="T:EBS.FilterDialog.FilterItemMenuButton.MenuButtonSelectionChangedEventArgs">
+ <summary>
+   The event args when the menu button selection is changed
+ </summary>
+ <remarks>Exposes the index of the selected value</remarks>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemMenuButton.MenuButtonSelectionChangedEventArgs.#ctor(System.Int32,System.Int32)">
+ <summary>
+   Constructor
+ </summary>
+ <param name="newSelectedIndex">Sets the NewSelectedIndex Property</param>
+ <param name="oldSelectedINdex">Sets the OldSelectedIndex Property</param>
+</member>
+<member name="P:EBS.FilterDialog.FilterItemMenuButton.MenuButtonSelectionChangedEventArgs.NewSelectedIndex">
+ <summary>
+   The index of the newly selected menu item 
+ </summary>
+</member>
+<member name="P:EBS.FilterDialog.FilterItemMenuButton.MenuButtonSelectionChangedEventArgs.OldSelectedIndex">
+ <summary>
+   The index of the old selected menu item 
+ </summary>
+</member>
+<member name="T:EBS.FilterDialog.FilterItemMenuButton.MenuButtonSelectionChangingEventArgs">
+ <summary>
+   The event args when the menu button selection is changed
+ </summary>
+ <remarks>Exposes the index of the selected value</remarks>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemMenuButton.MenuButtonSelectionChangingEventArgs.#ctor(System.Int32,System.Int32)">
+ <summary>
+  Constructor
+ </summary>
+</member>
+<member name="P:EBS.FilterDialog.FilterItemMenuButton.MenuButtonSelectionChangingEventArgs.NewSelectedIndex">
+ <summary>
+   The index of the newly selected menu item 
+ </summary>
+</member>
+<member name="P:EBS.FilterDialog.FilterItemMenuButton.MenuButtonSelectionChangingEventArgs.OldSelectedIndex">
+ <summary>
+   The index of the old selected menu item 
+ </summary>
+</member>
+<member name="P:EBS.FilterDialog.FilterItemMenuButton.MenuButtonSelectionChangingEventArgs.Cancel">
+ <summary>
+   Whether to cancel the selection changing event
+ </summary>
+</member>
+<member name="P:EBS.FilterDialog.GenericExpression.ReadableCriteria">
+ <summary>
+  A readable version of the criteria (If the criteria were '*test*' the readable
+  criteria would be test)
+ </summary>
+</member>
+<member name="P:EBS.FilterDialog.GenericExpression.ReadableOperand">
+ <summary>
+  A readable version of the operand (instead of = it would be 'equal to')
+ </summary>
+</member>
+<member name="M:EBS.FilterDialog.GenericExpression.RaiseFilterChanged">
+ <summary>
+  A method that allows child classes to raise its event
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.FilterDialog.GenericExpression.Filter">
+ <summary>
+  The filterstring that the filterItem of which this expression is a part of represents.
+ </summary>
+</member>
+<member name="T:EBS.FilterDialog.NumberExpression.Operands">
+ <summary>
+   An enumeration of the operands available and their indices in the dropdownlist
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.FilterDialog.NumberExpression.#ctor(System.String)">
+ <summary>
+  Constructor
+ </summary>
+ <param name="field">Sets the name of the field to which this expression is tied</param>
+</member>
+<member name="M:EBS.FilterDialog.NumberExpression.OperandsList_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+   Handles the changing of the operand
+ </summary>
+ <param name="sender">the sender of the event</param>
+ <param name="e">the arguments of the event</param>
+</member>
+<member name="M:EBS.FilterDialog.NumberExpression.cntlValue_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+  Handles the Text Box text changing event (Whenever the criteria changes)
+ </summary>
+ <param name="sender">the sender of the event.</param>
+ <param name="e">the arguments of the event.</param>
+</member>
+<member name="M:EBS.FilterDialog.NumberExpression.SetValues">
+ <summary>
+   Sets the values of the operand, the criteria, and whether the expression should be inverted,
+   for use in building the filter string for this particular expression
+ </summary>
+</member>
+<member name="M:EBS.FilterDialog.SearchTemplate.#ctor">
+ <summary>
+  Basic constructor used by the designer
+ </summary>
+</member>
+<member name="T:EBS.FilterDialog.StringExpression.Operands">
+ <summary>
+   An enumeration of the operands available and their indices in the dropdownlist
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.FilterDialog.StringExpression.#ctor(System.String)">
+ <summary>
+  Constructor
+ </summary>
+ <param name="field">Sets the name of the field to which this expression is tied</param>
+</member>
+<member name="M:EBS.FilterDialog.StringExpression.OperandsList_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+   Handles the changing of the operand
+ </summary>
+ <param name="sender">the sender of the event</param>
+ <param name="e">the arguments of the event</param>
+</member>
+<member name="M:EBS.FilterDialog.StringExpression.cmbValue_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+  Handles whenever the criteria is changing
+ </summary>
+ <param name="sender">the sender of the event.</param>
+ <param name="e">the arguments of the event.</param>
+</member>
+<member name="M:EBS.FilterDialog.StringExpression.SetValues">
+ <summary>
+   Sets the values of the operand, the criteria, and whether the expression should be inverted,
+   for use in building the filter string for this particular expression
+ </summary>
+</member>
+<member name="P:EBS.FilterDialog.FilterItemField.Name">
+ <summary>
+   The member that a dropdownlist will display
+ </summary>
+</member>
+<member name="P:EBS.FilterDialog.FilterItemField.Type">
+ <summary>
+   The type of expression associated with this field
+ </summary>
+</member>
+<member name="P:EBS.FilterDialog.FilterItemField.ListValues">
+ <summary>
+   A list of values, only utilized if the <see cref="P:EBS.FilterDialog.FilterItemField.Type">Type</see> is 
+   set to <see cref="F:EBS.FilterDialog.FilterItem.FieldTypes.DropDownExpression">DropDownExpression</see>
+ </summary>
+</member>
+<member name="M:EBS.FilterDialog.FilterItemField.#ctor(System.Object,EBS.FilterDialog.FilterItem.FieldTypes)">
+ <summary>
+  Constructor
+ </summary>
+ <param name="value">Sets the <see cref="!:Value">Value</see> property</param>
+ <param name="display">Sets the <see cref="!:Display">Display</see> property</param>
+ <param name="type">Sets the <see cref="P:EBS.FilterDialog.FilterItemField.Type">Type</see> property</param>
+ @@
+</member>
+<member name="M:EBS.FilterDialog.FilterItemField.#ctor(System.Object,EBS.FilterDialog.FilterItem.FieldTypes,System.String[])">
+ <summary>
+   Constructor
+ </summary>
+ <param name="value">Sets the <see cref="!:Value">Value</see> property</param>
+ <param name="display">Sets the <see cref="!:Display">Display</see> property</param>
+ <param name="type">Sets the <see cref="P:EBS.FilterDialog.FilterItemField.Type">Type</see> property</param>
+ <param name="distinctValues">Sets the <see cref="!:DistinctValues">DistinctValues</see> property</param>
+</member>
+<member name="M:EBS.FilterDialog.NumericTextBox.NumericTextBox_KeyPress(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+ <summary>
+   Handles the keypress event - cancels the keypress if the resulting text would not be numeric
+ </summary>
+</member>
+<member name="M:EBS.FilterDialog.NumericTextBox.WndProc(System.Windows.Forms.Message@)">
+ <summary>
+   Performs a test when the user tries to paste into the textbox, and cancels if the result would
+   not be numeric
+ </summary>
+</member>
+<member name="M:EBS.IsolatedStorageProjects.UserStore.createProject(System.String,System.String)">
+ <summary>
+ Creates a project file.
+ </summary>
+ <param name="fname"></param>
+ <param name="content"></param>
+</member>
+<member name="M:EBS.IsolatedStorageProjects.UserStore.getProjects">
+ <summary>
+ Gets all the files with "*.prj" extension
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:EBS.IsolatedStorageProjects.UserStore.getProjectContents(System.String)">
+ <summary>
+ This method returns the contents of a particular file
+ </summary>
+ <param name="fname"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.IsolatedStorageProjects.UserStore.deleteProject(System.String)">
+ <summary>
+ Deletes the project file from the store
+ </summary>
+ <param name="fname"></param>
+</member>
+<member name="M:EBS.Licencing.CryptoHelper.ComputeHash(System.String)">
+ <summary>
+ تقوم بتشفير سلسلة نصية حسب خوارزمية SHA256
+ </summary>
+ <param name="plainText">النص المطلوب تشفيره</param>
+ <returns>تعيد السلسلة كـ Base64 </returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Licencing.CryptoHelper.ComputeHash(System.String,EBS.Licencing.CryptoHelper.HashAlgorithmEnum,EBS.Licencing.CryptoHelper.EncodingType)">
+ <summary>
+ تقوم بتشفير سلسلة نصية حسب خوارزمية معينة
+ </summary>
+ <param name="plainText">النص المطلوب تشفيره</param>
+ <param name="Algorithm">الخوارزمية التي سيتم التضفير على اساسها</param>
+ <param name="EncodingType">نوع التشفير Base64 او Hex</param>
+ <returns>تعيد السلسلة المشفرة</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Licencing.CryptoHelper.Encrypt(System.String,System.String)">
+ <summary>
+ تقوم بتشفير سلسلة نصية حسب خوارزمية Rijndael
+ </summary>
+ <param name="plainText">النص المطلوب تشفيره</param>
+ <param name="Key">كلمة السر</param>
+ <returns>تعيد السلسلة كـ Base64 </returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Licencing.CryptoHelper.Encrypt(System.String,System.String,EBS.Licencing.CryptoHelper.EncryptAlgorithmEnum,EBS.Licencing.CryptoHelper.EncodingType)">
+ <summary>
+ تقوم بتشفير سلسلة نصية حسب خوارزمية معينة
+ </summary>
+ <param name="plainText">النص المطلوب تشفيره</param>
+ <param name="Key">كلمة السر</param>
+ <param name="Algorithm">الخوارزمية التي سيتم التشفير على اساسها</param>
+ <param name="EncodingType">نوع التشفير Base64 او Hex</param>
+ <returns>تعيد السلسلة المشفرة</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Licencing.CryptoHelper.Decrypt(System.String,System.String)">
+ <summary>
+ تقوم بفك تشفير سلسلة نصية حسب خوارزمية Rijndael
+ </summary>
+ <param name="encryptedText">النص المطلوب فك تشفيره يجب أن يكون على صيغة Base64</param>
+ <param name="Key">كلمة السر</param>
+ <returns>تعيد السلسلة بعد فك تشفيرها</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Licencing.CryptoHelper.Decrypt(System.String,System.String,EBS.Licencing.CryptoHelper.EncryptAlgorithmEnum,EBS.Licencing.CryptoHelper.EncodingType)">
+ <summary>
+ تقوم بتشفير سلسلة نصية حسب خوارزمية معينة
+ </summary>
+ <param name="encryptedText">النص المطلوب تشفيره</param>
+ <param name="Key">كلمة السر</param>
+ <param name="Algorithm">الخوارزمية التي سيتم فك التشفير على اساسها</param>
+ <param name="EncodingType">صيغة النص المرسل Base64 او Hex</param>
+ <returns>تعيد السلسلة بعد فك تشفيرها</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Licencing.CryptoHelper.EncryptFile(System.String,System.String,System.String)">
+ <summary>
+ تقوم بتشفير ملف معين حسب خوارزمية Rijndael
+ على صيغة Base64
+ </summary>
+ <param name="InputFileName">الملف المراد تشفيره</param>
+ <param name="OutputFileName">مسار حفظ الملف بعد التشفير</param>
+ <param name="Key">كلمة السر</param>
+ <returns>تعيد True إذا تمت العملية بنجاح</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Licencing.CryptoHelper.EncryptFile(System.String,System.String,System.String,EBS.Licencing.CryptoHelper.EncryptAlgorithmEnum,EBS.Licencing.CryptoHelper.EncodingType)">
+ <summary>
+ تقوم بتشفير ملف معين حسب خوارزمية معينة
+ </summary>
+ <param name="InputFileName">الملف المراد تشفيره</param>
+ <param name="OutputFileName">مسار حفظ الملف بعد التشفير</param>
+ <param name="Key">كلمة السر</param>
+ <param name="Algorithm">الخوارزمية التي سيتم التضفير على اساسها</param>
+ <param name="EncodingType">نوع التشفير Base64 او Hex</param>
+ <returns>تعيد True إذا تمت العملية بنجاح</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Licencing.CryptoHelper.DecryptFile(System.String,System.String,System.String)">
+ <summary>
+ تقوم بفك تشفير ملف معين حسب خوارزمية Rijndael
+ على صيغة Base64
+ </summary>
+ <param name="InputFileName">الملف المراد فك تشفيره</param>
+ <param name="OutputFileName">مسار حفظ الملف بعد فك التشفير</param>
+ <param name="Key">كلمة السر</param>
+ <returns>تعيد True إذا تمت العملية بنجاح</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Licencing.CryptoHelper.DecryptFile(System.String,System.String,System.String,EBS.Licencing.CryptoHelper.EncryptAlgorithmEnum,EBS.Licencing.CryptoHelper.EncodingType)">
+ <summary>
+ تقوم بتشفير ملف معين حسب خوارزمية معينة
+ </summary>
+ <param name="InputFileName">الملف المراد تشفيره</param>
+ <param name="OutputFileName">مسار حفظ الملف بعد التشفير</param>
+ <param name="Key">كلمة السر</param>
+ <param name="Algorithm">الخوارزمية التي سيتم التضفير على اساسها</param>
+ <param name="EncodingType">نوع التشفير Base64 او Hex</param>
+ <returns>تعيد True إذا تمت العملية بنجاح</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Licencing.CryptoHelper.Init(EBS.Licencing.CryptoHelper.Algorithm,EBS.Licencing.CryptoHelper.EncodingType)">
+ <summary>
+ تهيئة الـ Class
+ </summary>
+ <param name="mAlgorithm">الخوارزمية التي سيتم التضفير على اساسها</param>
+ <param name="EncodingType">نوع التشفير Base64 او Hex</param>
+ <remarks></remarks>
+</member>
+<member name="T:EBS.ibsPermissionTypeEnum">
+ <summary>
+ نوع عقدة الصلاحية ليتم اضافة الصلاحيات على حسب نوعها
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.ibsPermissionTypeEnum.DateWindow">
+ <summary>
+ نافذة حركة (اضافة، تعديل، التواريخ،.....)
+ </summary>
+</member>
+<member name="F:EBS.ibsPermissionTypeEnum.IndexWindow">
+ <summary>
+ نافذة (اضافة، حذف، تعديل.....)
+ </summary>
+</member>
+<member name="F:EBS.ibsPermissionTypeEnum.Report">
+ <summary>
+ نافذة تقرير (طباعة، عرض...)
+ </summary>
+</member>
+<member name="F:EBS.ibsPermissionTypeEnum.Allow">
+ <summary>
+ صلاحية (سماح)
+ </summary>
+</member>
+<member name="F:EBS.ibsPermissionTypeEnum.None">
+ <summary>
+ تعريف صلاحيات خاصة
+ </summary>
+</member>
+<member name="T:EBS.GetPermissionAction">
+ <summary>
+ 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.GetPermissionAction.GetValuesOnly">
+ <summary>
+ جلب القيم الخاصة بالصلاحيات الموجودة فقط
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.GetPermissionAction.GetValuesAndGetOtherPermissions">
+ <summary>
+ جلب القيم الخاصة بالصلاحيات الموجودة وجلب باقي الصلاحيات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:EBS.FillTreeNodeAction">
+ <summary>
+ 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.FillTreeNodeAction.SetValuesOnly">
+ <summary>
+ جلب القيم الخاصة بالصلاحيات الموجودة فقط
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.FillTreeNodeAction.SetValuesAndAddOtherPermissions">
+ <summary>
+ جلب القيم الخاصة بالصلاحيات الموجودة وجلب باقي الصلاحيات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.ibsPermissionsTree.DataTable">
+ <summary>
+ 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.ibsPermissionsTree.ID">
+ <summary>
+ 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.ibsPermissionsTree.BranchID">
+ <summary>
+ 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.ibsPermissionsTree.UserType">
+ <summary>
+ 
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.ibsPermission.Parent">
+ <summary>
+ الصلاحية الأب
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.ibsPermission.ParentTree">
+ <summary>
+ كائن شجرة الصلاحيات
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ibsPermission.SetType">
+ <summary>
+ يقوم بإنشاء الصلاحيات الفرعية للصلاحية الحالية بناء على النوع
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ibsPermission.Reset(System.Boolean)">
+ <summary>
+ لإعادة الصلاحيات الى الوضع الافتراضي
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ibsPermission.GetSQLString">
+ <summary>
+ يعود بأوامر حفظ الصلاحيات في قاعدة البيانات
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ibsPermission.GetValues">
+ <summary>
+ يعود بصلاحيات العنصر بصيغة قابلة للحفظ في قاعدة البيانات
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ibsPermission.CreateTreeNode(System.Windows.Forms.TreeNode)">
+ <summary>
+ لإنشاء شجرة الصلاحيات
+ </summary>
+ <param name="parentNode"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ibsPermission.GetPermissions(System.Int64,EBS.UserType,System.Int64)">
+ <summary>
+ لتحميل الصلاحيات حسب مستخدم وفرع محددين
+ </summary>
+ <param name="ID"></param>
+ <param name="UserType"></param>
+ <param name="BranchID"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ibsPermission.GetPermissions(System.String)">
+ <summary>
+ لتحميل الصلاحيات من سلسة نصية
+ </summary>
+ <param name="ThePermissions"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ibsPermission.GetPermissions(System.Windows.Forms.TreeNode)">
+ <summary>
+ لتحميل الصلاحيات من شجرة الصلاحيات
+ </summary>
+ <param name="parentNode"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ibsPermission.ShowPermissions(System.Windows.Forms.TreeNode)">
+ <summary>
+ لعرض الصلاحيات في شجرة الصلاحيات
+ </summary>
+ <param name="parentNode"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ibsPermission.CreatePermissions(System.Data.DataTable,System.Int64,EBS.UserType,System.Int64)">
+ <summary>
+ لإنشاء شجرة صلاحيات باستخدام معلومات مخزنة في جدول بيانات
+ </summary>
+ <param name="_dataTable"></param>
+ <param name="ID"></param>
+ <param name="UserType"></param>
+ <param name="BranchID"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ibsSizes.GetItemPrice_BySize(EBS.Services.ibsSimpleWindow,System.Int64,System.Double@,System.Double@)">
+ <summary>
+ تابع جلب سعر الصنف بحسبة المقاسات من المستند
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ibsSizes.GetItemPrice_BySize(EBS.Classes.Database,System.String,System.Int64,System.Double@,System.Double@,System.Double)">
+ <summary>
+ تابع جلب سعر الصنف بحسبة المقاسات
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ibsSizes.PrintSizeColumns(CrystalDecisions.CrystalReports.Engine.ReportDocument,System.Data.DataSet@)">
+ <summary>
+ تابع طباعة المقاسات يتم استخدامة في دالة الطباعة العامة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ibsSizes.ChangeColumnDataType(System.Data.DataTable@,System.String,System.Type)">
+ <summary>
+ تابع لتغيير نوع حقل معين داخل جدول
+ </summary>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.ReadNumberWithHumorous.ReadNumberHumorous.Read_Number(System.String)">
+ <summary>
+ تحويل الارقام الى نصوص
+ </summary>
+ <param name="TheNumber">الرقم المراد تحويله</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ReadNumberWithHumorous.ReadNumberHumorous.Read_Number(System.String,System.Boolean,System.String)">
+ <summary>
+ تحويل الارقام الى نصوص
+ </summary>
+ <param name="TheNumber">الرقم المراد تحويله</param>
+ <param name="TrimZeros">تجاهل الاصفار بعد العلامة العشرية 123.1200000 => 123.12</param>
+  <param name="CurrencyName">قراءة فكة العملة </param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.modGrid.Get_HiddenItems(System.Int64,System.Boolean,System.Boolean,System.String)">
+ <summary>
+ تابع يعود بالأصناف المخفية من الفرع
+ </summary>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.modGrid.Get_HiddenGroubsItems(System.Int64,System.Boolean,System.Boolean,System.String)">
+ <summary>
+ تابع يعود بالأصناف المخفية من الفرع
+ </summary>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.modGrid.Get_SharedItems(System.Int64,System.Boolean,System.Boolean,System.String)">
+ <summary>
+ تابع يعود بالأصناف المشتركة بين الفروع
+ </summary>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.modGrid.InsertToTempTable(System.String,System.Data.DataTable,System.String,System.Int64,System.Int64)">
+ <summary>
+ دالة الاضافة الى جدول وهمي
+ </summary>
+ <param name="TempTable"></param>
+ <param name="MyDataTable"></param>
+ <param name="ColumnName"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.modGrid.IsItemAllowed(EBS.Controls.ibsDataGridView@)">
+ <summary>
+ فحص امكانية التعامل مع الصنف من الفرع الحالي
+ </summary>
+ <param name="TheGrid"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.modGrid.IsItemAllowed(System.String@)">
+ <summary>
+ فحص امكانية التعامل مع الصنف من الفرع الحالي
+ </summary>
+ <param name="ItemName"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.EbsEncryptor.EncryptText(System.String)">
+ <summary>
+ 
+ </summary>
+ <param name="textData"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.ReceiptForm.Initialize_ExtraCommands">
+ <summary>
+ دالة اضافة الخيارات الاضافية الى النافذه
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ReceiptForm.Relay(System.Boolean)">
+ <summary>
+ يتم استدعاء هذا التابع في الفورم وليس الوندو
+ </summary>
+ <param name="TheForm"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ReceiptWindow.TestIsDebitedOrIsDepend(System.Int64)">
+ <summary>
+ دالة تعود بحالة السجل ان كان مرحل او معتمد لمنع عملية التعديل او الحذف
+ </summary>
+ <param name="ID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ReceiptWindow.Relay(System.Int64)">
+ <summary>
+ يتم استدعاء هذا التابع في الوندو وليس الفورم
+ </summary>
+ <param name="MyWindow"></param>
+ <param name="ID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ReceiptWindow.Depend(System.Int64)">
+ <summary>
+ يتم استدعاء هذا التابع في الوندو وليس الفورم
+ </summary>
+ <param name="MyWindow"></param>
+ <param name="ID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.WorkersRatios.Test_WorkerCode(System.String@,System.Int64@,System.Boolean,System.Int64,System.String)">
+ <summary>
+ تابع ادخال رمز العامل من الفواتير عند ادخال الاصناف في الشبكة
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.WorkersRatios.Save_WorkerEntries(System.Int64,System.Int64,System.DateTime,System.String,EBS.Services.ibsSimpleWindow)">
+ <summary>
+ تابع اضافة قيود نسب العمال والموزعين الى كشف الحساب
+ </summary>
+ <returns>Ture/False</returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.WorkersRatios.UpdateWorkerID(EBS.Services.ibsSimpleWindow,System.Int64)">
+ <summary>
+ تابع حفظ رمز العامل وربطة بالصنف
+ </summary>
+ <param name="DocID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.WorkersRatios.UpdateWorkerIDInReturn(EBS.Services.ibsSimpleWindow,System.Int64)">
+ <summary>
+ تابع خاص بنسب العمال والموظفين
+ </summary>
+ <param name="DocID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.RSS.RssBar.ItemCursor">
+ <summary>
+ Gets or sets the cursor that is displayed when the mouse pointer is over the feed item.
+ </summary>
+</member>
+<member name="P:EBS.RSS.RssBar.ImageCursor">
+ <summary>
+ Gets or sets the cursor that is displayed when the mouse pointer is over the feed banner.
+ </summary>
+</member>
+<member name="P:EBS.RSS.RssBar.RSSBanner">
+ <summary>
+ Gts the RSS feed banner.
+ </summary>
+</member>
+<member name="P:EBS.RSS.RssBar.RSSFeedAddress">
+ <summary>
+ Gets the RSS feed address.
+ </summary>
+</member>
+<member name="P:EBS.RSS.RssBar.ConnErrString">
+ <summary>
+ Gets or sets the error message that would be displayed to the user if failed locating to feed.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.RSS.RssBar.NoItemsErrString">
+ <summary>
+ Gets or sets the message that would be displayed to the user if no items are available in the selected feed.
+ </summary>
+</member>
+<member name="P:EBS.RSS.RssBar.LoadErrString">
+ <summary>
+ Gets or sets the error message that would be displayed to the user if an error occurred while loading feed content.
+ </summary>
+</member>
+<member name="P:EBS.RSS.RssBar.DrawBorders">
+ <summary>
+ Indicates whether to draw a border around the bar or not.
+ </summary>
+</member>
+<member name="P:EBS.RSS.RssBar.ClockForeColor">
+ <summary>
+ Gets or sets clock foreground color
+ </summary>
+</member>
+<member name="P:EBS.RSS.RssBar.ClockBackColor">
+ <summary>
+ Gets or sets clock background color.
+ </summary>
+</member>
+<member name="P:EBS.RSS.RssBar.ClockVisible">
+ <summary>
+ Specifies whether to show clock and it's relatives or not.
+ </summary>
+</member>
+<member name="P:EBS.RSS.RssBar.Dock">
+ <summary>
+ Defines which borders of the control are bound to the container.
+ </summary>
+</member>
+<member name="M:EBS.RSS.RssBar.#ctor(System.String,System.Drawing.Image)">
+ <summary>
+ Instantiate a new instance of the RssBar object.
+ </summary>
+ <param name="rss">RSS feed path.</param>
+ <param name="image">RSS feed banner image.</param>
+</member>
+<member name="M:EBS.RSS.RssBar.Pause">
+ <summary>
+ Suspends bar moving.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RSS.RssBar.Resume">
+ <summary>
+ Resumes bar moving.
+ </summary>
+</member>
+<member name="M:EBS.RSS.RssBar.ChangeRssFeed(System.String)">
+ <summary>
+ Changes the RSS feed on-the-fly.
+ </summary>
+</member>
+<member name="M:EBS.RSS.RssBar.ReadRss(System.String)">
+ <summary>
+ Reads the RSS content.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RSS.RssBar.SetCursor(System.Boolean,System.Windows.Forms.Cursor)">
+ <summary>
+ Sets the cursor for a feed item label or banner image.
+ </summary>
+</member>
+<member name="M:EBS.RSS.RssBar.ClearItems">
+ <summary>
+ Clears all items and frees reserved memory.
+ </summary>
+</member>
+<member name="M:EBS.RSS.RssBar.IsRtl(System.Windows.Forms.Control)">
+ <summary>
+ Indicates Right-to-Left (RTL) or Left-to-Right (LTR). Used to determine moving direction.
+ </summary>
+</member>
+<member name="M:EBS.RSS.RssBar.SetError(System.String)">
+ <summary>
+ Displays an error message to the user.
+ </summary>
+</member>
+<member name="M:EBS.ibsSerialNumber.PrintSerialNumbers(CrystalDecisions.CrystalReports.Engine.ReportDocument@,System.Data.DataSet@)">
+ <summary>
+ داله طباعة ارقام السيريال نمبر تحت اسم الصنف
+ </summary>
+</member>
+<member name="P:EBS.Controls.ibsMessageTip.MessageBalloon.Text">
+ <summary>
+ Sets or gets the display text.
+ </summary>
+</member>
+<member name="P:EBS.Controls.ibsMessageTip.MessageBalloon.Parent">
+ <summary>
+ Sets or gets the parent.
+ </summary>
+</member>
+<member name="P:EBS.Controls.ibsDataGridView.IsFirstPage">
+ <summary>
+ Return 'True' if the 'CurrentPage' is first page.
+ </summary>
+</member>
+<member name="M:EBS.Controls.ibsDataGridView.AddTotalRows_Click(System.Object,System.EventArgs)">
+ <summary>
+ دالة لاضافه سطر اجمالي
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.cntrlDateReports.DateFieldName">
+ <summary>
+   اسم حقل التاريخ
+ </summary>
+ <value> اسم حقل التاريخ</value>
+ <returns> اسم حقل التاريخ</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.frmAccountInfo.SetAutoCompleteSource(System.Windows.Forms.TextBox@,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ دالة تقوم بتحديد مصدر التكلمة التلقائية للأدوات التي تقبل النص
+ </summary>
+ <param name="txtcontrol">الأداة </param>
+ <param name="SourceObject"> الجدول </param>
+ <param name="SourceField"> حقل البيانات</param>
+ <param name="WhereCond">الشرط </param>
+ <param name="IsDestincted">عدم السماح باسترجاع البيانات المكررة</param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.frmAccountInfo.Fill_Free(System.Windows.Forms.DataGridView,System.Data.DataTable[])">
+ <summary>
+ لتعبئة الشبكةمن أكثر من داتا تيبل باستخدام حلقة حتى نتمكن من اضافة اسطر الاجمالي بحرية
+ </summary>
+ <param name="TheGrid"></param>
+ <param name="TheDataTable"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.frmAlarms.Show_Window(System.String,System.Int64,System.DateTime,EBS.Classes.Session)">
+ <summary>RecordID تابع لغرض عرض المستند الاصلي شريطة ان يكون في التقرير احتواء على اسم المستند و </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.frmDatabaseManagement.Backup(Microsoft.SqlServer.Management.Smo.Server,System.String,System.String)">
+ <summary>
+ تابع عمل نسخ احتياطي
+ </summary>
+ <param name="myServer"></param>
+ <param name="DatabaseName"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.frmlng_Dictionary.TranslateText(System.String,System.String)">
+ <summary>
+ ترجمة عبر قوقل
+ </summary>
+ <param name="input"></param>
+ <param name="languagePair"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.frmlng_Dictionary.TranslateThis(System.String,System.String)">
+ <summary> دالة للترجمة </summary>
+ <param name="txtSource"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.mod1.dgv_Insert_Total(System.Windows.Forms.DataGridView,System.Int32)">
+ <summary>
+ تجميع بحسب العملة 
+ </summary>
+ <param name="TheGrid"></param>
+ <param name="Total_Col"></param>
+ <param name="AutoNumberic"></param>
+ <param name="Balance"></param>
+ <param name="Col"></param>
+ <remarks>M.gholis</remarks>
+</member>
+<member name="M:EBS.mod1.CalculateBalance(System.Windows.Forms.DataGridView,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
+ <summary>
+ تابع حساب الرصيد في الشبكة
+ </summary>
+ <param name="TheGrid"></param>
+ <param name="MadeenCol"></param>
+ <param name="DainCol"></param>
+ <param name="BalanceCol"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.mod1.CalculateBalanceForDiffrentdata(System.Windows.Forms.DataGridView,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)">
+ <summary>
+ تابع حساب الرصيد في الشبكة
+ جمع رصيد الصنف السابق مع الرصيد الخاص بالصنف التالي بالرغم من اختلاف الاصناف تظهر المشكلة  في حالة ان اول سطر صنف والسطر التالي اسم صنف مختلف  
+ </summary>
+ <param name="TheGrid"></param>
+ <param name="MadeenCol"></param>
+ <param name="DainCol"></param>
+ <param name="BalanceCol"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.mod1.Rename_ColName(System.Windows.Forms.DataGridView,System.Collections.Generic.Dictionary{System.String,System.String})">
+ <summary>
+ دالة تقوم بتعديل مسميات الاعمدة في الداتا جريد فيو
+ Author: Moath.Alwan
+ </summary>
+ <param name="TheGrid">datagridview</param>
+ <param name="ColData">ديكشنري من نوع نص ورقم</param>
+</member>
+<member name="M:EBS.mod1.Grid_ColumnsWidth(System.Windows.Forms.DataGridView@,System.Collections.Generic.Dictionary{System.String,System.Int32})">
+ <summary>
+ دالة تقوم بتعديل عرض العمود
+ Author: Moath.Alwan
+ </summary>
+ <param name="TheGrid">datagridview</param>
+ <param name="ColData">ديكشنري من نوع نص ورقم</param>
+</member>
+<member name="M:EBS.modPrintGrid.StyleFontReport(Printing.DataGridViewPrint.Tools.MyTitlePrintBlock@,Printing.DataGridViewPrint.PrintBlocks.LocalReportBlocks@,Printing.DataGridViewPrint.PrintBlocks.ReportHeaderPrintBlock@,Printing.DataGridViewPrint.PrintBlocks.ReportFooterPrintBlock@)">
+ <summary>
+ دالة لتغيير خط الطباعه في التقارير العامه  -طباعه الشبكه   بناء على اعداد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.modPrintGrid.SetReportFooter(EBS.ibsForm,Printing.DataGridViewPrint.PrintBlocks.ReportFooterPrintBlock@)">
+ <summary>
+ دالة اضافة تذييل التقارير العامة من دليل تذييلات المستندات
+ </summary>
+</member>
+<member name="M:EBS.PrintHelper.PrintPreviewTree(System.Windows.Forms.TreeView,System.String)">
+ <summary>
+ Shows a PrintPreview dialog displaying the Tree control passed in.
+ </summary>
+ <param name="tree">TreeView to print preview</param>
+</member>
+<member name="M:EBS.PrintHelper.PrintTree(System.Windows.Forms.TreeView,System.String)">
+ <summary>
+ Prints a tree
+ </summary>
+ <param name="tree">TreeView to print</param>
+</member>
+<member name="M:EBS.PrintHelper.PrepareTreeImage(System.Windows.Forms.TreeView)">
+ <summary>
+ Gets an image that shows the entire tree, not just what is visible on the form
+ </summary>
+ <param name="tree"></param>
+</member>
+<member name="T:EBS.dtsReports">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.dtsReports.dtbImagesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.dtsReports.dtbImagesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.dtsReports.dtbImagesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="P:EBS.frmFindInGrid.SearchList">
+ <summary>
+ Returns Dictionary(columnName, searchValue)
+ </summary>
+</member>
+<member name="F:EBS.frmPermissions.components">
+ <summary>
+ Required designer variable.
+ </summary>
+</member>
+<member name="M:EBS.frmPermissions.InitializeComponent">
+ <summary>
+ Required method for Designer support - do not modify
+ the contents of this method with the code editor.
+ </summary>
+</member>
+<member name="M:EBS.frm_HistoryReportMoreSpecial.GetUpdateColumns">
+ <summary>
+ Function To Get Columns which had Update
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.frm_HistoryReportMoreSpecial.GetMiddleStr(System.String,System.String,System.String)">
+ <summary>
+ Function to Get String Between two words
+ </summary>
+ <param name="SourceStr"></param>
+ <param name="FirstStr"></param>
+ <param name="NextStr"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ibsForm.ApplyArchive(System.Object)">
+ <summary>
+ دالة لارشفه المستندات 
+ </summary>
+ <param name="Form"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.ibsReportTemplate.YearEnabled">
+ <summary>
+ تفعيل خيار سنوات سابقة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.ibsReportTemplate.YearDateField">
+ <summary>
+ اسم حقل التاريخ في التقرير
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+ 
+</member>
+<member name="P:EBS.ibsReportTemplate.YearToBranch">
+ <summary>
+ اضافة شرط السنة مع شرط الفرع
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Services.ibsSimpleWindow.After_Add_Record(System.Int64)">
+ <summary>
+  (trans) دالة تستدعاء بعد عملية الاضافه في 
+(Add_Entries)  واحدة مع عملية الاضافه  تقوم باستدعاء دالة بناء القيود 
+ ( UpdateDoc_Number_Master ) ايضا في حال كان خاصيه الترقيم السالب يتم استدعاء دالة اعادة بناء الترقيم 
+ </summary>
+ <param name="DocID"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.Services.ibsSimpleWindow.UpdateDoc_Number_Master(EBS.Services.ibsSimpleWindow)">
+ <summary>
+ دالة لتعديل رقم المستند بدل الرقم السالب بالرقم الحقيقي بعد اضافة تفصيل في الفاتورة
+ </summary>
+ <param name="DetailsWindow"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Services.ibsSimpleWindow.Test_Year_Ok(System.Boolean)">
+ <summary>
+ داله لفحص تاريخ العملية اذا كان خارج السنه الماليه مع فحص حاله السنه
+ </summary>
+ <param name="CheckLockedOnly"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Services.ibsSimpleWindow.Save_ExchangePrice(System.Int64,System.Boolean)">
+ <summary>
+ تابع لتسجيل حركة تغير سعر الصرف في المستندات
+ </summary>
+ <remarks>TAHA-MOHAMMED</remarks>
+</member>
+<member name="F:EBS.Services.Service.myIdentity">
+ <summary>
+ هذا المتغير مشارك مع الجميع لانه للقراءة فقط 
+ ويحتوي على قائمة بكل المفاتيح العامة المسجلة في قاعدة البيانات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Services.Service.ServiceMode">
+ <summary>
+ Indicate If Class Run In Service Mode Or Local Mode
+ </summary>
+ <remarks></remarks>
+ 
+</member>
+<member name="F:EBS.Services.Service.ExternalSource">
+ <summary>
+ Indicate If Class Run In Service Mode Or Local Mode
+ </summary>
+ <remarks></remarks>
+ 
+</member>
+<member name="F:EBS.Services.ClientsProvider.Clients">
+ <summary>
+ يمثل الزبائن اونلاين بدلالة رقم الجلسة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Services.ClientsProvider.Branchesessions">
+ <summary>
+ يمثل الزبائن اونلاين بدلالة نقطة الشبكة مثلا قد يكون لنقطة الشبكة أكثر من مستخدم مسجل دخول اول مستخدم يعتبر هو المستخدم الافتراضي لنقطة الشبكة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Forms.Permissions">
+ <summary>
+ تجهيز الصلاحيات ال1.عامة
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.modExtension.ShowAndFocus(WeifenLuo.WinFormsUI.Docking.DockContent)">
+ <summary>
+ Show And Focus The Form
+ </summary>
+ <param name="TheForm"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.modExtension.Between(System.String,System.String,System.String)">
+ <summary>
+ Return TheText Between Two Expressions
+ </summary>
+ <param name="TheString"></param>
+ <param name="LeftExpression"></param>
+ <param name="RightExpression"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.modExtension.FirsRow(System.Data.DataTable)">
+ <summary>
+ Get First Row If Found
+ </summary>
+ <param name="TheDataTable"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.modExtension.Import_DataTable(System.Data.DataTable,System.Data.DataTable)">
+ <summary>
+ استيراد بيانات من DataTable آخر بمقارنة اسماء الحقول المتساوية
+ </summary>
+ <param name="dtbTarget"></param>
+ <param name="dtbSource"></param>
+ <returns></returns>
+ <remarks></remarks>
+ 
+</member>
+<member name="M:EBS.modExtension.Form(System.Windows.Forms.Control)">
+ <summary>
+ Return the form of control
+ </summary>
+ <param name="TheControl"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.modExtension.CenterInParent(System.Windows.Forms.Control)">
+ <summary>
+ توسيط عنصر التحكم داخل العنصر الحاضن له
+ </summary>
+ <param name="TheControl"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.modExtension.Fill_Binding(System.Windows.Forms.DataGridView,System.Data.DataTable,System.Boolean)">
+ <summary>
+ لتعبئة الشبكة باستخدام خاصية DataSource
+ </summary>
+ <param name="TheGrid"></param>
+ <param name="TheDataTable"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.modExtension.Fill_Free(System.Windows.Forms.DataGridView,System.Data.DataTable,System.Boolean)">
+ <summary>
+ لتعبئة الشبكة باستخدام حلقة حتى نتمكن من اضافة اسطر الاجمالي بحرية
+ </summary>
+ <param name="TheGrid"></param>
+ <param name="TheDataTable"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.ibsSimpleForm.CanEditFromManagementBranch">
+ <summary>
+ عند تفعيل هذه الخاصية يصبح من الممكن الاضافة والحذف والتعديل من فرع الادارة ولو كانت نافذة حركة
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.ibsSimpleForm.UpdateCashdatabase">
+ <summary>
+ تحديث قاعدة بيانات الكاش---M.gholis
+ </summary>
+</member>
+<member name="M:EBS.wndMain.Depend(System.Object[])">
+ <summary>
+ يتم استدعاء هذا التابع في الوندو وليس الفورم
+ </summary>
+ <param name="MyWindow"></param>
+ <param name="ID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,177 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.CarMaintenance
+</name>
+</assembly>
+<members>
+<member name="T:EBS.CarMaintenance.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.CarMaintenance.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.CarMaintenance.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EBS.CarMaintenance.My.Resources.Resources._004_repeat_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarMaintenance.My.Resources.Resources._005_monitor_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarMaintenance.My.Resources.Resources._007_refresh_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarMaintenance.My.Resources.Resources._123_analytics_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarMaintenance.My.Resources.Resources.carsm">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarMaintenance.My.Resources.Resources.ReservationSettings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:EBS.CarMaintenance.frmCar_CarSellInvoice.Car_CarSellInvoice.PrintItemDescription(CrystalDecisions.CrystalReports.Engine.ReportDocument,System.Data.DataSet@,System.Boolean,System.Boolean)">
+ <summary>
+ تابع طباعة وصف كمية الصنف في طباعة المستند
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.CarMaintenance.frmCar_CarSellInvoice.Car_CarSellInvoiceDetails.CheckAlternativeItems(System.Boolean)">
+ <summary>
+ فحص الأصناف البديلة / نظام الصيدليات
+ </summary>
+ <param name="Is_Add"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.CarMaintenance.frmCar_CarSellInvoice.Car_CarSellInvoiceDetails.CheckSellPrice(System.String,System.String,System.String)">
+ <summary>
+ تابع فحص عدم البيع بأقل من سعر البيع في مجموعة الأصناف
+ </summary>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.CarMaintenance.frmCar_CarSellInvoice.CreateProfitButton">
+ <summary>
+ ارباح الفاتورة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.CarMaintenance.frmCar_CarSellInvoice.ShowInvoiceSellProfit(System.Int64,System.DateTime)">
+ <summary>
+ تابع عرض ارباح الفاتورة في الشريط السفلي
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.CarMaintenance.wndcar_CarMaintenanceNeedItems.SaveToDictionary(System.Object[])">
+ <summary>حفظ البيانات في قاموس الترجمة </summary>
+ <param name="Args"> مصفوفة معاملات </param>
+ <returns>تعيد True في حال نجاح العملية</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.CarMaintenance.wndcar_CarMaintenanceNeedItemsDetails.Check_Item(System.Boolean)">
+ <summary>
+ فحص الكمية والسعر
+ </summary>
+ <returns>Boolean</returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.CarMaintenance.wndCar_sellInvoice.SaveToDictionary(System.Object[])">
+ <summary>حفظ البيانات في قاموس الترجمة </summary>
+ <param name="Args"> مصفوفة معاملات </param>
+ <returns>تعيد True في حال نجاح العملية</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.CarMaintenance.wndCar_sellInvoice.UpdateMeritState(System.Object[])">
+ <summary>
+ دالة لتعديل  حالة تحصيل الفواتير 
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.CarMaintenance.wndCar_sellInvoice.CalcSellRate(EBS.Classes.Entries@)">
+ <summary>
+ - احتساب نسبة من اجمالي فاتورة البيع الى حساب ايراد وتحميل قيمة النسبة العميل
+ </summary>
+ <param name="MyEntries"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.CarMaintenance.wndCar_sellInvoiceDetails.Check_Item(System.Boolean)">
+ <summary>
+ فحص الكمية والسعر
+ </summary>
+ <returns>Boolean</returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.CarMaintenance.wndCar_sellInvoiceDetails.Check_BatchNumber(System.Boolean)">
+ <summary>
+ فحص رقم الدفعه **TAHA**
+ </summary>
+</member>
+<member name="M:EBS.CarMaintenance.wndCar_sellInvoiceDetails.Get_BatchNumber_Quantity(System.Int64,System.Int64,System.Int64,System.Int64,System.Int64)">
+ <summary>
+ دالة تعود بكمية الصنف بحسب رقم الدفعه في أمر التشغيل **TAHA**    
+ </summary>
+</member>
+<member name="M:EBS.CarMaintenance.wndCar_CarSellInvoice.SaveToDictionary(System.Object[])">
+ <summary>حفظ البيانات في قاموس الترجمة </summary>
+ <param name="Args"> مصفوفة معاملات </param>
+ <returns>تعيد True في حال نجاح العملية</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.CarMaintenance.wndCar_CarSellInvoice.UpdateMeritState(System.Object[])">
+ <summary>
+ دالة لتعديل  حالة تحصيل الفواتير 
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.CarMaintenance.wndCar_CarSellInvoice.CalcSellRate(EBS.Classes.Entries@)">
+ <summary>
+ - احتساب نسبة من اجمالي فاتورة البيع الى حساب ايراد وتحميل قيمة النسبة العميل
+ </summary>
+ <param name="MyEntries"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.CarMaintenance.wndCar_CarSellInvoiceDetails.Check_Item(System.Boolean)">
+ <summary>
+ فحص الكمية والسعر
+ </summary>
+ <returns>Boolean</returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.CarMaintenance.wndCar_CarSellInvoiceDetails.Check_BatchNumber(System.Boolean)">
+ <summary>
+ فحص رقم الدفعه **TAHA**
+ </summary>
+</member>
+<member name="M:EBS.CarMaintenance.wndCar_CarSellInvoiceDetails.Get_BatchNumber_Quantity(System.Int64,System.Int64,System.Int64,System.Int64,System.Int64)">
+ <summary>
+ دالة تعود بكمية الصنف بحسب رقم الدفعه في أمر التشغيل **TAHA**    
+ </summary>
+</member>
+</members>
+</doc>

@@ -1,0 +1,2287 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.CarSystem
+</name>
+</assembly>
+<members>
+<member name="T:EBS.CarSystem.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._003_exchange">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._003_exchange1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._004_repeat_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._004_repeat_31">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._005_monitor_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._005_monitor_71">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._007_refresh_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._007_refresh_41">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._007_refresh_42">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._007_repeat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._007_repeat1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._009_cloud_computing_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._009_cloud_computing_41">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._011_form">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._011_form1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._013_locked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._013_locked1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._016_monitor_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._016_monitor_61">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._020_wallet">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._020_wallet1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._022_pie_chart_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._022_pie_chart_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._024_graph">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._024_graph1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._025_money_bag">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._025_money_bag1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._035_printer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._035_printer1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._036_printed">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._036_printed1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._037_paper_printer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._037_paper_printer1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._040_measuring">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._040_measuring1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._043_barcode_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._043_barcode_21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._049_discount">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._049_discount1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._050_sales">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._050_sales1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._051_stock_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._051_stock_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._052_stock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._052_stock1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._055_bank">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._055_bank1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._056_check">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._056_check1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._059_transfer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._059_transfer1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._059_transfer11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._059_transfer2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._060_user_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._060_user_21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._069_id_card">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._069_id_card1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._071_credit_card_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._071_credit_card_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._072_credit_card">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._072_credit_card1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._081_shopping_cart">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._081_shopping_cart1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._082_cart_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._082_cart_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._087_warehouse">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._087_warehouse1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._090_invoice">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._090_invoice1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._091_receipt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._091_receipt1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._097_cheque_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._097_cheque_31">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._100_cheque">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._100_cheque1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._123_analytics_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._123_analytics_51">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._127_money_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._127_money_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._13">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._137_browser_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._137_browser_71">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._148_app">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._148_app1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._153_shield_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._153_shield_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._164_technology_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._164_technology_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._177_money">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._177_money1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._185_arrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._185_arrow1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._195_lock_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._195_lock_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources._8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.aaaa">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.aaaa1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.aaaa2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.acar1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.acar2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.acar3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.acar4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.acar5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.acar6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.acar7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.acar8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Account1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Account11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Account2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Account21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Account3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Account31">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Account4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Account41">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Account5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Account51">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Account6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Account61">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Account7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Account71">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Account8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Account81">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.AccountMenu">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.AccountMenu1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.accounts">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.accounts1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Add1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Add11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Add2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Add21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Add3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.auto_system">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.B">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.B1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.BB">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.BB1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.BB2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.BlackList_Person">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.BlackList_Person1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.BlackListCountry">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.BlackListCountry1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.BlackListCountry11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.BlackListCountry2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.BlackListMenue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.BlackListMenue1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.booking">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.booking1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.buildings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.buildings1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.businessman__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.businessman__10_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car10">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car13">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car14">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car61">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.car9">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.cars">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.cars1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.cars11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.cars2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.carsm">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.chart">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.chart1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.CleanSetting">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.CleanSetting1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Clearin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Clearin1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.clearout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.clearout1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.clipboard">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.clipboard1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.contract__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.contract__2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.CustomersBills">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.CustomersBills1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.CustomerSetting">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.CustomerSetting1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.dd">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.dd1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.DXPRO">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.DXPRO1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.DXProV4_Background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.DXProV4_Background1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.GreenDoor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.GreenDoor1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.help">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.help1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.hotel__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.hotel__1_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.IBS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.IBS1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.idea">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.idea1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.imageNews">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.imageNews1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.images">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.images__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Lend">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Lend1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Logo_png">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Logo_png__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Logo_png__2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Logo_png1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.lotus_exige_vector">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.LoungeReservation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.LoungeReservation1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.LoungeSetting">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.LoungeSetting1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Mines">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Mines1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.monitor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.monitor1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.online_booking">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.online_booking1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.percentage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.percentage1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.pie_chart">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.pie_chart1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Plus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Plus1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.presentation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.presentation1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.racing_car_vector">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.rear">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.rear1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.recievingwindow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.recievingwindow1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.RedDoor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.RedDoor1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.report__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.report__1_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Report2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Report21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Report5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Report51">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Report6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Report61">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Report7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Report71">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.ReportAge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.ReportAge1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.ReportClean">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.ReportClean1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.ReportCustomer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.ReportCustomer1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.ReportDesigner">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.ReportDesigner1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.ReportMenue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.ReportMenue1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Res">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Res1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.rescustomers">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.rescustomers1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Reservation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.reservation1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.reservation11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Reservation2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.reservation3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.reservation31">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.ReservationSettings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.ReservationSettings1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.RM2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.RM21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.RM3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.RM31">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.RM4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.RM41">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.RM5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.RM51">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.RoomManagmentMenue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.RoomManagmentMenue1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.RoomSetting">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.RoomSetting1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.SavedReport">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.SavedReport1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.settings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.settings__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.settings__2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.settings1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.smartphone__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.smartphone__2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.sms">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.sms1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.suite">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.suite1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.support">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.support1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.SystemSettings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.SystemSettings1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.tools">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.tools1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Tours_Login">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Tours_Login1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Tours_Logo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Tours_Logo_32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Tours_Logo_321">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Tours_Logo1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Tours_Splash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Tours_Splash_800">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Tours_Splash_8001">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.Tours_Splash1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.transport">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.transportation__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.vector_camouflage_lamborghini">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.vector_lamborghini_gallardo">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.vector_nissan_silvia">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.vehicle">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.vehicle__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.إيقونة_الادارة">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.إيقونة_الادارة1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.ايقونة_جديدة_للدوت_اكس_برو">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.ايقونة_جديدة_للدوت_اكس_برو1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.ايقونة_جديدة_للدوت_اكس_برو11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.ايقونة_جديدة_للدوت_اكس_برو2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.نظام_الفنادقArtboard_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.نظام_الفنادقArtboard_1__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.نظام_الفنادقArtboard_1__2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.نظام_الفنادقArtboard_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.نظام_الفنادقArtboard_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.نظام_الفنادقArtboard_2__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.نظام_الفنادقArtboard_2__2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.نظام_الفنادقArtboard_21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.نظام_الفنادقArtboard_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.نظام_الفنادقArtboard_3__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.نظام_الفنادقArtboard_3__2_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.CarSystem.My.Resources.Resources.نظام_الفنادقArtboard_31">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:EBS.CarSystem.frmCar_SellMulti.Car_SellMultiDetails.After_Add_Record(System.Int64)">
+ <summary>
+ 
+ </summary>
+ <param name="DocID"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.CarSystem.frmCar_CostsAdjustingCar.CancelBuyInvoiceForCostAdjusting">
+ <summary>
+ Ibd'a: to cancel the link of costAdjusting with BuyInvoice Bill
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.CarSystem.frmCar_CostsAdjustingCar.GetBuyInvoiceNumber(System.Int64)">
+ <summary>
+ IBD'A: a function that bring the number of the buyinvoice from its ID to be shown for the user
+ </summary>
+ <param name="BuyInvoiceID"></param>
+ <returns></returns>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.CarSystem.frmInv_ItemInfoAdvance.SetAutoCompleteSource(System.Windows.Forms.TextBox@,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ دالة تقوم بتحديد مصدر التكلمة التلقائية للأدوات التي تقبل النص
+ </summary>
+ <param name="txtcontrol">الأداة </param>
+ <param name="SourceObject"> الجدول </param>
+ <param name="SourceField"> حقل البيانات</param>
+ <param name="WhereCond">الشرط </param>
+ <param name="IsDestincted">عدم السماح باسترجاع البيانات المكررة</param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.CarSystem.frmInv_ItemInfoAdvance.Fill_Free(System.Windows.Forms.DataGridView,System.Data.DataTable[])">
+ <summary>
+ لتعبئة الشبكةمن أكثر من داتا تيبل باستخدام حلقة حتى نتمكن من اضافة اسطر الاجمالي بحرية
+ </summary>
+</member>
+<member name="M:EBS.CarSystem.frmCar_CarSellInvoiceDeposit.Initial_Record(System.Data.DataRow)">
+ <summary>
+ </summary>
+ <param name="drwMain"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.CarSystem.frmCar_Quotation.Initial_Record(System.Data.DataRow)">
+ <summary>
+ </summary>
+ <param name="drwMain"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.CarSystem.frmSellInvoice.Initial_Record(System.Data.DataRow)">
+ <summary>
+ </summary>
+ <param name="drwMain"></param>
+ <returns></returns>
+</member>
+<member name="T:EBS.CarSystem.CarDataset">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.CarDataset.vewNewCar_CarContractDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.CarDataset.vewNewCar_CarContractRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.CarDataset.vewNewCar_CarContractRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.CarDatasetTableAdapters.vewNewCar_CarContractTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.CarDatasetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.CarSystem.CarDatasetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.CarSystem.CarDataset,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.CarSystem.CarDatasetTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.CarSystem.CarDataset,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.CarSystem.CarDatasetTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.CarSystem.CarDataset,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.CarSystem.CarDatasetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.CarSystem.CarDatasetTableAdapters.TableAdapterManager.UpdateAll(EBS.CarSystem.CarDataset)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.CarDatasetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.CarSystem.CarDatasetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:EBS.CarSystem.modMain.Show_ImageFromPath(System.Windows.Forms.PictureBox,System.String)">
+ <summary>
+ جلب الصورة من ملف 
+ </summary>
+ <param name="PicImage"></param>
+ <param name="imagePath"></param>
+</member>
+<member name="M:EBS.CarSystem.modMain.NumberingDocument(EBS.Services.clsWindowOperation@,System.String,System.Boolean,EBS.Classes.Session,EBS.Classes.Database)">
+ <summary>
+ ترقيم السندات المحاسبية بحسب الاعدادات
+ </summary>
+ <param name="Is_Add"></param>
+ <param name="ActiveOperation"></param>
+ <param name="TableName"></param>
+ <returns></returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewcar_CostsAdjustingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.tblImgDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewBuyInvoiceCarsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCarsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewSellInvoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewSellDealsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewSuretyPaperDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewAddMasrofDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_PartitionAgioDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_CarDepositReceivingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_CarDepositSpendingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_BeginingInventoryDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_ReceivingAnnexesDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.tblCar_ExaminationPartsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_QuotationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.tblCar_ProblemDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.tblCar_accessoriesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.TBLCaR_pROFITPARTNERDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewBuyInvoiceCarsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCarsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewSellInvoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewSellDealsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewSuretyPaperRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewAddMasrofRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_PartitionAgioRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_CarDepositReceivingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_CarDepositSpendingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_BeginingInventoryDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_ReceivingAnnexesDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.tblCar_ExaminationPartsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_QuotationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.tblImgRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.tblCar_ProblemRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.tblCar_accessoriesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.TBLCaR_pROFITPARTNERRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewcar_CostsAdjustingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewBuyInvoiceCarsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCarsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewSellInvoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewSellDealsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewSuretyPaperRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewAddMasrofRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_PartitionAgioRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_CarDepositReceivingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_CarDepositSpendingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_BeginingInventoryDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_ReceivingAnnexesDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.tblCar_ExaminationPartsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewCar_QuotationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.tblImgRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.tblCar_ProblemRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.tblCar_accessoriesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.TBLCaR_pROFITPARTNERRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSet.vewcar_CostsAdjustingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSetTableAdapters.vewBuyInvoiceCarsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSetTableAdapters.vewCarsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSetTableAdapters.vewSellInvoiceTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSetTableAdapters.vewSellDealsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSetTableAdapters.vewSuretyPaperTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSetTableAdapters.vewAddMasrofTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSetTableAdapters.vewCar_PartitionAgioTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSetTableAdapters.vewCar_CarDepositReceivingTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSetTableAdapters.vewCar_CarDepositSpendingTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSetTableAdapters.vewCar_BeginingInventoryDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSetTableAdapters.vewCar_ReceivingAnnexesDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSetTableAdapters.tblCar_ExaminationPartsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSetTableAdapters.vewCar_QuotationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.CarSystem.IBSCarNetDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.CarSystem.IBSCarNetDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.CarSystem.IBSCarNetDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.CarSystem.IBSCarNetDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.CarSystem.IBSCarNetDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.CarSystem.IBSCarNetDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.CarSystem.IBSCarNetDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.CarSystem.IBSCarNetDataSetTableAdapters.TableAdapterManager.UpdateAll(EBS.CarSystem.IBSCarNetDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.CarSystem.IBSCarNetDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:EBS.CarSystem.wndCar_CostsAdjustingCar.AddMester_CostAdjusting(System.Object[])">
+ <summary>
+ دالة تضيف سند جديد بكافة بياناتة وتفاصيلة يتم استدعائها اثناء التصدير
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

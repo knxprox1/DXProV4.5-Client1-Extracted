@@ -1,0 +1,187 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.Stations
+</name>
+</assembly>
+<members>
+<member name="T:EBS.Stations.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.Stations.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.Stations.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewSta_DailySalesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewSta_DailySalesDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewSta_DailySalesPayDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewsta_UnloadingRequestDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewSta_DownloadRequestDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewsta_InvdailysalesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.VewHeaderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.VewDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewSta_DailySalesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewSta_DailySalesDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewSta_DailySalesPayRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewsta_UnloadingRequestRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewSta_DownloadRequestRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewsta_InvdailysalesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.VewHeaderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.VewDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewSta_DailySalesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewSta_DailySalesDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewSta_DailySalesPayRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewsta_UnloadingRequestRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewSta_DownloadRequestRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.vewsta_InvdailysalesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.VewHeaderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Stations.DS_Stations.VewDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="M:EBS.Stations.wndSta_DailySalesTotals.Delete_DailySalesTotal(System.Windows.Forms.DataGridViewRow)">
+    Catch ex As Exception
+        ErrorHandler.Show(ex, Nothing)
+        Return False
+    End Try
+End Function
+</member>
+<member name="M:EBS.Stations.wndSta_DailySales.SaveToDictionary(System.Object[])">
+ <summary>حفظ البيانات في قاموس الترجمة </summary>
+ <param name="Args"> مصفوفة معاملات </param>
+ <returns>تعيد True في حال نجاح العملية</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Stations.wndSta_DailySales.UpdateMeritState(System.Object[])">
+ <summary>
+ دالة لتعديل  حالة تحصيل الفواتير 
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.PlayGround
+</name>
+</assembly>
+<members>
+<member name="T:EBS.PlayGround.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.PlayGround.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.PlayGround.My.Resources.Resources.index">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.PlayGround.My.Resources.Resources.info">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.PlayGround.My.Resources.Resources.InspectionAdmin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.PlayGround.My.Resources.Resources.JPG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.PlayGround.My.Resources.Resources.OperatingAdmin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.PlayGround.My.Resources.Resources.PDF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.PlayGround.My.Resources.Resources.PNG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.PlayGround.My.Resources.Resources.printer_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.PlayGround.My.Resources.Resources.RAR">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.PlayGround.My.Resources.Resources.repeat_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.PlayGround.My.Resources.Resources.TXT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.PlayGround.My.Resources.Resources.WorkingForces">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.PlayGround.My.Resources.Resources.XLS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.PlayGround.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:EBS.PlayGround.modMain.PermitStatusEnum.NewPermit">
+ <summary>
+ جديد
+ </summary>
+</member>
+<member name="F:EBS.PlayGround.modMain.PermitStatusEnum.ReNew">
+ <summary>
+ تجديد
+ </summary>
+</member>
+<member name="F:EBS.PlayGround.modMain.PermitStatusEnum.Recruitment">
+ <summary>
+ استقدام
+ </summary>
+</member>
+<member name="F:EBS.PlayGround.modMain.PermitStatusEnum.Damaged">
+ <summary>
+ تالف
+ </summary>
+</member>
+<member name="F:EBS.PlayGround.modMain.PermitStatusEnum.Replacement">
+ <summary>
+ بدل فاقد
+ </summary>
+</member>
+</members>
+</doc>

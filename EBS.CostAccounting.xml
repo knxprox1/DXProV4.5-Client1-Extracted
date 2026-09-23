@@ -1,0 +1,316 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.CostAccounting
+</name>
+</assembly>
+<members>
+<member name="T:EBS.CostAccounting.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.CostAccounting.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.CostAccounting.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:EBS.CostAccounting.DateTimeRange.CreateHalfOnePeriod(System.TimeSpan,System.DateTime)">
+ <summary>
+ 
+ </summary>
+ <param name="StartDay"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.CostAccounting.DateTimeRange.IsBetween(System.DateTime,System.Boolean)">
+ <summary>
+ check if date time is between datetimerange
+ </summary>
+ <param name="Comp"></param>
+ <param name="WithEqual"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.CostAccounting.DateTimeRange.IsBetween(EBS.CostAccounting.DateTimeRange)">
+ <summary>
+ check if comp period is between current period
+ </summary>
+ <param name="Comp"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:EBS.CostAccounting.DateTimeRelationState">
+ <summary>
+ None 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.CostAccounting.DateTimeRelationState.None">
+ <summary>
+ 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.CostAccounting.DateTimeRelationState.Center">
+ <summary>
+ Center Me
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.CostAccounting.DateTimeRelationState.Between">
+ <summary>
+ Center it 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.CostAccounting.ModFunctions.GetExchangeFactor(System.String,System.String)">
+ <summary>
+ داله تجلب معامل التحويل بين وحدة واخرى
+ </summary>
+ <param name="FromUnit"></param>
+ <param name="ToUnit"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.CostAccounting.ModFunctions.GetStagesAmountPerUnit(System.Int64,System.Int64,System.Int64,System.Int64)">
+ <summary>
+ دالة تجيب ترتيب المراحل
+ </summary>
+ <param name="ProductionLineID"></param>
+ <param name="DesignID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.CostAccounting.frmCst_ProductionOrders.CalculateIndirectCost(System.Double,System.Double,System.Int64,System.Int64)">
+ <summary>
+ حساب التكاليف الغير مباشرة
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+ 'TODO Use IndirectCostRpt View to get product cost
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_RealDirectCostsElementsItemsDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_RealDirectCostsElementsWorkerDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_RealDirectCostsElementsMachineDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_ProductionStoreReceivingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListRptDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListRptDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_ReturnRawsItemsDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListStageRptDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListStageRptDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListCostElementStageRptDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListCostElementStageRptDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewcst_ScheduleOrderProductsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_ProductionOrdersDirectCostDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_RealDirectCostsElementsItemsDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_RealDirectCostsElementsWorkerDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_RealDirectCostsElementsMachineDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_ProductionStoreReceivingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListRptRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListRptDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_ReturnRawsItemsDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListStageRptRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListStageRptDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListCostElementStageRptRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListCostElementStageRptDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewcst_ScheduleOrderProductsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_ProductionOrdersDirectCostDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_RealDirectCostsElementsItemsDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_RealDirectCostsElementsWorkerDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_RealDirectCostsElementsMachineDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_ProductionStoreReceivingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListRptRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListRptDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_ReturnRawsItemsDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListStageRptRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListStageRptDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListCostElementStageRptRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.tblCst_ProductionCostListCostElementStageRptDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewcst_ScheduleOrderProductsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.CostAccounting.dsCostAccounting.vewCst_ProductionOrdersDirectCostDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="M:EBS.CostAccounting.wndCst_Periods.IsHasDesigns(System.Int64,System.Int64)">
+ <summary>
+ هل يمتلك خط الانتاج تصميم ما لم يلغى اضافة السجل
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.CostAccounting.wndCst_PeriodsDetails.IsDesignContainsProductionLineStages(System.Int64,System.Int64,System.Int64)">
+ <summary>
+ التأكد من ان التصميم يضم كافة مراحل خط الإنتاج
+ </summary>
+ <param name="ProductionLineID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

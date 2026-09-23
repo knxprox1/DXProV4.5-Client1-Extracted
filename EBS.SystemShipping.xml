@@ -1,0 +1,446 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.SystemShipping
+</name>
+</assembly>
+<members>
+<member name="T:EBS.SystemShipping.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.SystemShipping.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.SystemShipping.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EBS.SystemShipping.My.Resources.Resources._à___د___â_ر____è__د___à___د_ذ_é_ر">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.SystemShipping.My.Resources.Resources.businessman__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.SystemShipping.My.Resources.Resources.index">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.SystemShipping.My.Resources.Resources.printer_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.SystemShipping.My.Resources.Resources.repeat_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.SystemShipping.My.Resources.Resources.stock_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_BuyingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_BuyingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_CompanieDateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_CompaniesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_ExportInvoicDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_ExportInvoicDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_BuyingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_BuyingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_CompanieDateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_CompaniesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_ExportInvoicRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_ExportInvoicDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_BuyingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_BuyingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_CompanieDateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_CompaniesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_ExportInvoicRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSet.vewShipping_ExportInvoicDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSetTableAdapters.vewShipping_BuyingTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSetTableAdapters.vewShipping_BuyingDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSetTableAdapters.vewShipping_CompanieDateTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSetTableAdapters.vewShipping_CompaniesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSetTableAdapters.vewShipping_ExportInvoicTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSetTableAdapters.vewShipping_ExportInvoicDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.SystemShipping.New_DXPr_sanaGroupDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.SystemShipping.New_DXPr_sanaGroupDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.SystemShipping.New_DXPr_sanaGroupDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.SystemShipping.New_DXPr_sanaGroupDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.SystemShipping.New_DXPr_sanaGroupDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.SystemShipping.New_DXPr_sanaGroupDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.SystemShipping.New_DXPr_sanaGroupDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.SystemShipping.New_DXPr_sanaGroupDataSetTableAdapters.TableAdapterManager.UpdateAll(EBS.SystemShipping.New_DXPr_sanaGroupDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.New_DXPr_sanaGroupDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_BuyingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_CompanieDateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_CompaniesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_ExportInvoicDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_ExportInvoicDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_BuyingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_BuyingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_CompanieDateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_CompaniesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_ExportInvoicDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_ExportInvoicRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_BuyingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_BuyingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_CompanieDateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_CompaniesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_ExportInvoicDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_ExportInvoicRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystem.vewShipping_BuyingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystemTableAdapters.vewShipping_BuyingTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystemTableAdapters.vewShipping_CompanieDateTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystemTableAdapters.vewShipping_CompaniesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystemTableAdapters.vewShipping_ExportInvoicDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystemTableAdapters.vewShipping_ExportInvoicTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystemTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystemTableAdapters.vewShipping_BuyingDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystemTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.SystemShipping.IBSTraderNetDataSetShippingSystemTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.SystemShipping.IBSTraderNetDataSetShippingSystem,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.SystemShipping.IBSTraderNetDataSetShippingSystemTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.SystemShipping.IBSTraderNetDataSetShippingSystem,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.SystemShipping.IBSTraderNetDataSetShippingSystemTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.SystemShipping.IBSTraderNetDataSetShippingSystem,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.SystemShipping.IBSTraderNetDataSetShippingSystemTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.SystemShipping.IBSTraderNetDataSetShippingSystemTableAdapters.TableAdapterManager.UpdateAll(EBS.SystemShipping.IBSTraderNetDataSetShippingSystem)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystemTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.SystemShipping.IBSTraderNetDataSetShippingSystemTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:EBS.SystemShipping.wndShipping_Buying.CheckCostsAdjusting_BuyInvoiceLink">
+ <summary>
+ هذا الدالة تقوم بالتحقق من اية ارتباطات للفاتورة مع تسويات تكلفة حتىل لايتم السماح بالتعديل لمحتوى رأس الفاتورة
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.SystemShipping.wndShipping_Buying.CalcBuyRate(EBS.Classes.Entries@)">
+ <summary>
+ - احتساب نسبة من اجمالي فاتورة الشراء الى حساب ايراد وخصم المقابل من حساب المورد
+ </summary>
+ <param name="MyEntries"></param>
+ <returns></returns>
+ <remarks>Taha</remarks>
+</member>
+<member name="M:EBS.SystemShipping.wndShipping_BuyingDetails.CheckCostsAdjusting_BuyInvoiceLink">
+ <summary>
+ هذا الدالة تقوم بالتحقق من اية ارتباطات للفاتورة مع تسويات تكلفة حتىل لايتم السماح بالتعديل لمحتوى رأس الفاتورة
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.SystemShipping.modMain.NumberingDocument(EBS.Services.clsWindowOperation@,System.String,System.Boolean,EBS.Classes.Session,EBS.Classes.Database)">
+ <summary>
+ ترقيم السندات المحاسبية بحسب الاعدادات
+ </summary>
+ <param name="Is_Add"></param>
+ <param name="ActiveOperation"></param>
+ <param name="TableName"></param>
+ <returns></returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.SystemShipping.modMain.Test_User_Permission(EBS.ibsMasterDetailsSimple,System.String,System.String)">
+ <summary>
+ فحص صلاحيات
+ </summary>
+ <param name="PermissionKey"></param>
+ <param name="PermissionType"></param>
+ <returns></returns>
+</member>
+</members>
+</doc>

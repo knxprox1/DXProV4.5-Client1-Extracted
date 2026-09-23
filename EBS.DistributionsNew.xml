@@ -1,0 +1,61 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.DistributionsNew
+</name>
+</assembly>
+<members>
+<member name="T:EBS.Distributions.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.Distributions.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.Distributions.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:EBS.Distributions.frmInv_CompanyInformation.GetImagesLocal">
+ <summary>
+ جلب الصور في حال كان النظام شغال كلاينت
+ </summary>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Distributions.frmInv_CompanyInformation.GetImagesServer">
+ <summary>
+ جلب الصور في حال كان النظام شغال كلاينت هوست 
+ </summary>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Distributions.wndInv_CompanyInformation.GetFile(System.Object[])">
+ <summary>
+ جلب شعار المؤسسة 
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Distributions.wndInv_CompanyInformation.delImages_wnd(System.Object)">
+ <summary>
+ حذف الشعار
+ </summary>
+ <param name="Args"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Distributions.wndInv_DistributionDelegateInvoiceDetails.Check_Item(System.Boolean)">
+ <summary>
+ فحص الكمية والسعر
+ </summary>
+ <returns>Boolean</returns>
+ <remarks>TAHA</remarks>
+</member>
+</members>
+</doc>

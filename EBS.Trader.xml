@@ -1,0 +1,1340 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.Trader
+</name>
+</assembly>
+<members>
+<member name="T:EBS.Trader.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.Trader.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.Trader.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EBS.Trader.My.Resources.Resources.قائمة_الأصناف_المفضلة">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:EBS.Trader.frmAccountInfo.SetAutoCompleteSource(System.Windows.Forms.TextBox@,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ دالة تقوم بتحديد مصدر التكلمة التلقائية للأدوات التي تقبل النص
+ </summary>
+ <param name="txtcontrol">الأداة </param>
+ <param name="SourceObject"> الجدول </param>
+ <param name="SourceField"> حقل البيانات</param>
+ <param name="WhereCond">الشرط </param>
+ <param name="IsDestincted">عدم السماح باسترجاع البيانات المكررة</param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.frmAccountInfo.Fill_Free(System.Windows.Forms.DataGridView,System.Data.DataTable[])">
+ <summary>
+ لتعبئة الشبكةمن أكثر من داتا تيبل باستخدام حلقة حتى نتمكن من اضافة اسطر الاجمالي بحرية
+ </summary>
+ <param name="TheGrid"></param>
+ <param name="TheDataTable"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.frmInv_ItemsMovement.SetItemsCostPricesByDate">
+ <summary>
+ تابع جلب تكلفة الصنف بحسب تاريخ المستند مع عرض الفارق بين سعر البيع والتكلفة
+ </summary>
+</member>
+<member name="M:EBS.Trader.frmInv_IncomingOutgoingBeforRelay.Show_WindowW(EBS.Controls.ibsDataGridView,EBS.Classes.Session,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ دالة لعرض نافذة المستند المحدد بدلالة:
+ </summary>
+ <param name="dgvMain">الشبكة</param>
+ <param name="MySession">الجلسة</param>
+ <param name="ColIndexDocument">رقم عمود المستند</param>
+ <param name="ColIndexRecordID">رقم عمود المعرف في الجدول</param>
+ <param name="ColIndexDate">رقم عمود التاريخ</param>
+ <remarks>3qari</remarks>
+</member>
+<member name="M:EBS.Trader.frmInv_IncomingOutgoingBeforRelay.Show_WindowW(EBS.Controls.ibsDataGridView,EBS.Classes.Session,System.String,System.String,System.String)">
+ <summary>
+ دالة لعرض نافذة المستند المحدد بدلالة:
+ </summary>
+ <param name="dgvMain">الشبكة</param>
+ <param name="MySession">الجلسة</param>
+ <param name="ColHDocument">عنوان عمود المستند</param>
+ <param name="ColHRecordID">عنوان عمود المعرف في الجدول</param>
+ <param name="ColHDate">عنوان عمود التاريخ</param>
+ <remarks>3qari</remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_ItemCostPriceAfterReyle(EBS.Classes.Database,EBS.Classes.modMain.InventoryCostTypeEnum,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Double,System.Boolean,System.Int64,System.Boolean,System.Boolean)">
+ <summary>
+ داله تعود بسعر تكلفة الصنف بحسب الجرد المستمر وطريقة حساب تكلفة المخزون
+ </summary>
+ <returns>Cost Price</returns>
+ <remarks>Ebrahim</remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_ItemCostPrice(EBS.Classes.modMain.InventoryCostTypeEnum,System.Boolean,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Double,System.Boolean,System.Int64,System.Boolean)">
+ <summary>
+ داله تعود بسعر تكلفة الصنف بحسب الجرد المستمر وطريقة حساب تكلفة المخزون
+ </summary>
+ <returns>Cost Price</returns>
+ <remarks>Ebrahim</remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_Items_Cost_withCostCenter(System.Int64,System.String,System.Object)">
+ <summary>
+    ' مجمعة حسب مراكز التكلفة جلب تكلفة الكمية المباعة
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_Items_CostBYCategories(System.Int64,System.Int64,System.String,EBS.Classes.Database,System.Double@)">
+ <summary>
+ دالة لجلب إجمالي التكلفة حسب مجموعة الصنف
+ </summary>
+ <param name="ParentID"></param>
+ <param name="CategoryID"></param>
+ <param name="Condition"></param>
+ <param name="MyDB"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_Items_CostByCurrencyMain(System.Int64,System.String,EBS.Classes.Database)">
+ <summary>
+ جلب سعر الصرف من عملة المخزون الى العملة الاساسية اثناء حساب التكلفة
+ </summary>
+ <param name="ParentID"></param>
+ <param name="Condition"></param>
+ <param name="MyDB"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_Sql_Average_StoreCost_SalesProfits(System.String,System.String,System.Boolean)">
+ <summary>
+ دالة تحتوي على استعلام أرباح المبيعات 
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_Sql_Average_StoreCost_SalesProfitsWithCostCenter(System.String,System.String,System.Boolean)">
+ <summary>
+   حسب مراكز التكلفةدالة تحتوي على استعلام أرباح المبيعات 
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_Sql_GroupBy_Category(System.String,System.String,System.Boolean)">
+ <summary>
+ دالة تحتوي استعلام ارباح المبيعات مجمع حسب مجموعة الصنف
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_Sql_GroupBy_CategorywithCostCenter(System.String,System.String,System.Boolean)">
+ <summary>
+ دالة تحتوي استعلام ارباح المبيعات مجمع حسب مجموعة الصنف
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_Sql_GroupBy_TheDate(System.String,System.String,System.Boolean)">
+ <summary>
+ دالة تحتوي استعلام ارباح المبيعات مجمع حسب التاريخ
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_Sql_GroupBy_TheDatewithCostCenter(System.String,System.String,System.Boolean)">
+ <summary>
+ دالة تحتوي استعلام ارباح المبيعات مجمع حسب التاريخ
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_Sql_GroupBy_Item(System.String,System.String,System.Boolean)">
+ <summary>
+ دالة تحتوي استعلام ارباح المبيعات مجمع حسب  الصنف
+ 
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_Sql_GroupBy_ItemwithCostCenter(System.String,System.String,System.Boolean)">
+ <summary>
+ دالة تحتوي استعلام ارباح المبيعات مجمع حسب  الصنف
+ 
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_Sql_GroupBy_Docment(System.String,System.String,System.Boolean)">
+ <summary>
+ دالة تحتوي استعلام ارباح المبيعات مجمع حسب رقم الفاتورة
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_Stocktaking_Script(System.String,System.Object,System.Boolean)">
+ <summary>
+ استعلام من الجرد المخزني
+ </summary>
+ <param name="Condition"></param>
+ <param name="TheDate"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.GetQtyDescByItemSize(System.Data.DataTable,System.Int64,System.Int64,System.Object,System.String,System.String)">
+ <summary>
+ دالة لجلب وصف كمية الصنف بحسب دليل مقاسات الاصناف
+ </summary>
+ <returns>وصف الكمية</returns>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.GetQtyByMaxUnit(System.Data.DataTable,System.Object,System.Object,System.String,System.Boolean)">
+ <summary>
+ Ibda3: a function to calculate the amount of items in the inventory by the max unit literally
+ </summary>
+ <param name="itemID">the item id from itemsEntries</param>
+ <param name="Quantity">the quantity of the items available in the inventory</param>
+ <returns>the quantity in the inventory represented by the max unite to the min unity literally</returns>
+ <remarks></remarks>		
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_CostPrice_ByAVG(System.Int64,System.Int64,System.Int64,EBS.Classes.Session,System.Double)">
+ <summary>
+داله تعود بسعر تكلفة الصنف  حسب المتوسط المرجح بحسب الاعداد
+ </summary>
+ <param name="ItemID"></param>
+ <param name="UnitID"></param>
+ <param name="CurrentCurrencyID"></param>
+ <param name="BranchID"></param>
+ <param name="CurrentExchangePrice"></param>
+ <returns></returns>
+ ط
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_CostPriceBeforeRelay_ByAVG(System.Int64,System.Int64,System.Int64,System.Int64,System.Double)">
+ <summary>
+داله تعود بسعر تكلفة الصنف قبل الترحيل حسب المتوسط المرجح
+ </summary>
+ <param name="ItemID"></param>
+ <param name="UnitID"></param>
+ <param name="CurrentCurrencyID"></param>
+ <param name="BranchID"></param>
+ <param name="CurrentExchangePrice"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ContinuousInventory.Get_CostPriceAfterRelay_ByAVG(System.Int64,System.Int64,System.Int64,System.Int64,System.Double)">
+ <summary>
+داله تعود بسعر تكلفة الصنف بعد الترحيل حسب المتوسط المرجح
+ </summary>
+ <param name="ItemID"></param>
+ <param name="UnitID"></param>
+ <param name="CurrentCurrencyID"></param>
+ <param name="BranchID"></param>
+ <param name="CurrentExchangePrice"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Classes.clsInventory.TheMethodInventoryCost.Average_InventoryCost">
+ <summary>
+ طريقة المتوسط المرجح
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Classes.clsInventory.TheMethodInventoryCost.FIFO_InventoryCost">
+ <summary>
+ طريقة الوارد أولا صادر أولا
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Classes.clsInventory.TheMethodInventoryCost.FILO_InventoryCost">
+ <summary>
+ طريقة الوارد أولا صادر أخيرا
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Classes.clsInventory.TheMethodInventory.CyclicInventory">
+ <summary>
+ نظام الجرد الدوري
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Classes.clsInventory.TheMethodInventory.ContinuousInventory">
+ <summary>
+ نظام الجرد المستمر
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Classes.clsInventory.Get_ItemCostPrice(EBS.Classes.modMain.InventoryCostTypeEnum,System.Boolean,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Double,System.Boolean,System.Int64)">
+ <summary>
+ داله تعود بسعر تكلفة الصنف بحسب الجرد الدوري وطريقة حساب تكلفة المخزون
+ </summary>
+ <returns>Cost Price</returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="F:EBS.Trader.Classes.ItemEntriesDetails.LoadRatio">
+ <summary>
+ نسبة مصاريف المشتريات على إجمالي الفاتورة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Classes.ItemEntriesDetails.DiscountRatio">
+ <summary>
+ نسبة خصم الفاتورة  على إجمالي الفاتورة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Classes.ItemCost.LoadRatio">
+ <summary>
+ نسبة مصاريف المشتريات على إجمالي الفاتورة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Classes.ItemCost.dt_buySpendingSpecial">
+ <summary>
+  قيمة مصاريف المشتريات الخاصه حسب الصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Classes.ItemCost.DiscountRatio">
+ <summary>
+ نسبة خصم الفاتورة  على إجمالي الفاتورة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Classes.ItemCost.dt_BranchTransferSpendingItems">
+ <summary>
+  قيمة مصاريف الارسال بين الفروع الخاصه حسب الصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Classes.ItemCost.dt_StoreTransferSpendingSpecial">
+ <summary>
+  قيمة مصاريف أمر النقل الخاصه حسب الصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ItemCost.PriceToCurrencyMain(System.Double)">
+ <summary>
+ تحويل المبلغ الى العملة الاساسية
+ </summary>
+ <param name="Amount"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.Trader.Classes.ItemInfo.UpdateItemInfo(System.String,System.Int64,System.Int64,System.Int64,System.Boolean,EBS.Classes.Database,System.Boolean,System.Boolean,System.Int64)">
+ <summary>
+ تابع تحديث معلومات الصنف
+ </summary>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Trader.Classes.ItemInfo.ItemInfo_Query(System.String,System.Int64,System.Int64,System.Boolean,System.Boolean)">
+ <summary>
+ استعلام معلومات الاصناف
+ </summary>
+</member>
+<member name="M:EBS.Trader.Classes.ItemInfo.ItemInfo_Query_BySupplier(System.String,System.Int64,System.Int64)">
+ <summary>
+ استعلام معلومات الصنف بحسب دليل العملاء والموردين
+ </summary>
+</member>
+<member name="M:EBS.Trader.Classes.ItemInfo.InsertRows(System.Data.DataTable,System.Data.DataTable@,EBS.Classes.Database)">
+ <summary>
+ تابع إضافة سجلات جديدة بإستخدام حاوية بيانات
+ </summary>
+</member>
+<member name="M:EBS.Trader.Classes.ItemInfo.UpdateRows(System.Data.DataTable,System.Int32,EBS.Classes.Database)">
+ <summary>
+ تابع تحديث السجلات بإستخدام حاوية بيانات
+ </summary>
+</member>
+<member name="M:EBS.Trader.Classes.ItemInfo.RemoveDuplicate(System.String,System.Data.DataTable@,System.Collections.Generic.List{System.String}@,System.Data.DataTable@,EBS.Classes.Database)">
+ <summary>
+ دالة لحذف السجلات المكررة من الجدول
+ </summary>
+</member>
+<member name="M:EBS.Trader.Classes.ItemInfo.EnableDBChangeTracking(EBS.Classes.Database)">
+ <summary>
+ تفعيل المزامنة في قاعدة البيانات
+ </summary>
+</member>
+<member name="F:EBS.Trader.Category.MediatorAccountsEnum.AgentsRights">
+ <summary>
+ حقوق الوكلاء
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Category.MediatorAccountsEnum.AgentsCommitments">
+ <summary>
+ التزامات الوكلاء
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Category.MediatorAccountsEnum.TransfersReceivingDiff">
+ <summary>
+ فوارق قبض الحوالات
+ </summary>
+ <remarks></remarks>            
+ 
+</member>
+<member name="F:EBS.Trader.Category.MediatorAccountsEnum.TransfersDeliveringDiff">
+ <summary>
+ فوارق صرف الحوالات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Category.MediatorAccountsEnum.TransfersImportingDiff">
+ <summary>
+ فوارق توريد الحوالات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Category.MediatorAccountsEnum.TransfersExportingDiff">
+ <summary>
+ فوارق تصدير الحوالات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Category.MediatorAccountsEnum.ChequesUnderProcuring">
+ <summary>
+ شيكات تحت التحصيل
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Category.MediatorAccountsEnum.ChequesUnderDeserving">
+ <summary>
+ شيكات مؤجلة الدفع
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Category.MediatorAccountsEnum.ChequesProcuringDiff">
+ <summary>
+ فوارق تحصيل الشيكات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Category.MediatorAccountsEnum.IncomingCheques">
+ <summary>
+ الشيكات الواردة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Category.MediatorAccountsEnum.OutgoinCheques">
+ <summary>
+ الشيكات الصادرة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Category.MediatorAccountsEnum.HastyTransfers">
+ <summary>
+ الحوالات المستعجلة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Category.MediatorAccountsEnum.ChequesDeservingDiff">
+ <summary>
+ فوارق استحقاق الشيكات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.CustomerSupplier.GetItemBonus(System.Int64,System.Int64,System.Double,System.Double,System.Int64)">
+ <summary>
+ دالة تعود بالبونص 
+ </summary>
+ <param name="ItemID"></param>
+ <param name="SupplierID"></param>
+ <param name="ItemPrice"></param>
+ <param name="ItemQuantity"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.InvoiceForm.lblInfo">
+ <summary>
+ تابع عرض تفاصيل اضافية أسفل الفاتورة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.InvoiceForm.CalcSubDiscountRate(System.Windows.Forms.DataGridViewCellEventArgs)">
+ <summary>
+ تابع حساب الخصم نسبة في الشبكة
+ </summary>
+ <remarks>TAHA-MOHAMMED</remarks>
+</member>
+<member name="M:EBS.Trader.InvoiceForm.Initialize_ExtraCommands">
+ <summary>
+ دالة اضافة الخيارات الاضافية الى النافذه
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.InvoiceForm.Test_Details_Ok(EBS.ibsMasterDetailsSimple,System.Boolean,EBS.Trader.MoveTypeEnum,System.Object)">
+ <summary>
+ فحص  
+ </summary>
+ <param name="DetailsForms"></param>
+ <param name="Is_Add"></param>
+ <param name="MoveType"></param>
+ <param name="idx"></param>
+ <returns>M.gholis</returns>
+</member>
+<member name="M:EBS.Trader.InvoiceForm.ShowItemSearch(System.Windows.Forms.KeyEventArgs,EBS.Trader.ModMain.ItemSearchTypeEnum,System.Int32)">
+ <summary>
+ تابع عرض نافذه البحث عن الصنف بحسب اعدادات آلية البحث
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.InvoiceForm.dgvMain_CellPainting(System.Object,System.Windows.Forms.DataGridViewCellPaintingEventArgs)">
+ <summary>
+ حل مشكلة اختلاف رقم الصنف حروف وارقام في الشبكة
+ </summary>
+</member>
+<member name="M:EBS.Trader.InvoiceForm.Show_Orders_Numbers(System.String,System.String,System.Int64)">
+ <summary>
+ دالة لإظهار ارتباطات المستند الحالي بالأستيرادات المرتبطة
+ </summary>
+</member>
+<member name="M:EBS.Trader.InvoiceForm.Get_Orders_Numbers(System.String,System.String,System.Int64)">
+ <summary>
+ دالة تجلب ارتباطات المستند الحالي بالأستيرادات المرتبطة
+ </summary>
+ <param name="SourceTable"></param>
+ <param name="TargetTable"></param>
+ <param name="TargetID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.InvoiceForm.Relay(System.Boolean)">
+ <summary>
+ يتم استدعاء هذا التابع في الفورم وليس الوندو
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.InvoiceForm.ShowItemInfoInTheGrid(System.Windows.Forms.DataGridViewCellEventArgs@,System.Object,System.Boolean,System.Boolean@)">
+ <summary>
+ تابع عرض معلومات الصنف في الشبكة
+ </summary>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Trader.InvoiceWindow.Relay(System.Int64,System.Boolean,System.Boolean)">
+ <summary>
+ يتم استدعاء هذا التابع في الوندو وليس الفورم
+ </summary>
+</member>
+<member name="M:EBS.Trader.InvoiceWindow.TestStopStore(EBS.Services.ibsSimpleWindow,System.Boolean,EBS.Trader.MoveTypeEnum,System.Object,System.Boolean)">
+ <summary>
+ فحص توقيف المخازن
+ </summary>
+ <param name="DetailsWindow"></param>
+ <param name="Is_Add"></param>
+ <param name="MoveType"></param>
+ <param name="idx"></param>
+ <returns></returns>
+ <remarks>M.gholis</remarks>
+</member>
+<member name="M:EBS.Trader.InvoiceWindow.Test_ItemMaxOrder(EBS.Services.ibsSimpleWindow,System.Boolean,System.Object)">
+ <summary>
+ فحص الحد الاعلى لكمية طلب الصنف
+ </summary>
+ <returns>Boolean</returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="T:EBS.Trader.ItemTypeEnum">
+ <summary>
+ أنواع الأصناف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.ItemTypeEnum.Goods">
+ <summary>
+ سلعي
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.ItemTypeEnum.Service">
+ <summary>
+ خدمي
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.ItemTypeEnum.Consumed">
+ <summary>
+ استهلاكي
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.ItemTypeEnum.Made">
+ <summary>
+ مصنع
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.ItemTypeEnum.Compound">
+ <summary>
+ مجمع
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:EBS.Trader.MoveTypeEnum">
+ <summary>
+ أنواع حركات الصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.MoveTypeEnum.IncomingOutgoing">
+ <summary>
+ وارد ومنصرف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.MoveTypeEnum.Incoming">
+ <summary>
+ وارد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.MoveTypeEnum.Outgoing">
+ <summary>
+ منصرف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.CostPrice_Item">
+ <summary>
+ سعر التكلفه في دليل الاصناف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.PartingPrice_Item">
+ <summary>
+ سعر التجزئه في دليل الاصناف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.AltogetherPrice_Item">
+ <summary>
+ سعر الجمله في دليل الاصناف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.SpecialPrice_Item">
+ <summary>
+ سعر خاص في دليل الاصناف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.Average_BuyPrice">
+ <summary>
+ متوسط سعر الشراء 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.LastItem_BuyPrice">
+ <summary>
+ آخر سعر شراء للصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.LastSupplier_BuyPrice">
+ <summary>
+   آخر سعر شراء للمورد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.MaxItem_BuyPrice">
+ <summary>
+  أعلى سعر شراء للصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.MaxSupplier_BuyPrice">
+ <summary>
+  أعلى سعر شراء للمورد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.MinItem_BuyPrice">
+ <summary>
+  أقل سعر شراء للصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.MinSupplier_BuyPrice">
+ <summary>
+  أقل سعر شراء للمورد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.MinItem_SellPrice">
+ <summary>
+ أقل سعر بيع للصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.MaxItem_SellPrice">
+ <summary>
+ أعلى سعر بيع للصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.MinCustomer_SellPrice">
+ <summary>
+ أقل سعر بيع للعميل
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.MaxCustomer_SellPrice">
+ <summary>
+  أعلى سعر بيع للعميل
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.LastItem_SellPrice">
+ <summary>
+ آخر سعر بيع للصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.LastCustomer_SellPrice">
+ <summary>
+  آخر سعر بيع للعميل
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.Avreage_SellPrice">
+ <summary>
+ متوسط سعر البيع للصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.Other_Price">
+ <summary>
+ سعر آخر
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.LastSellPrice">
+ <summary>
+ آخر سعر تجزئة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.PartingPrice_Barcode">
+ <summary>
+ سعر التجزئه في دليل الباركود
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.MaxPriceSelling">
+ <summary>
+ الحد الاعلى لسعر البيع من دليل وحدات الصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.MinPriceSelling">
+ <summary>
+ الحد الأدنئ لسعر البيع من دليل وحدات الصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitPriceItemEnum.WholesalePrice">
+ <summary>
+ سعر جملة الجملة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitBuyPriceEnum.CostPrice_Item">
+ <summary>
+ سعر التكلفه في دليل الاصناف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitBuyPriceEnum.LastItem_BuyPrice">
+ <summary>
+ آخر سعر شراء للصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitBuyPriceEnum.LastSupplier_BuyPrice">
+ <summary>
+   آخر سعر شراء للمورد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitBuyPriceEnum.MaxItem_BuyPrice">
+ <summary>
+  أعلى سعر شراء للصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitBuyPriceEnum.MaxSupplier_BuyPrice">
+ <summary>
+  أعلى سعر شراء للمورد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitBuyPriceEnum.MinItem_BuyPrice">
+ <summary>
+  أقل سعر شراء للصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitBuyPriceEnum.MinSupplier_BuyPrice">
+ <summary>
+  أقل سعر شراء للمورد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitBuyPriceEnum.Other_Price">
+ <summary>
+ سعر آخر
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitBuyPriceEnum.SellPrice">
+ <summary>
+ سعر البيع
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitSellPriceEnum.PartingPrice_Item">
+ <summary>
+ سعر التجزئه في دليل الاصناف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitSellPriceEnum.AltogetherPrice_Item">
+ <summary>
+ سعر الجمله في دليل الاصناف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitSellPriceEnum.SpecialPrice_Item">
+ <summary>
+ سعر خاص في دليل الاصناف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitSellPriceEnum.LastItem_SellPrice">
+ <summary>
+ آخر سعر بيع للصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitSellPriceEnum.LastCustomer_SellPrice">
+ <summary>
+  آخر سعر بيع للعميل
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitSellPriceEnum.MaxItem_SellPrice">
+ <summary>
+ أعلى سعر بيع للصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitSellPriceEnum.MaxCustomer_SellPrice">
+ <summary>
+  أعلى سعر بيع للعميل
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitSellPriceEnum.MinItem_SellPrice">
+ <summary>
+ أقل سعر بيع للصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitSellPriceEnum.MinCustomer_SellPrice">
+ <summary>
+ أقل سعر بيع للعميل
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitSellPriceEnum.Other_Price">
+ <summary>
+ سعر آخر
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.Item.UnitSellPriceEnum.WholesalePrice">
+ <summary>
+ سعر جملة الجملة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.Trader.Item.CostitemFromitemData(System.Int64,System.Int64)">
+ <summary>
+ جلب تكلفة الصنف من دليل الاصناف
+ </summary>
+ <param name="ItemID"></param>
+ <param name="UnitID"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.Trader.Item.CalcExchangePrices(System.Int64,System.Double,System.Double,System.Int64,System.Int64,System.Double,System.Boolean)">
+ <summary>
+ 'داله لتحويل المبلغ المرسل من العمله المصدر الة العمله الهدف بالسعر الجاري او السعر المرسل
+ </summary>
+ <param name="CurrentCurrencyID"></param>
+ <param name="ExchangePrice"></param>
+ <param name="UnitPrice"></param>
+ <param name="SourceCurrencyID"></param>
+ <param name="BranchID"></param>
+ <param name="ExchangePriceItem"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.Trader.Item.Get_PrevQuantity(System.Double,System.Int64,System.Int64,System.Int64)">
+ <summary>
+ تابع يعود بالكمية السابقه من الصنف حسب الوحده الجديده
+ </summary>
+ <param name="prevQuantity"></param>
+ <param name="prevQuantityUnitID"></param>
+ <param name="CurrentUnitID"></param>
+ <param name="ItemID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Item.Get_Last_PartPrice(System.Int64,System.Int64,System.Int64,System.Int64,System.Double)">
+ <summary>
+ دالة تعود بسعر البيع في دليل الباركود
+ </summary>
+ <param name="ItemID"></param>
+ <param name="UnitID"></param>
+ <param name="CurrentCurrencyID"></param>
+ <param name="BranchID"></param>
+ <param name="ExchangePrice"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.Trader.Item.IsExpiry(System.String)">
+ <summary>
+ فحص هل الصنف ينتهي 
+ </summary>
+ <param name="ItemName"></param>
+ <returns></returns>
+ <remarks>M.gholis</remarks>
+</member>
+<member name="M:EBS.Trader.Item.Get_UnitPrice_From_ItemsBarcodes(System.String)">
+ <summary>
+ لمعرفة سعر البيع في دليل الباركود للوحدة الصغرى
+ </summary>
+</member>
+<member name="M:EBS.Trader.Item.SalePriceLessThanCostPrice(System.Int64,System.Int64,System.Double,System.Int64,System.Int64)">
+ <summary>
+ داله لفحص سعر الشراء الحالي ومقارنته بسعر البيع
+ </summary>
+ <param name="ItemID"></param>
+ <param name="UnitID"></param>
+ <param name="UnitPrice"></param>
+ <param name="CurrencyID"></param>
+ <param name="BranchID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Item.IsDiscounted(System.String)">
+ <summary>
+ الصنف خاضع للتخفيضات
+ </summary>
+</member>
+<member name="M:EBS.Trader.Item.Get_UnitPrice_Value_Cash(System.Int64,System.Int64,System.Int64,EBS.Trader.Item.UnitPriceItemEnum,System.Int64,System.Int64,System.Boolean)">
+ <summary>
+ تابع يتم فيه جلب اسعار الصنف من قاعدة بيانات الكاش في حال الاتصال عن بعد
+ </summary>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Trader.Item.Get_Cash_Value(System.String,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64)">
+ <summary>
+ جلب بيانات حقل معين من قاعدة الكاش - معلومات الصنف
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Item.ItemInfo_Query(System.String,System.Int64,System.Int64,System.Collections.Generic.List{System.String})">
+ <summary>
+ تابع يعود بإستعلام معلومات الصنف
+ </summary>
+ <returns></returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Trader.Item.Get_ItemStock(System.Int64,System.Int64,EBS.Classes.Session,System.Int64,System.DateTime,System.Boolean)">
+ <summary>
+ تابع يعود بمخزون الصنف بحسب اعدادات المخزون
+ </summary>
+ <returns>Item Stock</returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Trader.Item.Get_ItemCostPrice(System.Int64,System.Int64,System.Int64,EBS.Classes.Session,System.Int64,System.Double,System.Int64,System.Int64,System.Boolean,System.String,EBS.Classes.Database)">
+ <summary>
+ تابع يعود بسعر تكلفة الصنف بحسب اعدادات المخزون
+ </summary>
+ <returns>Cost Price</returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Trader.Item.Get_CostPrice_LastBuyInPriceNotSpending(System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Double,System.Int64,System.Boolean,System.Int64)">
+ <summary>
+ جلب اخر سعر شراء بدون المصاريف 
+ </summary>
+ <param name="ItemID"></param>
+ <param name="UnitID"></param>
+ <param name="CurrentCurrencyID"></param>
+ <param name="BranchID"></param>
+ <param name="StoreID"></param>
+ <param name="CurrentExchangePrice"></param>
+ <param name="ClientID"></param>
+ <param name="UpdateBuyExchangePrice"></param>
+ <param name="CostCenterID"></param>
+ <returns></returns>
+ <remarks>M.gholis</remarks>
+</member>
+<member name="T:EBS.Trader.DocumentTypeEnum">
+ <summary>
+ أنواع مستندات 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.DocumentTypeEnum.Receive">
+ <summary>
+ توريد فقط
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.DocumentTypeEnum.Spend">
+ <summary>
+ صرف فقط
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.Stock.ItemStockQuantity(System.Int64,System.Int64,System.Int64,System.Int64,System.Object,System.Boolean,EBS.Trader.ModMain.InventoryStateEnum,System.Boolean)">
+ <summary>
+ تابع يعود بكمية الصنف في المخزون بحسب اعدادات المخزون
+ </summary>
+ <returns>Item Quantity</returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Trader.Stock.ItemDepositStockQuantity(System.Int64,System.Int64,System.Int64,System.Int64,System.Object)">
+ <summary>
+ تابع يعود بكمية الصنف في مخزون الامانات
+ </summary>
+ <returns>Item Quantity</returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Trader.frmInv_ItemInfoAdvance.SetAutoCompleteSource(System.Windows.Forms.TextBox@,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ دالة تقوم بتحديد مصدر التكلمة التلقائية للأدوات التي تقبل النص
+ </summary>
+ <param name="txtcontrol">الأداة </param>
+ <param name="SourceObject"> الجدول </param>
+ <param name="SourceField"> حقل البيانات</param>
+ <param name="WhereCond">الشرط </param>
+ <param name="IsDestincted">عدم السماح باسترجاع البيانات المكررة</param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.frmInv_ItemInfoAdvance.Fill_Free(System.Windows.Forms.DataGridView,System.Data.DataTable[])">
+ <summary>
+ لتعبئة الشبكةمن أكثر من داتا تيبل باستخدام حلقة حتى نتمكن من اضافة اسطر الاجمالي بحرية
+ </summary>
+</member>
+<member name="M:EBS.Trader.frmDocumentsRelaying.CheckSalesLessCostPrice(System.Windows.Forms.DataGridViewRow,System.Boolean)">
+ <summary>
+ دالة لعرض الاصناف التي تم بيعها باقل من سعر التكلفه
+ </summary>
+ <param name="CurrentRow"></param>
+ <param name="ShowReport"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.frmDocumentsRelaying.Relay_Document(System.Windows.Forms.DataGridViewRow)">
+ <summary>
+ داله تقوم بترحيل المستندات
+ </summary>
+ <param name="Row"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.frmDocumentsRelaying.ChangeOutgoingCostPrice(System.Int64)">
+ <summary>
+ اعادة تسعير الوارد والمنصرف في مستندات  تحويل الأصناف
+ </summary>
+ <param name="DocID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.frmDocumentsRelaying.LinkItemToSupplier(System.Windows.Forms.DataGridViewRow)">
+ <summary>
+ داله تقوم باعاده ربط الاصناف بالمورد
+ </summary>
+ <param name="Row"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.frmDocumentsRelaying.RelayLinkItemToSupplier(System.Collections.Generic.List{System.Int64})">
+ <summary>
+ تقوم بترحيل سجلات اعادة الربط التي تم تحديدها بالداله السابقه
+ </summary>
+ <param name="IDs"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.frmInv_ItemInfo.SetAutoCompleteSource(System.Windows.Forms.TextBox@,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ دالة تقوم بتحديد مصدر التكلمة التلقائية للأدوات التي تقبل النص
+ </summary>
+ <param name="txtcontrol">الأداة </param>
+ <param name="SourceObject"> الجدول </param>
+ <param name="SourceField"> حقل البيانات</param>
+ <param name="WhereCond">الشرط </param>
+ <param name="IsDestincted">عدم السماح باسترجاع البيانات المكررة</param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.frmInv_ItemInfoByName.SetAutoCompleteSource(System.Windows.Forms.TextBox@,System.String,System.String,System.String,System.Boolean)">
+ <summary>
+ دالة تقوم بتحديد مصدر التكلمة التلقائية للأدوات التي تقبل النص
+ </summary>
+ <param name="txtcontrol">الأداة </param>
+ <param name="SourceObject"> الجدول </param>
+ <param name="SourceField"> حقل البيانات</param>
+ <param name="WhereCond">الشرط </param>
+ <param name="IsDestincted">عدم السماح باسترجاع البيانات المكررة</param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.frmItemSearchAdvanceNew.GetInvoiceTotal">
+ <summary>
+ عرض إجمالي الفاتورة في البحث المتقدم
+ </summary>
+</member>
+<member name="M:EBS.Trader.frmItemSearchAdvanceNew.ibsGetExchangePriceNew(System.Int64,System.Int64,EBS.Classes.Session)">
+ <summary>
+ alaqari
+ 2022=05-11
+ </summary>
+ <param name="SourceCurrencyID"></param>
+ <param name="TargetCurrencyID"></param>
+ <param name="Mysesstion"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.Trader.frmItemSearchAdvanceNew.dgvMain_CellFormatting(System.Object,System.Windows.Forms.DataGridViewCellFormattingEventArgs)">
+ <summary>
+ تلوين السجلات بحسب كمية المخزون  
+ </summary>
+</member>
+<member name="M:EBS.Trader.frmItemSearchAdvanceNew.dgvMain_CellMouseDoubleClick(System.Object,System.Windows.Forms.DataGridViewCellMouseEventArgs)">
+ <summary>
+ 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:EBS.Trader.frmItemSearchAdvanceNew.AddWorkerCode(System.Data.DataTable@,System.String,EBS.ibsMasterDetailsSimple,System.Int64)">
+ <summary>
+ تابع ادخال رمز العامل عند اضافة الاصناف من البحث المتقدم
+ </summary>
+ <param name="dt_Items"></param>
+ <param name="ItemName"></param>
+ <param name="TheForm"></param>
+ <param name="SerialNumber"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.frmItemSearchAdvanceNew.dgvMain_CellPainting(System.Object,System.Windows.Forms.DataGridViewCellPaintingEventArgs)">
+ <summary>
+ محاذاة النص الى اليسار ف
+ </summary>
+</member>
+<member name="M:EBS.Trader.frmItemSearchAdvance.GetInvoiceTotal">
+ <summary>
+ عرض إجمالي الفاتورة في البحث المتقدم
+ </summary>
+</member>
+<member name="M:EBS.Trader.frmItemSearchAdvance.dgvMain_CellFormatting(System.Object,System.Windows.Forms.DataGridViewCellFormattingEventArgs)">
+ <summary>
+ تلوين السجلات بحسب كمية المخزون  **TAHA**
+ </summary>
+</member>
+<member name="M:EBS.Trader.frmItemSearchAdvance.dgvMain_CellMouseDoubleClick(System.Object,System.Windows.Forms.DataGridViewCellMouseEventArgs)">
+ <summary>
+ 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:EBS.Trader.frmItemSearchAdvance.AddWorkerCode(System.Data.DataTable@,System.String,EBS.ibsMasterDetailsSimple,System.Int64)">
+ <summary>
+ تابع ادخال رمز العامل عند اضافة الاصناف من البحث المتقدم
+ </summary>
+ <param name="dt_Items"></param>
+ <param name="ItemName"></param>
+ <param name="TheForm"></param>
+ <param name="SerialNumber"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.frmItemSearchAdvance.dgvMain_CellPainting(System.Object,System.Windows.Forms.DataGridViewCellPaintingEventArgs)">
+ <summary>
+ محاذاة النص الى اليسار ف
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks>M.gholis</remarks>
+</member>
+<member name="M:EBS.Trader.frmUpdateItemInfo.ItemInfo_Update(System.String,System.Int64,System.Int64,System.Boolean)">
+ <summary>
+ تابع تحديث معلومات الصنف
+ </summary>
+</member>
+<member name="M:EBS.Trader.frmUpdateItemInfo.ItemInfo_Query(System.String,System.Int64,System.Int64)">
+ <summary>
+ استعلام معلومات الاصناف
+ </summary>
+</member>
+<member name="M:EBS.Trader.frmUpdateItemInfo.ItemInfo_Query_BySupplier(System.String,System.Int64,System.Int64)">
+ <summary>
+ استعلام معلومات الصنف بحسب دليل العملاء والموردين
+ </summary>
+</member>
+<member name="M:EBS.Trader.frmUpdateItemInfo.Add_Message(System.String,System.Boolean,System.Boolean,System.Boolean)">
+ <summary>
+ اضافة الرسائل في القائمة
+ </summary>
+</member>
+<member name="T:EBS.Trader.ModMain.InventoryStateEnum">
+ <summary>
+ حالات الجرد للمخزون (دوري,مستمر)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.ModMain.InventoryStateEnum.الجرد_الدوري">
+ <summary>
+ الجرد الدوري
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Trader.ModMain.InventoryStateEnum.الجرد_المستمر">
+ <summary>
+ الجرد المستمر
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:EBS.Trader.ModMain.InventoryGetQuantityEnum">
+ <summary>
+ طريقة جلب كمية الصنف في المخزون
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:EBS.Trader.ModMain.InventoryGetCostPriceEnum">
+ <summary>
+ طريقة جلب سعر تكلفة الصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:EBS.Trader.ModMain.ItemSearchTypeEnum">
+ <summary>
+ نوع نافذه البحث عن الصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.ModMain.TranslateText(System.String,System.String)">
+ <summary>
+ ترجمة عبر قوقل
+ </summary>
+ <param name="input"></param>
+ <param name="languagePair"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.ModMain.TranslateThis(System.String)">
+ <summary> دالة للترجمة </summary>
+ <param name="txtSource"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.ModMain.Show_Window(System.String,System.Int64,System.DateTime,EBS.Classes.Session)">
+ <summary>RecordID تابع لغرض عرض المستند الاصلي شريطة ان يكون في التقرير احتواء على اسم المستند و </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.ModMain.ShowIteminfoByBarcode(EBS.Controls.ibsDataGridView,EBS.Classes.Session)">
+ <summary>
+ باستخدام F11 لفتح نافذة معلومات الصنف
+ </summary>
+ <param name="TheGrid"></param>
+ <param name="MySession"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.PrintMarks.AddMarkToMainReport(CrystalDecisions.CrystalReports.Engine.ReportDocument,System.Data.DataSet@,CrystalDecisions.CrystalReports.Engine.ReportDocument)">
+ <summary>
+ تابع اضافة صورة العلامات التجارية في طباعة المستندات
+ </summary>
+ <param name="mainReport"></param>
+ <param name="MarkReport"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.wndEBS_Import.PrepareWndTables(System.String,System.String,System.Data.DataTable)">
+ <summary>
+  "MyOpInfo"تابع يقوم باسناد اسماء الويندو الخاصة برأس وتفاصيل الجدول الهدف وتهيئة 
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+ 
+</member>
+<member name="M:EBS.Trader.wndMain.EditItemGroups(System.Object[])">
+ <summary>
+ هذا الاجراء يستخدم لاضافة مجموعات للاصناف او حذفها
+ </summary>
+ <param name="Args">ارقام مجموعات الاصناف المراد اضافتها او حذفها </param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.wndMain.AddNewItemGroup(System.Object[])">
+ <summary>
+ هذا الاجراء يستخدم لاضافة محموعة اصناف جديدة من خلال دليل الاصناف
+ </summary>
+ <param name="Args">وسيط يمثل اسم المجموعة</param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.wndMain.ISMoreUnit(System.Object[])">
+ <summary>
+ 
+ لمعرفة هل الصنف يمتلك اكثر من وحده
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.wndMain.UpdatePreviousDocumentsRecords(System.Object[])">
+ <summary>
+ دالة تقوم بعملية التحديث للبيانات السابقة الغير مرحلة للتوافق مع الطريقة الجديدة في  القيود المحاسبية والمخزنية
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.wndMain.AddItems_ToDetails(System.Object[])">
+ <summary>
+ اضافه الاصناف من شاشه البحث المتقدم في نوافذ الراس والتفاصيل
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Trader.wndMain.UpdateEntries(System.Object[])">
+ <summary>
+ دالة لتحديث القيود المحاسبية والمخزنية المفقودة
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

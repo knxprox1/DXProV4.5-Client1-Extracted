@@ -1,0 +1,1129 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.Hotels
+</name>
+</assembly>
+<members>
+<member name="T:EBS.Hotels.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._003_exchange">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._004_repeat_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._005_monitor_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._007_repeat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._009_cloud_computing_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._011_form">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._013_locked">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._016_monitor_6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._020_wallet">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._022_pie_chart_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._024_graph">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._025_money_bag">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._035_printer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._036_printed">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._037_paper_printer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._040_measuring">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._043_barcode_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._049_discount">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._050_sales">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._051_stock_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._052_stock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._055_bank">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._056_check">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._059_transfer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._060_user_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._069_id_card">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._071_credit_card_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._072_credit_card">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._081_shopping_cart">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._082_cart_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._087_warehouse">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._090_invoice">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._091_receipt">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._097_cheque_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._100_cheque">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._123_analytics_5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._127_money_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._137_browser_7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._148_app">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._153_shield_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._164_technology_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._177_money">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._185_arrow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources._195_lock_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Account1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Account2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Account3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Account4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Account5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Account6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Account7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Account8">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.AccountMenu">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.accounts">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Add">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Add1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Add2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.BlackList_Person">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.BlackListCountry">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.BlackListCountry1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.BlackListMenue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.booking">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.buildings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.businessman__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.chart">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.CleanSetting">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Clearin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.clearout">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.clipboard">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.contract__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.CustomersBills">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.CustomerSetting">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.DXPRO">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.GreenDoor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.help">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.hotel__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.IBS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.imageNews">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Lend">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Logo_png">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Logo_png__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.LoungeReservation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.LoungeSetting">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Mines">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.monitor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.online_booking">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.percentage">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.pie_chart">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Plus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.presentation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Reapeat2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.rear">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.recievingwindow">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.RedDoor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.report__1_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Report2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Report5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Report6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Report7">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.ReportAge">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.ReportClean">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.ReportCustomer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.ReportDesigner">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.ReportMenue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Res">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.rescustomers">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.Reservation">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.reservation1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.reservation3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.ReservationSettings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.RM2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.RM3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.RM4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.RM5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.RoomManagmentMenue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.RoomSetting">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.SavedReport">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.settings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.settings__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.smartphone__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.sms">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.suite">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.support">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.SystemSettings">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.tools">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.transfer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.إيقونة_الادارة">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.ايقونة_جديدة_للدوت_اكس_برو">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.ايقونة_جديدة_للدوت_اكس_برو1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.نظام_الفنادقArtboard_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.نظام_الفنادقArtboard_1__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.نظام_الفنادقArtboard_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.نظام_الفنادقArtboard_2__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.نظام_الفنادقArtboard_3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Hotels.My.Resources.Resources.نظام_الفنادقArtboard_3__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="F:EBS.Hotels.Category.MediatorAccountsEnum.AgentsRights">
+ <summary>
+ حقوق الوكلاء
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Hotels.Category.MediatorAccountsEnum.AgentsCommitments">
+ <summary>
+ التزامات الوكلاء
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Hotels.Category.MediatorAccountsEnum.TransfersReceivingDiff">
+ <summary>
+ فوارق قبض الحوالات
+ </summary>
+ <remarks></remarks>            
+ 
+</member>
+<member name="F:EBS.Hotels.Category.MediatorAccountsEnum.TransfersDeliveringDiff">
+ <summary>
+ فوارق صرف الحوالات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Hotels.Category.MediatorAccountsEnum.TransfersImportingDiff">
+ <summary>
+ فوارق توريد الحوالات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Hotels.Category.MediatorAccountsEnum.TransfersExportingDiff">
+ <summary>
+ فوارق تصدير الحوالات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Hotels.Category.MediatorAccountsEnum.ChequesUnderProcuring">
+ <summary>
+ شيكات تحت التحصيل
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Hotels.Category.MediatorAccountsEnum.ChequesUnderDeserving">
+ <summary>
+ شيكات مؤجلة الدفع
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Hotels.Category.MediatorAccountsEnum.ChequesProcuringDiff">
+ <summary>
+ فوارق تحصيل الشيكات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Hotels.Category.MediatorAccountsEnum.IncomingCheques">
+ <summary>
+ الشيكات الواردة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Hotels.Category.MediatorAccountsEnum.OutgoinCheques">
+ <summary>
+ الشيكات الصادرة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Hotels.Category.MediatorAccountsEnum.HastyTransfers">
+ <summary>
+ الحوالات المستعجلة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Hotels.Category.MediatorAccountsEnum.ChequesDeservingDiff">
+ <summary>
+ فوارق استحقاق الشيكات
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Hotels.CustomerSupplier.GetItemBonus(System.Int64,System.Int64,System.Double,System.Double,System.Int64)">
+ <summary>
+ دالة تعود بالبونص 
+ </summary>
+ <param name="ItemID"></param>
+ <param name="SupplierID"></param>
+ <param name="ItemPrice"></param>
+ <param name="ItemQuantity"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:EBS.Hotels.DocumentTypeEnum">
+ <summary>
+ أنواع مستندات 
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Hotels.DocumentTypeEnum.Receive">
+ <summary>
+ توريد فقط
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Hotels.DocumentTypeEnum.Spend">
+ <summary>
+ صرف فقط
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Hotels.Forms.#ctor(EBS.Classes.Session)">
+ <summary>
+ 
+ </summary>
+ <param name="Session"></param>
+</member>
+<member name="T:EBS.Hotels.HotelDS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDS.vewpublicBillDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDS.vewhtl_MortgageHeadDetailssDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDS.ResInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDS.vewInv_StoreReceivingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDS.vewpublicBillRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDS.vewhtl_MortgageHeadDetailssRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDS.ResInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDS.vewInv_StoreReceivingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDS.vewpublicBillRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDS.vewhtl_MortgageHeadDetailssRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDS.ResInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDS.vewInv_StoreReceivingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDSTableAdapters.vewpublicBillTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDSTableAdapters.vewhtl_MortgageHeadDetailssTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDSTableAdapters.ResInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDSTableAdapters.vewInv_StoreReceivingDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDSTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.Hotels.HotelDSTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.Hotels.HotelDS,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.Hotels.HotelDSTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.Hotels.HotelDS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.Hotels.HotelDSTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.Hotels.HotelDS,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.Hotels.HotelDSTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.Hotels.HotelDSTableAdapters.TableAdapterManager.UpdateAll(EBS.Hotels.HotelDS)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDSTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDSTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:EBS.Hotels.MortgageDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.Hotels.MortgageDataSet.vewhtl_MortgageHeadDetailssDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Hotels.MortgageDataSet.vewhtl_MortgageHeadDetailssRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Hotels.MortgageDataSet.vewhtl_MortgageHeadDetailssRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Hotels.MortgageDataSetTableAdapters.vewhtl_MortgageHeadDetailssTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Hotels.MortgageDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.Hotels.MortgageDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.Hotels.MortgageDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.Hotels.MortgageDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.Hotels.MortgageDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.Hotels.MortgageDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.Hotels.MortgageDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.Hotels.MortgageDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.Hotels.MortgageDataSetTableAdapters.TableAdapterManager.UpdateAll(EBS.Hotels.MortgageDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.Hotels.MortgageDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.Hotels.MortgageDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDBDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDBDataSet.DataTable2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDBDataSet.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDBDataSet.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDBDataSet.DataTable2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDBDataSet.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDBDataSet.DataTable2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="M:EBS.Hotels.modMain.NumberingDocument(EBS.Services.clsWindowOperation@,System.String,System.Boolean,EBS.Classes.Session,EBS.Classes.Database)">
+ <summary>
+ ترقيم السندات المحاسبية بحسب الاعدادات
+ </summary>
+ <param name="Is_Add"></param>
+ <param name="ActiveOperation"></param>
+ <param name="TableName"></param>
+ <returns></returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Hotels.modFixedAssets.differentiate_DGVRowsBGColor(System.Windows.Forms.DataGridView@,System.Boolean)">
+ <summary>
+ تمييز لون الصفوف في الشبكة حسب ترتيبها فردي أو زوجي
+ </summary>
+ <param name="Dgv">مرجع إلى أداة الشبكة</param>
+ <remarks></remarks>
+ <Author>M.Heyasi</Author>
+</member>
+<member name="M:EBS.Hotels.frmhtltheMainPill.buildCommand5">
+ <summary>
+ 
+ </summary>
+</member>
+<member name="T:EBS.Hotels.HotelDBDataSetTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDBDataSetTableAdapters.DataTable2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDBDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.Hotels.HotelDBDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.Hotels.HotelDBDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.Hotels.HotelDBDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.Hotels.HotelDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.Hotels.HotelDBDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.Hotels.HotelDBDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.Hotels.HotelDBDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.Hotels.HotelDBDataSetTableAdapters.TableAdapterManager.UpdateAll(EBS.Hotels.HotelDBDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDBDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.Hotels.HotelDBDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:EBS.Hotels.TestNew.سنداتالصرفToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ ''''''''''
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Hotels.UCRoom.سنداتالصرفToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ ''''''''''
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,52 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.SMS
+</name>
+</assembly>
+<members>
+<member name="T:EBS.SMS.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.SMS.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.SMS.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="F:EBS.SMS.SMS_Provider.AccountBranch">
+ <summary>
+ يمثل فرع الحساب وغالبا يكون نفس الفرع الحالي باستثناء الصرف والقبض والقيد بين الفروع فيكون فرع الحساب
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.SMS.SMS_Provider.isInternetConnectionAvailable">
+ <summary>
+ التأكد من توفر إتصال بالانترنت
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.SMS.SMS_Provider.GetSmsMessage(System.String,System.String,System.String,System.Double,System.Boolean,System.String)">
+ <summary>
+ This Function to create the SMS
+ </summary>
+ <param name="AccountName">Account Name</param>
+ <param name="DocType">Document Type</param>
+ <param name="CurrencyName"></param>
+ <param name="Amount">Amount</param>
+ <param name="IsDebtor">Process Type</param>
+ <param name="Notes">Notes</param>
+ <returns>Returned Created Message</returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

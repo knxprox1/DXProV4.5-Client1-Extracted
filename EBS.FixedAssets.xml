@@ -1,0 +1,945 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.FixedAssets
+</name>
+</assembly>
+<members>
+<member name="T:EBS.FixedAssets.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.FixedAssets.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.FixedAssets.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.Version1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.Version1.rptDepDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.Version1.rptGroupBySubAndCostDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.Version1.rptDepDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.Version1.rptGroupBySubAndCostRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.Version1.rptDepDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.Version1.rptGroupBySubAndCostRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.Version1TableAdapters.rptDepDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.Version1TableAdapters.rptGroupBySubAndCostTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.Version1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.Version1TableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.FixedAssets.Version1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.Version1TableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.FixedAssets.Version1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.Version1TableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.FixedAssets.Version1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.Version1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.Version1TableAdapters.TableAdapterManager.UpdateAll(EBS.FixedAssets.Version1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.Version1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.Version1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.frmFixNew_AddAssetHead.FixNew_AddAssetHeadDetailss">
+ <summary>
+ '''''''''''''''''''''
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportStopAssetDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.AssetAllInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_InventoryProcessResultDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportLocationsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportCateGoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAssetMovementDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixNew_ReportAssetCorrectationDetailssDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAssetEvaluationDetailssDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAssetEvaluationDetailssByLocationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAssetStopDetailssDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAddAssetMoneyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnewFinalDepReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAssetInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.AddingAssetNewDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.AssetsUniversalInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.AssetFinancialReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.AllMoveReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.DataTable2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.NewDepReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_InventoryProcessResultRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportLocationsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportCateGoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportStopAssetRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAssetMovementRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixNew_ReportAssetCorrectationDetailssRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAssetEvaluationDetailssRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAssetEvaluationDetailssByLocationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAssetStopDetailssRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAddAssetMoneyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnewFinalDepReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAssetInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.AddingAssetNewRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.AssetAllInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.AssetsUniversalInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.AssetFinancialReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.AllMoveReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.DataTable2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.NewDepReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_InventoryProcessResultRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportLocationsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportCateGoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportStopAssetRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAssetMovementRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixNew_ReportAssetCorrectationDetailssRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAssetEvaluationDetailssRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAssetEvaluationDetailssByLocationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAssetStopDetailssRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAddAssetMoneyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnewFinalDepReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.vewfixnew_ReportAssetInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.AddingAssetNewRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.AssetAllInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.AssetsUniversalInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.AssetFinancialReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.AllMoveReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.DataTable2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSet.NewDepReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.vewfixnew_InventoryProcessResultTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.vewfixnew_ReportLocationsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.vewfixnew_ReportCateGoryTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.vewfixnew_ReportStopAssetTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.vewfixnew_ReportAssetMovementTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.vewfixNew_ReportAssetCorrectationDetailssTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.vewfixnew_ReportAssetEvaluationDetailssTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.vewfixnew_ReportAssetEvaluationDetailssByLocationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.vewfixnew_ReportAssetStopDetailssTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.vewfixnew_ReportAddAssetMoneyTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.vewfixnewFinalDepReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.vewfixnew_ReportAssetInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.DataTable1TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.AddingAssetNew">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.AssetAllInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.AssetsUniversalInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.AssetFinancialRepor">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.AllMoveReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.DataTable2TableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.NewDepReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.AssetDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.FixedAssets.AssetDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.AssetDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.FixedAssets.AssetDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.AssetDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.FixedAssets.AssetDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.AssetDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.AssetDataSetTableAdapters.TableAdapterManager.UpdateAll(EBS.FixedAssets.AssetDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetsGardDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetsGardDataSet.AssetGardStatusDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetsGardDataSet.AssetGardStatusRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetsGardDataSet.AssetGardStatusRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetsGardDataSetTableAdapters.AssetGardStatusTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetsGardDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.AssetsGardDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.FixedAssets.AssetsGardDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.AssetsGardDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.FixedAssets.AssetsGardDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.AssetsGardDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.FixedAssets.AssetsGardDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.AssetsGardDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.AssetsGardDataSetTableAdapters.TableAdapterManager.UpdateAll(EBS.FixedAssets.AssetsGardDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetsGardDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.AssetsGardDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.StopDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.StopDataSet.StopAssetsRecordDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.StopDataSet.StopAssetsRecordRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.StopDataSet.StopAssetsRecordRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.StopDataSetTableAdapters.StopAssetsRecordTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.StopDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.StopDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.FixedAssets.StopDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.StopDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.FixedAssets.StopDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.StopDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.FixedAssets.StopDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.StopDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.StopDataSetTableAdapters.TableAdapterManager.UpdateAll(EBS.FixedAssets.StopDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.StopDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.StopDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.DepOfAddingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.CostOnLocationsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.NewMovementDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.AssetNewAllInfowithBuyingDateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.AssetDepTotalDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.AssetMovementTotalDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.MovementByMainCateAndCostCenterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.DepOfOpeningDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.OutAssetReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.RemvingTableByMainSubCateAndCostIdDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.CostOnLocationsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.NewMovementRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.AssetNewAllInfowithBuyingDateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.AssetDepTotalRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.AssetMovementTotalRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.MovementByMainCateAndCostCenterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.DepOfOpeningRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.DepOfAddingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.OutAssetReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.RemvingTableByMainSubCateAndCostIdRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.CostOnLocationsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.NewMovementRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.AssetNewAllInfowithBuyingDateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.AssetDepTotalRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.AssetMovementTotalRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.MovementByMainCateAndCostCenterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.DepOfOpeningRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.DepOfAddingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.OutAssetReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSet.RemvingTableByMainSubCateAndCostIdRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSetTableAdapters.CostOnLocationsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSetTableAdapters.NewMovementTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSetTableAdapters.AssetNewAllInfowithBuyingDateTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSetTableAdapters.AssetDepTotalTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSetTableAdapters.AssetMovementTotalTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSetTableAdapters.MovementByMainCateAndCostCenterTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSetTableAdapters.DepOfOpeningTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSetTableAdapters.DepOfAddingTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSetTableAdapters.OutAssetReportTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSetTableAdapters.RemvingTableByMainSubCateAndCostIdTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.SecondDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.FixedAssets.SecondDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.SecondDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.FixedAssets.SecondDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.SecondDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.FixedAssets.SecondDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.SecondDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.SecondDataSetTableAdapters.TableAdapterManager.UpdateAll(EBS.FixedAssets.SecondDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.FixedAssets.SecondDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:EBS.FixedAssets.modFixedAssets.differentiate_DGVRowsBGColor(System.Windows.Forms.DataGridView@,System.Boolean)">
+ <summary>
+ تمييز لون الصفوف في الشبكة حسب ترتيبها فردي أو زوجي
+ </summary>
+ <param name="Dgv">مرجع إلى أداة الشبكة</param>
+ <remarks></remarks>
+ <Author>M.Heyasi</Author>
+</member>
+</members>
+</doc>

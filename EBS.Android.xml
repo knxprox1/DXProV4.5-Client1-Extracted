@@ -1,0 +1,916 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.Android
+</name>
+</assembly>
+<members>
+<member name="T:EBS.Android.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.Android.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.Android.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_CustomersOrdersAndroidDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_CustomersOrdersAndroidDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewGeneratingRandomNumbersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewGeneratingRandomNumbersDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyInvoicePrintDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewCurrenciesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewAccountsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_StoreSpendingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyOrderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_StoreReceivingNotificationDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_CostsAdjustingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyOrderDetailsEnglishDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyInvoiceDetailsEnglishDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceDetailsEnglishDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceEnglishDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.dtInv_SalesInvoiceHeadDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyInvoiceEnglishDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_QuotationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_QuotationDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyOrderEnglishDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyInvoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyInvoiceDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_RedoneSellInvoiceDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_OrderCostsAdjustingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_ReturnOrderDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsEnglishDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceTempDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsTempDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyOrderDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_StoresDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_TaxValueInvoiceDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_SellInvoice_QuotationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoice1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_QuotationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_CustomersSuppliersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_SalesBurdensDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SalesBurdensDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_VatReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceTax1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsTax1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.dtbImageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.dtinv_SalesInvoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.dtInvoiceCostByCatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.dtPOS_SalesInvoicePaymentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_Items_ImageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_ExportInvoicDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_ExportInvoicDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_CompaniesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_CompanieDateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_BuyingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_BuyingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewCustomerImageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_CustomersOrdersAndroidRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_CustomersOrdersAndroidDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewGeneratingRandomNumbersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewGeneratingRandomNumbersDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyInvoicePrintRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewCurrenciesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewAccountsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_StoreSpendingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyOrderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_StoreReceivingNotificationDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_CostsAdjustingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyOrderDetailsEnglishRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyInvoiceDetailsEnglishRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceDetailsEnglishRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceEnglishRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.dtInv_SalesInvoiceHeadRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyInvoiceEnglishRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_QuotationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_QuotationDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyOrderEnglishRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyInvoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyInvoiceDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_RedoneSellInvoiceDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_OrderCostsAdjustingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_ReturnOrderDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsEnglishRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceTempRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsTempRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyOrderDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_StoresRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_TaxValueInvoiceDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_SellInvoice_QuotationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoice1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_QuotationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_CustomersSuppliersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_SalesBurdensRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SalesBurdensRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_VatReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceTax1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsTax1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.dtbImageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.dtinv_SalesInvoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.dtInvoiceCostByCatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.dtPOS_SalesInvoicePaymentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_Items_ImageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_ExportInvoicRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_ExportInvoicDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_CompaniesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_CompanieDateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_BuyingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_BuyingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewCustomerImageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_CustomersOrdersAndroidRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_CustomersOrdersAndroidDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewGeneratingRandomNumbersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewGeneratingRandomNumbersDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyInvoicePrintRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewCurrenciesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewAccountsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_StoreSpendingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyOrderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_StoreReceivingNotificationDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_CostsAdjustingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyOrderDetailsEnglishRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyInvoiceDetailsEnglishRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceDetailsEnglishRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceEnglishRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.dtInv_SalesInvoiceHeadRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyInvoiceEnglishRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_QuotationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_QuotationDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyOrderEnglishRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyInvoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyInvoiceDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_RedoneSellInvoiceDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_OrderCostsAdjustingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_ReturnOrderDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsEnglishRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceTempRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsTempRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_BuyOrderDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_StoresRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_TaxValueInvoiceDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_SellInvoice_QuotationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoice1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_QuotationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_CustomersSuppliersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_SalesBurdensRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SalesBurdensRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_VatReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceTax1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsTax1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.dtbImageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.dtinv_SalesInvoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.dtInvoiceCostByCatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.dtPOS_SalesInvoicePaymentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.tblInv_Items_ImageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_ExportInvoicRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_ExportInvoicDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_CompaniesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_CompanieDateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_BuyingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewShipping_BuyingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSet.vewCustomerImageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSetTableAdapters.vewInv_CustomersOrdersAndroidTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSetTableAdapters.vewInv_CustomersOrdersAndroidDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSetTableAdapters.vewGeneratingRandomNumbersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSetTableAdapters.vewGeneratingRandomNumbersDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.Android.IBSTraderNetDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.Android.IBSTraderNetDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.Android.IBSTraderNetDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.Android.IBSTraderNetDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.Android.IBSTraderNetDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.Android.IBSTraderNetDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.Android.IBSTraderNetDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.Android.IBSTraderNetDataSetTableAdapters.TableAdapterManager.UpdateAll(EBS.Android.IBSTraderNetDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.Android.IBSTraderNetDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

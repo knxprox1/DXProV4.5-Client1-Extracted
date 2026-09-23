@@ -1,0 +1,376 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.RoomTrading
+</name>
+</assembly>
+<members>
+<member name="T:EBS.RoomTrading.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.RoomTrading.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.RoomTrading.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EBS.RoomTrading.My.Resources.Resources._029_teamwork">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RoomTrading.My.Resources.Resources.DOC">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RoomTrading.My.Resources.Resources.Info">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RoomTrading.My.Resources.Resources.JPG">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RoomTrading.My.Resources.Resources.PDF">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RoomTrading.My.Resources.Resources.RAR">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RoomTrading.My.Resources.Resources.TXT">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RoomTrading.My.Resources.Resources.XLS">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:EBS.RoomTrading.ArabicSearch.CorrectNames(System.String,System.Boolean)">
+ <summary>
+Correct names and delete increase characters and symbols 
+ </summary>
+</member>
+<member name="M:EBS.RoomTrading.ArabicSearch.PrepareWords(System.String)">
+ <summary>
+ Post an characters to the name and Post an ignore process
+ </summary>
+</member>
+<member name="M:EBS.RoomTrading.ArabicSearch.MakeQuery(System.String,System.String,System.Boolean,System.Boolean,System.Boolean)">
+ <summary>
+ make Where clause
+ </summary>
+ 
+</member>
+<member name="F:EBS.RoomTrading.PortfolioTypesEnum.Subscription">
+ <summary>
+ اشتراك
+ </summary>
+</member>
+<member name="F:EBS.RoomTrading.PortfolioTypesEnum.ReNewSubscription">
+ <summary>
+ تجديد اشتراك
+ </summary>
+</member>
+<member name="F:EBS.RoomTrading.PortfolioTypesEnum.Guarantees">
+ <summary>
+ ضمانة
+ </summary>
+</member>
+<member name="F:EBS.RoomTrading.PortfolioTypesEnum.Certification">
+ <summary>
+ شهادة منشأ
+ </summary>
+</member>
+<member name="F:EBS.RoomTrading.PortfolioTypesEnum.Memo">
+ <summary>
+ مذكرة
+ </summary>
+</member>
+<member name="F:EBS.RoomTrading.PortfolioTypesEnum.MemberCard">
+ <summary>
+ بطاقة عضوية
+ </summary>
+</member>
+<member name="F:EBS.RoomTrading.PortfolioTypesEnum.CertificationService">
+ <summary>
+ خدمات شهادات المنشا
+ </summary>
+</member>
+<member name="M:EBS.RoomTrading.Member.Calc_Membership_Period(System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+أحتساب مدة الاشتراك بالسنوات دون إحتساب آخر شهر للعام السابق 
+ في حالة ما إذا كانت سنة الإشتراك هي السنة السابقة للعام الحالي فقط والشهر 12
+ </summary>
+ <param name="CurrentYear">السنة الحالية</param>
+ <param name="Year">تاريخ سنة قطع السجل التجاري - السنة</param>
+ <param name="Month">تاريخ قطع السجل التجاري - الشهر</param>
+ <param name="Max_year"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RoomTrading.Member.GetCount_GuaranteeMember(System.Int64,System.DateTime)">
+ <summary>  
+ دالة  لحساب عدد الضمانات التي ضمنها العضو خلال  التاريخ المرسل 
+ </summary> 
+</member>
+<member name="M:EBS.RoomTrading.Member.TestCount_GuaranteeMember(System.Int64,System.DateTime)">
+ <summary>  
+ دالة  لمعرفه هل العضو لديه استثناء لعمل ضمانه خلال  التاريخ المرسل 
+ </summary> 
+</member>
+<member name="M:EBS.RoomTrading.Member.ISEnable_Member(System.Int64,System.DateTime)">
+ <summary>  
+ دالة  لمعرفة هل العضو موقف او لا خلال التاريخ لمرسل 
+ </summary>
+</member>
+<member name="M:EBS.RoomTrading.Member.ISMember_Exceptions(System.Int64,System.DateTime,EBS.RoomTrading.ExceptionsTypesEnum)">
+ <summary>  
+ دالة  لمعرفة هل العضو لديه استثناء لاجراء اي خدمه حسب الخدمه المرسله و خلال التاريخ لمرسل 
+ </summary>
+</member>
+<member name="M:EBS.RoomTrading.Member.Get_Exception(System.Int64,System.DateTime)">
+ <summary>
+ دالة تعود بعنصر جدول بيانات يحتوي جميع الإستثناءات للعضو المحدد في الفترة التي يقع فيها التاريخ المحدد
+ </summary>
+ <param name="MemberId">رقم المعرف للعضو</param>
+ <param name="TheDate">التاريخ</param>
+ <returns>تعود بكائن جدول بيانات</returns>
+ <Author>محمد الحياسي</Author>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RoomTrading.Member.IsAllowedMember_FromException(System.Data.DataTable,EBS.RoomTrading.ExceptionsTypesEnum)">
+ <summary>
+ هل لديه سماحية من شاشة الاستثناءات
+ </summary>
+ <param name="dtable"></param>
+ <param name="ExceptionsTypes">نوع الإستثناء</param>
+ <returns>تعود بالقيمة المنطقية Trueإذا كانت هناك استثناءات للعضو  </returns>
+ <Author>محمد الحياسي</Author>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RoomTrading.Member.IsActiveMember(System.String)">
+ <summary>
+ التأكد من أن العضو فعال في دليل الأعضاء
+ </summary>
+ <param name="memberName"></param>
+ <returns>إذاكان العضو مفعل تعود الدالة بقيمة منطقية صائبة</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RoomTrading.SerialNumberMargeWithDgv.AutoNumberedTable(System.Data.DataTable)">
+ <summary>
+ دالة تقوم بادراج عمود ترقيم تلقائي مسلسل
+ </summary>
+ <param name="SourceTable"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RoomTrading.frmROT_FieldSurvey.reSetJoinDate(System.Int64,System.Int64)">
+ <summary>
+ تغيير تاريخ اإنتساب بتاريخ اليوم وذلك لتفادي أن يتم 
+ إحتساب المسح بتاريخة الذي قد يكون من قبل فترة والتفعيل في فترة أخرى حديثة
+ علشان يتم التفعيل ويحتسب الرسوم حق الاشتراك من اليوم
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RoomTrading.frmROT_FieldSurvey.mnuCardPicImageClicked(System.Object,System.Windows.Forms.ToolStripItemClickedEventArgs)">
+ <summary>
+ التعامل مع صورة بطائق العضو التبويب الأخير من الشاشة
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RoomTrading.frmROT_MemebrsNotes.DisablePrinting">
+ <summary>
+ منع إجراء عملية الطباعة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RoomTrading.frmROT_MemebrsNotes.EnablePrinting">
+ <summary>
+ تفعيل إجراء عملية الطباعة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RoomTrading.frmROT_SelectSpecificActivities.#ctor(EBS.Controls.ibsComboBox@)">
+ <summary>
+  هذه الشاشة تخص إمكانية إختيار اسم النشاط والبحث عنه بأي جزء من الاسم
+ </summary>
+</member>
+<member name="M:EBS.RoomTrading.frmROT_MembersubscriptionReport.getYearPeriod(System.String)">
+ <summary>
+ تعيد الدالة نص الشرط الخاص بالفترة المخصصة للاشتراك أو التجديد
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RoomTrading.RoomMudl.ArbicSearc.CorrectNames(System.String,System.Boolean)">
+ <summary>
+Correct names and delete increase characters and symbols 
+ </summary>
+</member>
+<member name="M:EBS.RoomTrading.RoomMudl.ArbicSearc.PrepareWords(System.String)">
+ <summary>
+ Post an characters to the name and Post an ignore process
+ </summary>
+</member>
+<member name="M:EBS.RoomTrading.RoomMudl.ArbicSearc.MakeQuery(System.String,System.String,System.Boolean,System.Boolean,System.Boolean)">
+ <summary>
+ make Where clause
+ </summary>
+ 
+</member>
+<member name="M:EBS.RoomTrading.wndROT_FieldSurvey.ResetJoinDate(System.Object[])">
+ <summary>
+ دالة تقوم بتصفير تاريخ الإنتساب للمسح الميداني الذي تم إجرائة سابقاً وذلك لضمان عدم بدء الإحتساب من التاريخ القديم
+ </summary>
+ <param name="Args">رقم المعرف للمسح الميداني</param>
+ <returns>تعود بقيمة منطقية توضح نتيجة التعديل</returns>
+ <Author>محمد الحياسي</Author>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RoomTrading.wndROT_Members.SaveExtraSetting(System.Object[])">
+ <summary>
+ حفظ بيانات مسار الصورة المخصصة للبطائق )العضوية( وذلك لطلبها من الغرفة التجارية 
+ </summary>
+ <author>Mohammed Al-Heyasi - November 2014</author>
+ <param name="args"></param>
+ <remarks>الاستدعاء الخاص بالدالة يوجد في شاشة الأعدادات الخاصة </remarks>
+</member>
+<member name="T:EBS.RoomTrading.MemberMsgDS">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.RoomTrading.MemberMsgDS.MemeberDTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RoomTrading.MemberMsgDS.MemeberDTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RoomTrading.MemberMsgDS.MemeberDTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RoomTrading.TestRoomDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.RoomTrading.TestRoomDataSet.vewPortfoliosDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RoomTrading.TestRoomDataSet.tblOrginCountryDetails_EngDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RoomTrading.TestRoomDataSet.vewPortfoliosDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RoomTrading.TestRoomDataSet.tblOrginCountryDetails_EngRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RoomTrading.TestRoomDataSet.vewPortfoliosDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RoomTrading.TestRoomDataSet.tblOrginCountryDetails_EngRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RoomTrading.TestRoomDataSetTableAdapters.vewPortfoliosDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.RoomTrading.TestRoomDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.RoomTrading.TestRoomDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.RoomTrading.TestRoomDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.RoomTrading.TestRoomDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.RoomTrading.TestRoomDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.RoomTrading.TestRoomDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.RoomTrading.TestRoomDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.RoomTrading.TestRoomDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.RoomTrading.TestRoomDataSetTableAdapters.TableAdapterManager.UpdateAll(EBS.RoomTrading.TestRoomDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.RoomTrading.TestRoomDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.RoomTrading.TestRoomDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:EBS.RoomTrading.modRoom.isFormOpened(System.String)">
+ <summary>
+ التأكد من أن الفورم المحددة مفتوحة حالياً أم لا  
+ وذلك من أجل منع فتح النافذة اكثر من مرة 
+ أوتكوين نسخة منها أكثر من مرة واحدة
+ </summary>
+ <param name="frmName">إسم النافذة</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RoomTrading.modRoom.differentiate_DGVRowsBGColor(System.Windows.Forms.DataGridView@,System.Boolean)">
+ <summary>
+ تمييز لون الصفوف في الشبكة حسب ترتيبها فردي أو زوجي
+ </summary>
+ <param name="Dgv">مرجع إلى أداة الشبكة</param>
+ <remarks></remarks>
+ <Author>M.Heyasi</Author>
+</member>
+</members>
+</doc>

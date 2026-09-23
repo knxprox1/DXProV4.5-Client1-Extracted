@@ -1,0 +1,581 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.WaterPump
+</name>
+</assembly>
+<members>
+<member name="T:EBS.WaterPump.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.WaterPump.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.WaterPump.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EBS.WaterPump.My.Resources.Resources._051_stock_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.WaterPump.My.Resources.Resources.index">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.WaterPump.My.Resources.Resources.printer_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.WaterPump.My.Resources.Resources.repeat_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.WaterPump.My.Resources.Resources.SPdwon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.WaterPump.My.Resources.Resources.SPmid">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.WaterPump.My.Resources.Resources.warehouse">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:EBS.WaterPump.ModFunctions.Round(System.Decimal)">
+ <summary>
+ تقريب العدد بحسب الرقم المحدد في الاعدادات 
+ </summary>
+ <param name="Value"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="P:EBS.WaterPump.ModFunctions.AndBranchCondation">
+ <summary>  
+  شرط الفرع الحالي مع الإدارة
+ </summary> 
+</member>
+<member name="P:EBS.WaterPump.ModFunctions.BranchCondation">
+ <summary>  
+  شرط الفرع الحالي مع الإدارة
+ </summary> 
+</member>
+<member name="M:EBS.WaterPump.ModFunctions.Drawbarcode(System.String)">
+ <summary>
+ دالة رسم الباركود بدلالة الرقم 
+ </summary>
+ <param name="barcodeContent"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.ModFunctions.Get_Balance_RenterAccountName(System.Data.DataTable,System.Int64)">
+ <summary>
+ 'جلب رصيد المشترك دائن او مدين
+ </summary>
+ <param name="dt"> </param>
+ <param name="Row"> </param>
+ <returns></returns>
+ <remarks>Eng/Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.ModFunctions.Get_Account_Balance_Special(System.String)">
+ <summary>
+ 'جلب المدفوات الخاصة بالشهر السابق
+ </summary>
+ <param name="TheCondition"></param>
+ <returns></returns>
+ <remarks>Eng/Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.Renter.IDByName(System.String)">
+ <summary>
+ جلب ID المشترك
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.Renter.IDByNameAndThenumber(System.String,System.String)">
+ <summary>
+ جلب ID المشترك بالاسم والرقم
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.Renter.StateID(System.String)">
+ <summary>
+ حالة المشترك
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.Renter.ShopsType(System.String)">
+ <summary>
+نوع المحل
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.Renter.MonthlyRents(System.String)">
+ <summary>
+ الاشتراك الشهري
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.Renter.ElectricityMeters(System.String)">
+ <summary>
+ رقم العداد
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.Renter.RegionsID(System.String)">
+ <summary>
+ ID المنطقة
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.Renter.TarifGroup(System.String)">
+ <summary>
+Id التعرفة
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.Renter.TarifPrice(System.String,System.Decimal)">
+ <summary>
+ سعر التعرفة
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.Renter.CurencyID(System.String)">
+ <summary>
+ ID العملة
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.Renter.MethodsRelyID(System.String)">
+ <summary>
+ نوع الاشتراك
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="P:EBS.WaterPump.Renter.NameByID(System.Int64)">
+ <summary>
+ اسم المشترك
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="P:EBS.WaterPump.Renter.AccountID(System.String)">
+ <summary>
+ID حساب المشترك
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.Renter.IDByNumber(System.Int64)">
+ <summary>
+  المشترك بالرقم ID
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.Renter.GetRenterByName(System.String,System.Decimal)">
+ <summary>
+ جلب بيانات المشترك بشكل عام بدلالة الاسم 
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.Renter.GetRenterByID(System.Int64,System.Decimal)">
+ <summary>
+ جلب بيانات المشترك بشكل عام بدلالة الرقم  
+ </summary>
+ <param name="ID"></param>
+ ''' <param name="Consumption"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.Renter.GetCurrentReading(System.String)">
+ <summary>
+ جلب اخر  قراءة   
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.Renter.GetPreviousReading(System.String,System.DateTime)">
+ <summary>
+ جلب القراءة السابقة    
+ </summary>
+ <param name="RenterName">اسم المشترك</param>
+ <param name="Thedate"> تاريخ القراءة الحالية</param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.Renter.Get_Balance_Renter(System.String,System.String,System.DateTime,System.Int64,EBS.Classes.Session,System.Object)">
+ <summary>
+ 'جلب رصيد المشترك دائن او مدين بدلالة اسم المشترك
+ </summary>
+ <param name="Rentername"></param>
+ <param name="RenterAccount"></param>
+ <param name="DateBill"></param>
+ <returns>M.Gholis</returns>
+</member>
+<member name="M:EBS.WaterPump.Renter.CalcPeriodConsumption(System.Decimal,System.String)">
+ <summary>
+  حساب الاستهلاك بطريقة الفترات 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:EBS.WaterPump.Renter.CalcCostUseNumberFamily(System.Decimal,System.String)">
+ <summary>
+ الحساب بطريقة عدد افراد الاسرة
+ </summary>
+ <param name="Consumption">فارق القراءة</param>
+ <param name="RentersName">المسترك</param>
+ <returns>M.gholis</returns>
+</member>
+<member name="M:EBS.WaterPump.Renter.Get_Balance_RenterAccountName(System.Data.DataTable,System.Int64)">
+ <summary>
+ 'جلب رصيد المشترك دائن او مدين
+ </summary>
+ <param name="dt"> </param>
+ <param name="Row"> </param>
+ <returns></returns>
+ <remarks>Eng/Mohammed Gholis</remarks>
+</member>
+<member name="P:EBS.WaterPump.Settings.RenterAccountID">
+ <summary>
+ رقم حساب ايرادات الاشتراكات
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:EBS.WaterPump.frmWat_ElectricityStationInformation.GetImagesLocal">
+ <summary>
+ جلب الصور في حال كان النظام شغال كلاينت
+ </summary>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.frmWat_ElectricityStationInformation.GetImagesServer">
+ <summary>
+ جلب الصور في حال كان النظام شغال كلاينت هوست 
+ </summary>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.frmWat_ElectricityBill.Get_Balance_RenterAccountName(System.Data.DataTable,System.Int64)">
+ <summary>
+ 'جلب رصيد المشترك دائن او مدين
+ </summary>
+ <param name="dt"> </param>
+ <param name="Row"> </param>
+ <returns></returns>
+ <remarks>Eng/Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.frmWat_ElectricityBill.Get_Account_Balance_Special(System.String)">
+ <summary>
+ 'جلب المدفوات الخاصة بالشهر السابق
+ </summary>
+ <param name="TheCondition"></param>
+ <returns></returns>
+ <remarks>Eng/Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.frmWat_InventoryReports.AutoNumberedTable(System.Data.DataTable)">
+ <summary>
+ دالة تقوم بادراج عمود ترقيم تلقائي مسلسل
+ </summary>
+ <param name="SourceTable"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.VewMainDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_RentersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.VewMain1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_AlarmSeparationCurrentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_ContractConditionsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_Renters1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_RequsetServiceElectricityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_PenaltyissuanceElectricityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.VewWat_InventoryReportsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_ElectricityStationInformationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_ElectricityBillReport2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_ElectricityBillReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.DataTable1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.VewMainRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_RentersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.VewMain1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_AlarmSeparationCurrentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_ContractConditionsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_Renters1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_RequsetServiceElectricityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_PenaltyissuanceElectricityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.VewWat_InventoryReportsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_ElectricityStationInformationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_ElectricityBillReport2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_ElectricityBillReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.DataTable1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.VewMainRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_RentersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.VewMain1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_AlarmSeparationCurrentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_ContractConditionsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_Renters1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_RequsetServiceElectricityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_PenaltyissuanceElectricityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.VewWat_InventoryReportsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_ElectricityStationInformationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_ElectricityBillReport2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.vewWat_ElectricityBillReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.WaterPump.AAAWaterPump2019DataSet.DataTable1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="M:EBS.WaterPump.wndWat_AlarmSeparationCurrent.SendMessageForEbdaaTwasel(System.String)">
+ <summary>
+ ارسال رسالة عبر تطبيق اشعارتك
+ </summary>
+ <param name="TypeProcess"></param>
+</member>
+<member name="M:EBS.WaterPump.wndWat_PenaltyissuanceElectricity.SendMessageForEbdaaTwasel(System.String)">
+ <summary>
+ ارسال رسالة عبر تطبيق اشعارتك
+ </summary>
+ <param name="TypeProcess"></param>
+</member>
+<member name="M:EBS.WaterPump.wndWat_ElectricityStationInformation.GetFile(System.Object[])">
+ <summary>
+ جلب شعار المحطة 
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.wndWat_ElectricityStationInformation.GetImgFile(System.Object[])">
+ <summary>
+ جلب شعار المحطة 
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.wndWat_ElectricityStationInformation.delImages_wnd(System.Object)">
+ <summary>
+ حذف الشعار
+ </summary>
+ <param name="Args"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.WaterPump.wndWat_ElectricityBill.SendSMSToRenter(System.String,System.String,System.DateTime,System.String,System.String,System.Double,System.Double,System.Double,System.Data.DataTable,System.Int64,System.Int64)">
+ <summary>
+ دالة استقيال المتغيرات لاجراء عملية ارسال رسالة
+ </summary>
+ <param name="TypeProcess"></param>
+ <param name="RenterName"></param>
+ <param name="TheDate"></param>
+ <param name="RentersNumber"></param>
+ <param name="RenterAccountID"></param>
+ <param name="Consumption"></param>
+ <param name="Amount"></param>
+ <param name="MonthlyAmount"></param>
+</member>
+<member name="M:EBS.WaterPump.wndWat_ElectricityBill.AddRecordForWaterPump(System.Object[])">
+ <summary>
+ دالة إضافة سند قبض  التلقائية من النظام
+ </summary>
+ <param name="args"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

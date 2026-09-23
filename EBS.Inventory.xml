@@ -1,0 +1,895 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.Inventory
+</name>
+</assembly>
+<members>
+<member name="T:EBS.Inventory.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.Inventory.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.Inventory.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EBS.Inventory.My.Resources.Resources._007_repeat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Inventory.My.Resources.Resources._037_paper_printer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Inventory.My.Resources.Resources.index">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Inventory.My.Resources.Resources.monitor1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Inventory.My.Resources.Resources.printer_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Inventory.My.Resources.Resources.repeat_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:EBS.Inventory.frmInv_ItemsStoreBySizes.chkl_Sel_UnSel(System.Boolean,System.Windows.Forms.CheckedListBox)">
+ <summary>
+ دالة تقوم بتحديد او عدم تحديد جميع العناصر في القائمة
+ </summary>
+ <param name="value">True:لتحديد العناصر كلها,False:لإلغاء تحديد العناصر جيمعا</param>
+ <param name="chkl">القائمة المطلوبة</param>
+ <Author>Walid Al-Haidari</Author>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_ItemsStoreBySizes.getChkdListBoxNames(System.Windows.Forms.CheckedListBox,System.String,System.String,System.String)">
+ <summary>
+  دالة تقوم بإحضار العناصر التي تم تحديدها من القائمة
+ </summary>
+ <param name="chkl">القائمة المعينة</param>
+ <param name="betweenNs">ماذا يكون بين العناصر</param>
+ <param name="beforeN">قبل كل عنصر</param>
+ <param name="afterN">بعد كل عنصر</param>
+ <returns>تعود بالنص</returns>
+ <Author>Walid Al-Haidari</Author>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_ItemsStoreForAlzhre.Exist_Items">
+  <summary>
+ دالة لتعبئة مخزون الأصناف كميات حسب الصنف خاصة بالعميل الزاهري
+  </summary>
+  <remarks>alaqri</remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_ItemsStoreForAlzhre.getChkdListBoxNames(System.Windows.Forms.CheckedListBox,System.String,System.String,System.String)">
+ <summary>
+  دالة تقوم بإحضار العناصر التي تم تحديدها من القائمة
+ </summary>
+ <param name="chkl">القائمة المعينة</param>
+ <param name="betweenNs">ماذا يكون بين العناصر</param>
+ <param name="beforeN">قبل كل عنصر</param>
+ <param name="afterN">بعد كل عنصر</param>
+ <returns>تعود بالنص</returns>
+ <Author>Walid Al-Haidari</Author>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_ItemsStoreForAlzhre.chkl_Sel_UnSel(System.Boolean,System.Windows.Forms.CheckedListBox)">
+ <summary>
+ دالة تقوم بتحديد او عدم تحديد جميع العناصر في القائمة
+ </summary>
+ <param name="value">True:لتحديد العناصر كلها,False:لإلغاء تحديد العناصر جيمعا</param>
+ <param name="chkl">القائمة المطلوبة</param>
+ <Author>Walid Al-Haidari</Author>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_SuppliersItemsQuantities.getStoreName(System.String,System.String)">
+ <summary>
+ don't forget the '.' with the prefix
+ </summary>
+ <param name="prefix"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.Inventory.wndInv_Dispatches.AddStoreTransfer_FromItemOrder(System.Object[])">
+ <summary>
+ دالة لاستيراد نقل مخزني من طلب بضاعة والتعديل على الطلب ان هو تم سحبه
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_DispatchesDetails.Check_Item(System.Boolean)">
+ <summary>
+ فحص الكمية والسعر
+ </summary>
+ <returns>Boolean</returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_DamagedProductionModel.Get_TotalServiceItem(System.Int64)">
+ <summary>
+ دالة تحسب إجمالي قيمة الاصناف الخدمية
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_DamagedProductionModel.Get_TotalIncomeingItem(System.Int64)">
+ <summary>
+  دالة تحسب إجمالي قيمة الاصناف الموردة
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_DamagedProductionModel.Get_TotalOutingItem(System.Int64)">
+ <summary>
+ دالة تحسب اجمالي قيمة الاصناف المصروفة
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ProofOfDamagedProduction.Get_TotalServiceItem(System.Int64)">
+ <summary>
+ دالة تحسب إجمالي قيمة الاصناف الخدمية
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ProofOfDamagedProduction.Get_TotalIncomeingItem(System.Int64)">
+ <summary>
+  دالة تحسب إجمالي قيمة الاصناف الموردة
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ProofOfDamagedProduction.Get_TotalIncomeingItemByStore(System.Int64,System.Int64)">
+ <summary>
+دالة تحسب إجمالي قيمة الاصناف الموردة بحسب المخزن 
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ProofOfDamagedProduction.Get_TotalOutingItem(System.Int64)">
+ <summary>
+ دالة تحسب اجمالي قيمة الاصناف المصروفة
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ProofOfDamagedProduction.ImportFrom_Models(System.Object[])">
+ دالة لاستيراد تحويل الاصناف من النماذج التحويل
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_UpdateExpiryDateItems.Relay(System.Object[])">
+ <summary>
+ يتم استدعاء هذا التابع في الوندو وليس الفورم
+ </summary>
+ <param name="MyWindow"></param>
+ <param name="ID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_IncomingOutgoing.Show_WindowW(EBS.Controls.ibsDataGridView,EBS.Classes.Session,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ دالة لعرض نافذة المستند المحدد بدلالة:
+ </summary>
+ <param name="dgvMain">الشبكة</param>
+ <param name="MySession">الجلسة</param>
+ <param name="ColIndexDocument">رقم عمود المستند</param>
+ <param name="ColIndexRecordID">رقم عمود المعرف في الجدول</param>
+ <param name="ColIndexDate">رقم عمود التاريخ</param>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_IncomingOutgoing.Show_WindowW(EBS.Controls.ibsDataGridView,EBS.Classes.Session,System.String,System.String,System.String)">
+ <summary>
+ دالة لعرض نافذة المستند المحدد بدلالة:
+ </summary>
+ <param name="dgvMain">الشبكة</param>
+ <param name="MySession">الجلسة</param>
+ <param name="ColHDocument">عنوان عمود المستند</param>
+ <param name="ColHRecordID">عنوان عمود المعرف في الجدول</param>
+ <param name="ColHDate">عنوان عمود التاريخ</param>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_IncomingOutgoing.getColIdxByValue(System.Windows.Forms.DataGridViewRow,System.String)">
+ <summary>
+ هذا الدالة تقوم بإعادة رقم تسلسلي للعمود بناء على القيمة التي فيه في صف معين في الشبكة
+ </summary>
+ <param name="dgvRow">الصف المراد البحث فيه</param>
+ <param name="_value">القيمة التي يبحث عنها</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_Items.Rounding_ToIntegerNumber(System.Double)">
+ <summary>
+ التقريب لأقرب خمسة ريال
+ </summary>
+ <remarks>TAHA-MOHAMMED</remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_ItemsUnits.EnableUnit_SizeSystem">
+ <summary>
+ اضافة معامل تحويل وحدة القياس لنظام المقاييس
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_ItemsMovement.SetItemsCostPricesByDate">
+ <summary>
+ تابع جلب تكلفة الصنف بحسب تاريخ المستند مع عرض الفارق بين سعر البيع والتكلفة
+ </summary>
+</member>
+<member name="M:EBS.Inventory.frmInv_ItemsStoreforBranch.Group_Exist_ItemsByStore">
+  <summary>
+ دالة لتعبئة مخزون الأصناف حسب المخازن 
+  </summary>
+  <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_ItemsStoreforBranch.getChkdListBoxNames(System.Windows.Forms.CheckedListBox,System.String,System.String,System.String)">
+ <summary>
+  دالة تقوم بإحضار العناصر التي تم تحديدها من القائمة
+ </summary>
+ <param name="chkl">القائمة المعينة</param>
+ <param name="betweenNs">ماذا يكون بين العناصر</param>
+ <param name="beforeN">قبل كل عنصر</param>
+ <param name="afterN">بعد كل عنصر</param>
+ <returns>تعود بالنص</returns>
+ <Author>Walid Al-Haidari</Author>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_ItemsStoreforBranch.chkl_Sel_UnSel(System.Boolean,System.Windows.Forms.CheckedListBox)">
+ <summary>
+ دالة تقوم بتحديد او عدم تحديد جميع العناصر في القائمة
+ </summary>
+ <param name="value">True:لتحديد العناصر كلها,False:لإلغاء تحديد العناصر جيمعا</param>
+ <param name="chkl">القائمة المطلوبة</param>
+ <Author>Walid Al-Haidari</Author>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_StocktakingList.dgvMain_CellPainting(System.Object,System.Windows.Forms.DataGridViewCellPaintingEventArgs)">
+ <summary>
+ محاذا ه النص الى اليسار
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks>M.gholis</remarks>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StoreSpendingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StoreReceivingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StoreTransferDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StocktakingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_BranchStoreSpendingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_BranchStoreReceivingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_ItemsConvertingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_RevalueInventoryDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_ItemsConvertingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_RevalueInventoryDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StocktakingDailyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StocktakingDailyDetails11DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_BeginingInventoryDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_ProductionOrderDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_ProductionOrderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StocktakingDailyDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_DispatchesDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StoreSpendingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StoreReceivingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StoreTransferDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StocktakingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_BranchStoreSpendingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_BranchStoreReceivingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_ItemsConvertingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_RevalueInventoryDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_ItemsConvertingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_RevalueInventoryRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StocktakingDailyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StocktakingDailyDetails11Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_BeginingInventoryDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_ProductionOrderDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_ProductionOrderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StocktakingDailyDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_DispatchesDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StoreSpendingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StoreReceivingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StoreTransferDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StocktakingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_BranchStoreSpendingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_BranchStoreReceivingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_ItemsConvertingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_RevalueInventoryDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_ItemsConvertingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_RevalueInventoryRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StocktakingDailyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StocktakingDailyDetails11RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_BeginingInventoryDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_ProductionOrderDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_ProductionOrderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_StocktakingDailyDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Inventory.EBSTraderNetDataset.vewInv_DispatchesDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="M:EBS.Inventory.wndInv_StoreReceivingOrder.ShowBalenceItemsTotal_BySupplier(System.Object[])">
+ <summary>
+ دالة تعود بكميه المخزون قبل الترحيل من الصنف المرسل حسب المورد
+ 
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_StoreReceivingOrder.ShowLastQuantity(System.Object[])">
+ <summary>
+ دالة تعود بكمية أخر عملية شراء من الصنف
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ProductionOrder.Get_TotalServiceItem(System.Int64)">
+ <summary>
+ دالة تحسب إجمالي قيمة الاصناف الخدمية
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ProductionOrder.Get_TotalIncomeingItem(System.Int64)">
+ <summary>
+  دالة تحسب إجمالي قيمة الاصناف الموردة
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ProductionOrder.Get_TotalIncomeingItemByStore(System.Int64,System.Int64)">
+ <summary>
+دالة تحسب إجمالي قيمة الاصناف الموردة بحسب المخزن 
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ProductionOrder.Get_TotalOutingItem(System.Int64)">
+ <summary>
+ دالة تحسب اجمالي قيمة الاصناف المصروفة
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ProductionOrder.ImportFrom_Models(System.Object[])">
+ دالة لاستيراد تحويل الاصناف من النماذج التحويل
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsConverting.Get_TotalServiceItemwithCostCenter(System.Int64)">
+ <summary>
+ مجمعة حسب مراكز التكلفة دالة تحسب إجمالي قيمة الاصناف الخدمية
+ </summary>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsConverting.Get_TotalIncomeingItemWithCostCenter(System.Int64)">
+ <summary>
+  مجمعة حسب مراكز التكلفة دالة تحسب إجمالي قيمة الاصناف الموردة
+ </summary>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsConverting.Get_TotalOutingItemwithCostCenter(System.Int64)">
+ <summary>
+ دالة تحسب اجمالي قيمة الاصناف المصروفة مجمعة حسب مراكز التكلفة
+ </summary>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsConverting.Get_TotalServiceItem(System.Int64)">
+ <summary>
+ دالة تحسب إجمالي قيمة الاصناف الخدمية
+ </summary>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsConverting.Get_TotalIncomeingItem(System.Int64)">
+ <summary>
+  دالة تحسب إجمالي قيمة الاصناف الموردة
+ </summary>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsConverting.Get_TotalIncomeingItemByStore(System.Int64,System.Int64)">
+ <summary>
+  دالة تحسب إجمالي قيمة الاصناف الموردة بحسب المخزن
+ </summary>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsConverting.Get_TotalOutingItem(System.Int64)">
+ <summary>
+ دالة تحسب اجمالي قيمة الاصناف المصروفة
+ </summary>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsConverting.ImportFrom_Models(System.Object[])">
+ <summary>
+ دالة لاستيراد تحويل الاصناف من النماذج التحويل
+ </summary>
+</member>
+<member name="M:EBS.Inventory.wndInv_ManufactringModel.Get_TotalServiceItem(System.Int64)">
+ <summary>
+ دالة تحسب إجمالي قيمة الاصناف الخدمية
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ManufactringModel.Get_TotalIncomeingItem(System.Int64)">
+ <summary>
+  دالة تحسب إجمالي قيمة الاصناف الموردة
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ManufactringModel.Get_TotalOutingItem(System.Int64)">
+ <summary>
+ دالة تحسب اجمالي قيمة الاصناف المصروفة
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsConvertingModel.Get_TotalServiceItem(System.Int64)">
+ <summary>
+ دالة تحسب إجمالي قيمة الاصناف الخدمية
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsConvertingModel.Get_TotalIncomeingItem(System.Int64)">
+ <summary>
+  دالة تحسب إجمالي قيمة الاصناف الموردة
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsConvertingModel.Get_TotalOutingItem(System.Int64)">
+ <summary>
+ دالة تحسب اجمالي قيمة الاصناف المصروفة
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_LinkItemToExpiryDate.Relay(System.Object[])">
+ <summary>
+ يتم استدعاء هذا التابع في الوندو وليس الفورم
+ </summary>
+ <param name="Args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_RevalueInventory.Update_CostPricesByPartingPrice(System.Object[])">
+ <summary>
+ داله تعمل على تعديل الاسعار في التسويه للاصناف التي بدون تكلفه بالاعتماد على سعر البيع بعد التخفيض بنسبه يحددها المستخدم
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+ 
+</member>
+<member name="M:EBS.Inventory.wndInv_RevalueInventory.Get_TotalServiceItem(System.Int64)">
+ <summary>
+ دالة تحسب إجمالي قيمة الاصناف الخدمية
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_RevalueInventory.Get_TotalIncomeingItem(System.Int64,System.String)">
+ <summary>
+  دالة تحسب إجمالي قيمة الاصناف التي تمثل حالة وفر
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_RevalueInventory.Get_TotalOutgoingItem(System.Int64,System.String)">
+ <summary>
+ دالة تحسب اجمالي قيمة الاصناف التي تمثل العجز
+ 
+ </summary>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_ItemsStore.Group_Exist_ItemsByStore">
+  <summary>
+ دالة لتعبئة مخزون الأصناف حسب المخازن 
+  </summary>
+  <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_ItemsStore.Exist_ItemsByStockQuantity">
+  <summary>
+ دالة لتعبئة مخزون الأصناف كميات حسب الصنف 
+  </summary>
+  <remarks>alaqri</remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_ItemsStore.getChkdListBoxNames(System.Windows.Forms.CheckedListBox,System.String,System.String,System.String)">
+ <summary>
+  دالة تقوم بإحضار العناصر التي تم تحديدها من القائمة
+ </summary>
+ <param name="chkl">القائمة المعينة</param>
+ <param name="betweenNs">ماذا يكون بين العناصر</param>
+ <param name="beforeN">قبل كل عنصر</param>
+ <param name="afterN">بعد كل عنصر</param>
+ <returns>تعود بالنص</returns>
+ <Author>Walid Al-Haidari</Author>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Inventory.frmInv_ItemsStore.chkl_Sel_UnSel(System.Boolean,System.Windows.Forms.CheckedListBox)">
+ <summary>
+ دالة تقوم بتحديد او عدم تحديد جميع العناصر في القائمة
+ </summary>
+ <param name="value">True:لتحديد العناصر كلها,False:لإلغاء تحديد العناصر جيمعا</param>
+ <param name="chkl">القائمة المطلوبة</param>
+ <Author>Walid Al-Haidari</Author>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsUnits.Process(System.Object[])">
+ <summary>
+ دالة يتم من خلالها تنفيذ الخوارزميه التاليه
+ فحص وحدة الجمله المدخل هل موجود والا تم ادخالها والعوده بالايدي
+ ربط الصنف بالوحده بدلاله البيانات المدخله والبيانات المخزنه من قبل للصنف في حالة كان مرتبط بوحده من قبل
+ ادخال بيانات باركود الجمله في تسجيل ارقام الباركود
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsUnits.Test_Barcode(System.Int64,System.String,System.Int64,System.Double)">
+ <summary>
+  داله يتم من خلالها ادخال بيانات الباركود المرتبطه 
+ بوحدة الجمله بعد فحص اذاكان الباركود مرتبط بصنف آخر اولا
+ </summary>
+ <param name="Barcode"></param>
+ <param name="UnitID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsUnits.Add_Barcode(System.Object[])">
+ <summary>
+  داله يتم من خلالها ادخال بيانات الباركود المرتبطه 
+ بوحدة الصغرى بعد فحص اذاكان الباركود مرتبط بصنف آخر اولا
+ </summary>
+ <param name="Barcode"></param>
+ <param name="UnitID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsUnits.Test_Unit(System.String)">
+ <summary>
+ داله يتم من خلالها فحص اسم وحدة الجمله المدخل هل يوجد فيتم العوده بالايدي 
+ والا تم اضافة الوحده في دليل الوحدات والعوده بالايدي
+ </summary>
+ <param name="UnitName"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsUnits.Test_ItemUnits(System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Double,System.Double,System.Int64)">
+ <summary>
+ داله يتم من خلالها ادخال بيانات الوحده المرتبطه بالصنف المحدد وتتم من خلالها 
+ معالجه الادخال وعمل علاقه بين الوحدتين المرتبطه بالصنف
+ من حيث الوحده الاساسيه والوحده التاليه
+ اذاكان الوحده المدخله هي الوحده الاولى للصنف بمعنى ان الصنف غير مرتبط بوحده من قبل 
+ يتم ادخال بيانات الوحده وربطها بالصنف
+ في حال كان الصنف مرتبط بوحده من قبل
+ يتم فحص عملية الادخال
+ اذاكان الرتبه المدخله وعامل التحويل المدخل يساوي 1 
+ فالوحده المدخله الان هي الوحده الاساسيه
+ يتم ادخال بياناتها 
+  يتم التعديل على بيانات الوحده السابقه 
+ رتبة الوحده تكون الرتبه التاليه وعامل التحويل عباره عن العبوه المدخله
+والعبوه  واحد والوحده الوحده نفسها 
+ </summary>
+ <param name="ItemID"></param>
+ <param name="UnitID"></param>
+ <param name="UnitRank"></param>
+ <param name="ExchangeFactor"></param>
+ <param name="PackageQuantity"></param>
+ <param name="PackageUnitID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsUnits.Update_ItemsSellPrices(System.Object[])">
+ <summary>
+ داله تعمل على تعديل أسعار التجزئة في دليل الأصناف بالاعتماد على نسبه هامش ربح يحددها المستخدم
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_ItemsUnits.Update_ItemsUnitsPrice_ByMaxUnit(System.Object[])">
+ <summary>
+ تحديث الاسعار   في دليل اسعار الوحدات  بدلالات الوحدة الكبري
+ </summary>
+ <param name="">args()</param> 
+ <returns> Boolean </returns>
+ <remarks>Eng-al3qari</remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_Items.Set_ReadOnly(System.Object[])">
+ <summary>
+ تقوم هذه الدالة بتعديل حقل ReadOnly للسجلات المختارة
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_Items.UpdateItemsPrices(System.Object[])">
+ <summary>
+ تابع تعديل أسعار الأصناف من تقرير تفاصيل الأصناف
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_StoreSpendingDetails.Check_Item(System.Boolean)">
+ <summary>
+ فحص الكمية والسعر
+ </summary>
+ <returns>Boolean</returns>
+ <remarks>M.gholis</remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_StoreTransfer.AddStoreTransfer_FromItemOrder(System.Object[])">
+ <summary>
+ دالة لاستيراد نقل مخزني من طلب بضاعة والتعديل على الطلب ان هو تم سحبه
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_StoreTransferDetails.Check_Item(System.Boolean)">
+ <summary>
+ فحص الكمية والسعر
+ </summary>
+ <returns>Boolean</returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Inventory.wndInv_BeginingInventory.UpdatePreviousDocumentsRecordsStock(System.Object[])">
+ <summary>
+ دالة تقوم بعملية التحديث للبيانات السابقة الغير مرحلة للتوافق مع الطريقة الجديدة في  القيود المحاسبية والمخزنية
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

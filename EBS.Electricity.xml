@@ -1,0 +1,528 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.Electricity
+</name>
+</assembly>
+<members>
+<member name="T:EBS.Electricity.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.Electricity.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.Electricity.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EBS.Electricity.My.Resources.Resources._051_stock_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Electricity.My.Resources.Resources._background">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Electricity.My.Resources.Resources._splash">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Electricity.My.Resources.Resources.index">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Electricity.My.Resources.Resources.log_in">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Electricity.My.Resources.Resources.printer_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Electricity.My.Resources.Resources.repeat_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Electricity.My.Resources.Resources.warehouse">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:EBS.Electricity.ModFunctions.Round(System.Decimal)">
+ <summary>
+ تقريب العدد بحسب الرقم المحدد في الاعدادات 
+ </summary>
+ <param name="Value"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>               
+</member>
+<member name="P:EBS.Electricity.ModFunctions.AndBranchCondation">
+ <summary>  
+  شرط الفرع الحالي مع الإدارة
+ </summary> 
+</member>
+<member name="P:EBS.Electricity.ModFunctions.BranchCondation">
+ <summary>  
+  شرط الفرع الحالي مع الإدارة
+ </summary> 
+</member>
+<member name="M:EBS.Electricity.ModFunctions.Drawbarcode(System.String)">
+ <summary>
+ دالة رسم الباركود بدلالة الرقم 
+ </summary>
+ <param name="barcodeContent"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.ModFunctions.Get_Account_Balance_Special(System.String)">
+ <summary>
+ 'جلب المدفوعات الخاصة بالشهر السابق
+ </summary>
+ <param name="TheCondition"></param>
+ <returns></returns>
+ <remarks>Eng/Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.Renter.IDByName(System.String)">
+ <summary>
+ جلب ID المشترك
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.Renter.IDByNameAndThenumber(System.String,System.String)">
+ <summary>
+ جلب ID المشترك بالاسم والرقم
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.Renter.StateID(System.String)">
+ <summary>
+ حالة المشترك
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.Renter.ShopsType(System.String)">
+ <summary>
+نوع المحل
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.Renter.MonthlyRents(System.String)">
+ <summary>
+ الاشتراك الشهري
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.Renter.ElectricityMeters(System.String)">
+ <summary>
+ رقم العداد
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.Renter.RegionsID(System.String)">
+ <summary>
+ ID المنطقة
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.Renter.TarifGroup(System.String)">
+ <summary>
+Id التعرفة
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.Renter.TarifPrice(System.String)">
+ <summary>
+ سعر التعرفة
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.Renter.CurencyID(System.String)">
+ <summary>
+ ID العملة
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.Renter.MethodsRelyID(System.String)">
+ <summary>
+ نوع الاشتراك
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="P:EBS.Electricity.Renter.NameByID(System.Int64)">
+ <summary>
+ اسم المشترك
+ </summary>
+ <param name="ID"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="P:EBS.Electricity.Renter.AccountID(System.String)">
+ <summary>
+ID حساب المشترك
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.Renter.IDByNumber(System.Int64)">
+ <summary>
+  المشترك بالرقم ID
+ </summary>
+ <param name="TheNumber"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.Renter.GetRenterByName(System.String,System.Decimal)">
+ <summary>
+ جلب بيانات المشترك بشكل عام بدلالة الاسم 
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.Renter.GetRenterByID(System.Int64,System.Decimal)">
+ <summary>
+ جلب بيانات المشترك بشكل عام بدلالة الرقم  
+ </summary>
+ <param name="ID"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.Renter.GetCurrentReading(System.String)">
+ <summary>
+ جلب اخر  قراءة   
+ </summary>
+ <param name="RenterName"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.Renter.Get_Balance_RenterAccountName(System.Data.DataTable,System.Int64)">
+ <summary>
+ 'جلب رصيد المشترك دائن او مدين
+ </summary>
+ <param name="dt"> </param>
+ <param name="Row"> </param>
+ <returns></returns>
+ <remarks>Eng/Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.Renter.Get_Balance_Renter(System.String,System.String,System.DateTime,System.Int64,EBS.Classes.Session,System.Object)">
+ <summary>
+ 'جلب رصيد المشترك دائن او مدين بدلالة اسم المشترك
+ </summary>
+ <param name="Rentername"></param>
+ <param name="RenterAccount"></param>
+ <param name="DateBill"></param>
+ <returns>M.Gholis</returns>
+</member>
+<member name="M:EBS.Electricity.Renter.CalcPeriodConsumption(System.Decimal,System.String)">
+ <summary>
+  حساب الاستهلاك بطريقة الفترات 
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:EBS.Electricity.frmElc_ElectricityStationInformation.GetImagesLocal">
+ <summary>
+ جلب الصور في حال كان النظام شغال كلاينت
+ </summary>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.frmElc_ElectricityStationInformation.GetImagesServer">
+ <summary>
+ جلب الصور في حال كان النظام شغال كلاينت هوست 
+ </summary>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.frmElc_ElectricityBill.Get_Account_Balance_Special(System.String)">
+ <summary>
+ 'جلب المدفوعات الخاصة بالشهر السابق
+ </summary>
+ <param name="TheCondition"></param>
+ <returns></returns>
+ <remarks>Eng/Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.frmElc_InventoryReports.AutoNumberedTable(System.Data.DataTable)">
+ <summary>
+ دالة تقوم بادراج عمود ترقيم تلقائي مسلسل
+ </summary>
+ <param name="SourceTable"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.VewMainDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_RentersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.VewMain1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_AlarmSeparationCurrentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_ContractConditionsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_Renters1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_RequsetServiceElectricityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_PenaltyissuanceElectricityDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.VewElc_InventoryReportsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_ElectricityStationInformationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_ElectricityBillReport2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_ElectricityBillReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.VewMainRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_RentersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.VewMain1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_AlarmSeparationCurrentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_ContractConditionsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_Renters1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_RequsetServiceElectricityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_PenaltyissuanceElectricityRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.VewElc_InventoryReportsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_ElectricityStationInformationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_ElectricityBillReport2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_ElectricityBillReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.VewMainRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_RentersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.VewMain1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_AlarmSeparationCurrentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_ContractConditionsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_Renters1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_RequsetServiceElectricityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_PenaltyissuanceElectricityRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.VewElc_InventoryReportsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_ElectricityStationInformationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_ElectricityBillReport2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Electricity.AAAElectricity2018DataSet.vewElc_ElectricityBillReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="M:EBS.Electricity.wndElc_AlarmSeparationCurrent.SendMessageForEbdaaTwasel(System.String)">
+ <summary>
+ ارسال رسالة عبر تطبيق اشعارتك
+ </summary>
+ <param name="TypeProcess"></param>
+ <param name="RenterName"></param>
+ <param name="TheDate"></param>
+ <param name="RentersNumber"></param>
+ <param name="RenterAccountID"></param>
+ <param name="Consumption"></param>
+ <param name="Amount"></param>
+ <param name="MonthlyAmount"></param>
+</member>
+<member name="M:EBS.Electricity.wndElc_PenaltyissuanceElectricity.SendMessageForEbdaaTwasel(System.String)">
+ <summary>
+ ارسال رسالة عبر تطبيق اشعارتك
+ </summary>
+ <param name="TypeProcess"></param>
+</member>
+<member name="M:EBS.Electricity.wndElc_ElectricityStationInformation.GetFile(System.Object[])">
+ <summary>
+ جلب شعار المحطة 
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.wndElc_ElectricityStationInformation.delImages_wnd(System.Object)">
+ <summary>
+ حذف الشعار
+ </summary>
+ <param name="Args"></param>
+ <returns></returns>
+ <remarks>Eng.Mohammed Gholis</remarks>
+</member>
+<member name="M:EBS.Electricity.wndElc_ElectricityBill.SendSMSToRenter(System.String,System.String,System.DateTime,System.String,System.String,System.Double,System.Double,System.Double,System.Double,System.Double,System.Data.DataTable,System.Int64,System.Int64,System.Int64)">
+ <summary>
+ دالة استقيال المتغيرات لاجراء عملية ارسال رسالة
+ </summary>
+ <param name="TypeProcess"></param>
+ <param name="RenterName"></param>
+ <param name="TheDate"></param>
+ <param name="RentersNumber"></param>
+ <param name="RenterAccountID"></param>
+ <param name="Consumption"></param>
+ <param name="Amount"></param>
+ <param name="MonthlyAmount"></param>
+</member>
+<member name="M:EBS.Electricity.wndElc_ElectricityBill.AddRecordForElcterecity(System.Object[])">
+ <summary>
+ دالة إضافة سند قبض  التلقائية من النظام
+ </summary>
+ <param name="args"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

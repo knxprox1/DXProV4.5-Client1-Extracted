@@ -1,0 +1,651 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.Accounts
+</name>
+</assembly>
+<members>
+<member name="T:EBS.Accounts.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.Accounts.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.Accounts.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EBS.Accounts.My.Resources.Resources._à___د___â_ر____è__د___à___د_ذ_é_ر">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Accounts.My.Resources.Resources.businessman__10_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Accounts.My.Resources.Resources.CustomersServices">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Accounts.My.Resources.Resources.index">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Accounts.My.Resources.Resources.index1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Accounts.My.Resources.Resources.printer_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Accounts.My.Resources.Resources.printer_21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Accounts.My.Resources.Resources.Random">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Accounts.My.Resources.Resources.repeat_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Accounts.My.Resources.Resources.repeat_21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Accounts.My.Resources.Resources.stock_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Accounts.My.Resources.Resources.TransferServices">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Accounts.My.Resources.Resources.الفائزين_معنا">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:EBS.Accounts.frmCashExchangeRequest.CashExchangeRequestDetails.TestAmount(System.String,System.String,System.String,System.String)">
+ <summary>
+ دالة لمقارنة المبلغ الموجود في كلا العملتين في حالة أن العملة ليست مختلفة
+ </summary>
+ <param name="AmountControl"></param>
+ <param name="CurrencyControl"></param>
+ <param name="ExchangeAmountControl"></param>
+ <param name="ExchangeCurrency"></param>
+ <returns></returns>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Accounts.frmCashExchangeRequest.CashExchangeRequestDetails.getAmountOtherCurrency(System.Decimal,System.Int64,System.Int64)">
+ <summary>
+ دالة لحساب التحويل من عملة الصرف إلى عملة الحساب وتقوم بجلب سعر الصرف ومن ثم الضرب أو القسمة
+ </summary>
+ <param name="Amount"></param>
+ <param name="ExchangCurrencyID"></param>
+ <param name="CurrencyID"></param>
+ <author>Walid Al-Haidari</author>
+ <returns></returns>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Accounts.frmCashExchangeRequest.btnDepend_Click(System.Object,System.EventArgs)">
+ <summary>
+ فحص الصلاحيات
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks>M.gholis</remarks>
+</member>
+<member name="T:EBS.Accounts.dstCustomers">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomers.vewSellPriceInfoDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomers.ServiceItemContractDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomers.rptCommistionOrderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomers.tblContractDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomers.vewSellPriceInfoRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomers.ServiceItemContractRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomers.rptCommistionOrderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomers.tblContractRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomers.vewSellPriceInfoRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomers.ServiceItemContractRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomers.rptCommistionOrderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomers.tblContractRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomersTableAdapters.vewSellPriceInfoTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomersTableAdapters.ServiceItemContractTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomersTableAdapters.rptCommession">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomersTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.Accounts.dstCustomersTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.Accounts.dstCustomers,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.Accounts.dstCustomersTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.Accounts.dstCustomers,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.Accounts.dstCustomersTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.Accounts.dstCustomers,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.Accounts.dstCustomersTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.Accounts.dstCustomersTableAdapters.TableAdapterManager.UpdateAll(EBS.Accounts.dstCustomers)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomersTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.Accounts.dstCustomersTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:EBS.Accounts.frmReceivingMulti.ReceivingMultiDetails.TestAmount(System.String,System.String,System.String,System.String)">
+ <summary>
+ دالة لمقارنة المبلغ الموجود في كلا العملتين في حالة أن العملة ليست مختلفة
+ </summary>
+ <param name="AmountControl"></param>
+ <param name="CurrencyControl"></param>
+ <param name="ExchangeAmountControl"></param>
+ <param name="ExchangeCurrency"></param>
+ <returns></returns>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Accounts.frmReceivingMulti.ReceivingMultiDetails.getAmountOtherCurrency(System.Decimal,System.Int64,System.Int64)">
+ <summary>
+ دالة لحساب التحويل من عملة الصرف إلى عملة الحساب وتقوم بجلب سعر الصرف ومن ثم الضرب أو القسمة
+ </summary>
+ <param name="Amount"></param>
+ <param name="ExchangCurrencyID"></param>
+ <param name="CurrencyID"></param>
+ <author>Walid Al-Haidari</author>
+ <returns></returns>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Accounts.frmReceivingMulti.btnDepend_Click(System.Object,System.EventArgs)">
+ <summary>
+ فحص الصلاحيات
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks>M.gholis</remarks>
+</member>
+<member name="M:EBS.Accounts.frmSpendingMulti.SpendingMultiDetails.TestAmount(System.String,System.String,System.String,System.String)">
+ <summary>
+ دالة لمقارنة المبلغ الموجود في كلا العملتين في حالة أن العملة ليست مختلفة
+ </summary>
+ <param name="AmountControl"></param>
+ <param name="CurrencyControl"></param>
+ <param name="ExchangeAmountControl"></param>
+ <param name="ExchangeCurrency"></param>
+ <returns></returns>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Accounts.frmSpendingMulti.SpendingMultiDetails.getAmountOtherCurrency(System.Decimal,System.Int64,System.Int64)">
+ <summary>
+ دالة لحساب التحويل من عملة الصرف إلى عملة الحساب وتقوم بجلب سعر الصرف ومن ثم الضرب أو القسمة
+ </summary>
+ <param name="Amount"></param>
+ <param name="ExchangCurrencyID"></param>
+ <param name="CurrencyID"></param>
+ <author>Walid Al-Haidari</author>
+ <returns></returns>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Accounts.frmSpendingMulti.btnDepend_Click(System.Object,System.EventArgs)">
+ <summary>
+ فحص الصلاحيات
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks>M.gholis</remarks>
+</member>
+<member name="M:EBS.Accounts.frmTrialBalance.GetAllAccountsInPeriodByAllCurrencies">
+Multi currencies Trial Balance By Muad Alshibani----------------------------------------------------------------------
+</member>
+<member name="M:EBS.Accounts.frmTrialBalance.Create_Accounts_Tree_In_Grid_TrialBalnce(System.Windows.Forms.DataGridView,System.Int64,System.Data.DataTable,System.Int32,System.Boolean,System.Boolean)">
+Multi currencies Trial Balance By Muad Alshibani----------------------------------------------------------------------
+</member>
+<member name="M:EBS.Accounts.frmTrialBalance.cmbReportType_SelectedIndexChanged(System.Object,System.EventArgs)">
+Multi currencies Trial Balance By Muad Alshibani----------------------------------------------------------------------
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewAccountLinkDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewCustomersServicesAndOffersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewCustomersServicesAndOffersDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewSpendingMultiDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.EntriesDT2DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewReceivingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewSimpleTiesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewSpendingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewDailyEntriesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewReceivingMultiDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.AllAccountsDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.EntriesDTDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.tblImgDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.AccountLinkBalanceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.DTImageQRDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewAccountLinkRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewCustomersServicesAndOffersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewCustomersServicesAndOffersDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewSpendingMultiDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.EntriesDT2Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewReceivingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewSimpleTiesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewSpendingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewDailyEntriesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewReceivingMultiDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.AllAccountsDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.EntriesDTRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.tblImgRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.AccountLinkBalanceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.DTImageQRRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewAccountLinkRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewCustomersServicesAndOffersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewCustomersServicesAndOffersDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewSpendingMultiDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.EntriesDT2RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewReceivingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewSimpleTiesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewSpendingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewDailyEntriesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.vewReceivingMultiDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.AllAccountsDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.EntriesDTRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.tblImgRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.AccountLinkBalanceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDataset.DTImageQRRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDatasetTableAdapters.vewAccountLinkTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDatasetTableAdapters.vewCustomersServicesAndOffersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDatasetTableAdapters.vewCustomersServicesAndOffersDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDatasetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.Accounts.EBSTraderNetAccountsDatasetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.Accounts.EBSTraderNetAccountsDataset,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.Accounts.EBSTraderNetAccountsDatasetTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.Accounts.EBSTraderNetAccountsDataset,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.Accounts.EBSTraderNetAccountsDatasetTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.Accounts.EBSTraderNetAccountsDataset,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.Accounts.EBSTraderNetAccountsDatasetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.Accounts.EBSTraderNetAccountsDatasetTableAdapters.TableAdapterManager.UpdateAll(EBS.Accounts.EBSTraderNetAccountsDataset)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDatasetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.Accounts.EBSTraderNetAccountsDatasetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:EBS.Accounts.wndAccountBalanceReceipt.AddAccountBalanceReceiptAll(System.Object[])">
+ <summary>
+ 
+ </summary>
+ <param name="Args"></param>
+ <returns></returns>
+ 'Alagary -8-7-2020
+</member>
+<member name="M:EBS.Accounts.frmJournalEntries.txtMcAmount_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ تحويل المبلغ المقابل الى المبلغ بالعملة المختارة 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks>M.Gholis</remarks>
+</member>
+<member name="M:EBS.Accounts.modMain.NumberingDocument(EBS.Services.clsWindowOperation@,System.String,System.Boolean,EBS.Classes.Session,EBS.Classes.Database)">
+ <summary>
+ ترقيم السندات المحاسبية بحسب الاعدادات
+ </summary>
+ <param name="Is_Add"></param>
+ <param name="ActiveOperation"></param>
+ <param name="TableName"></param>
+ <returns></returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Accounts.modMain.Test_User_Permission(EBS.ibsMasterDetailsSimple,System.String,System.String)">
+ <summary>
+ فحص صلاحيات
+ </summary>
+ <param name="PermissionKey"></param>
+ <param name="PermissionType"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.Accounts.wndCurrenciesPrices.AddCurrenciesPricesDynamic">
+ <summary>
+ اضافة البيانات المقابلة لتوع عملية التحويل 
+ </summary>
+ <returns>Eng.GHolis</returns>
+</member>
+<member name="M:EBS.Accounts.wndTransportServices.AddLateDaysEntry(System.Object[])">
+ <summary>
+ قيد اضافة غرامة تاخير على السائق
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Accounts.wndTransportServices.AddTraderReturnEntry(System.Object[])">
+ <summary>
+ قيد اضافة حركة الراجع الى حساب التاجر
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

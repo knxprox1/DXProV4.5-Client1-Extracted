@@ -1,0 +1,1264 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.RestaurantsSystem
+</name>
+</assembly>
+<members>
+<member name="T:EBS.RestaurantsSystem.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources._024_table">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources._1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources._11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources._11948_NO0W7K">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources._12">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources._2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources._3D_view">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources._new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.about_seamless_delivery">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.background_home">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.banknote">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.basic">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.basic1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.basic2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.basic21">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.basic3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.basic31">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.BasicDown">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.BasicMid">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.BasicUp">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.black_Menu_vector_background_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.calendar">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.calendar_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.check">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.check1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.code">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.cross">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.cross_124">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.cross1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.cross2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.DeliveryIcon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.division">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.Down">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.download_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.ebd3Soft">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.eye_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.eye_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.filter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.filter1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.glue">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.image_file">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.Image1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.invoice">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.Invoice_Payment">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.invoice_فاتورة_مردود_مبيعات">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.layer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.logo_chief_500">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.loupe_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.loupe_11">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.magnifier">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.magnifier_plus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.magnifier1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.MasterCard">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.minus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.molecule">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.new___Copy">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.new___Copy1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.next_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.next1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.pencil">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.PicWithCardNumber">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.PicWithEmployeeName">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.pin">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.pin1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.play">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.plus">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.plus1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.plus2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.plus3">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.plus4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.plus5">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.plus6">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.previous1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.printer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.printer1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.printer2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.recording">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.refresh_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.refresh_4">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.research">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.resize">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.S">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.S1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.S2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.search_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.share1__2_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.SP">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.SPdwon">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.SPmid">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.SPup">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.summer_bokeh">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.table_1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.th">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.th2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.Untitled">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.up">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.VISA">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.waiter">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.ابداع_سوفت">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.ابداع_سوفت2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.My.Resources.Resources.عنوان_البيع_المباشر">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:EBS.RestaurantsSystem.modPurshasing.NumberingInvDocument(EBS.Services.clsWindowOperation@,System.String,System.Boolean,EBS.Classes.Session,EBS.Classes.Database)">
+ <summary>
+ ترقيم الفواتير بحسب الاعدادات
+ </summary>
+ <param name="Is_Add"></param>
+ <param name="ActiveOperation"></param>
+ <param name="TableName"></param>
+ <returns></returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="T:EBS.RestaurantsSystem.CommManager.TransmissionType">
+ <summary>
+ enumeration to hold our transmission types
+ </summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.CommManager.MessageType">
+ <summary>
+ enumeration to hold our message types
+ </summary>
+</member>
+<member name="M:EBS.RestaurantsSystem.CommManager.#ctor(System.String,System.String,System.String,System.String,System.String,System.Windows.Forms.DataGridView@,System.String,System.String@)">
+ <summary>
+ Constructor to set the properties of our Manager Class
+ </summary>
+ <param name="baud">Desired BaudRate</param>
+ <param name="par">Desired Parity</param>
+ <param name="sBits">Desired StopBits</param>
+ <param name="dBits">Desired DataBits</param>
+ <param name="name">Desired PortName</param>
+ <param name="dgv">Desired Datagrid</param>
+ <param name="ColH">Desired DatagridCellHeader To Put the barcode value in it</param>
+</member>
+<member name="M:EBS.RestaurantsSystem.CommManager.#ctor(System.String,System.Windows.Forms.DataGridView@,System.String,System.String@)">
+ <summary>
+ 
+ </summary>
+ <param name="portName">اسم المنفذ</param>
+ <param name="dgv">الشبكة لاسناد قيمة الباركود</param>
+ <param name="ColH">عمود الباركود</param>
+ <param name="portState">حالة الباركود</param>
+ <remarks>9600,Parity.None,StopBits.One,8 dataBits</remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.CommManager.comPort_DataReceived(System.Object,System.IO.Ports.SerialDataReceivedEventArgs)">
+ <summary>
+ method that will be called when theres data waiting in the buffer
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:EBS.RestaurantsSystem.CommManager.DisplayData(EBS.RestaurantsSystem.CommManager.MessageType,System.String)">
+ <summary>
+ Method to display the data to and
+ from the port on the screen
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.RestaurantsSystem.Forms.SmallRestaurantSystem">
+ <summary>
+ خاصية نظام المطاعم المصغر
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:EBS.RestaurantsSystem.Forms.Rst_DeleteDetailsByDeletingMaster">
+ <summary>
+ خاصية حذف سجلات التفاصيل عند حذف سجل االرأس 
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:EBS.RestaurantsSystem.Forms.Rst_IsCashPayment">
+ <summary>
+  خاصية في حال كانت طريقة الدفع نقد يتم الدفع تلقائيأ
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:EBS.RestaurantsSystem.frmRst_SalesInvoice.CalulateDiscountPart(System.Double)">
+ <summary>
+ دالة لحساب خصم الكسور على مستوى الفاتورة
+ </summary>
+ <param name="MyDB"></param>
+ <param name="TableName"></param>
+ <param name="ParentID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.frmRst_SalesInvoice.Get_ExtraSettings_WithDefaultValue(System.Int32,System.Int32)">
+ <summary>
+ في حال تم ارجاع قيمة سالبة يتم اخذ القيمة الإفتراضية
+ </summary>
+ <param name="ColIndex"></param>
+ <param name="DefaultValue"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.RestaurantsSystem.frmRst_SalesInvoice.cmdSaveParent_Click(System.String)">
+ <summary>
+ Add Item To Invoice : Add New If The Item Not In The Invoice ,Else Muiltiplay it By One
+ </summary>
+ <param name="SelectBarcode"> Barcode Value </param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.frmRst_SalesInvoice.btnIncreaseQuantity_Click(System.Object,System.EventArgs)">
+ <summary>
+ Increase Quantity Of Selected Item
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.frmRst_SalesInvoice.btnDecreaseQuantity_Click(System.Object,System.EventArgs)">
+ <summary>
+ Decrease Quantity Of Selected Item
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.frmRst_SalesReturnInvoice.IsInvoicesNotPaid">
+ <summary>
+ فحص توفر فواتير غير مدفوعة قبل تاريخ اليوم لمنع الاضافة
+ </summary>
+ <returns></returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.frmRst_SalesReturnInvoiceImport.Initial_Record(System.Data.DataTable)">
+ <summary>
+ هذه الدالة تستخدم لاسناد البيانات المراد اضافتها الى جدول راس فاتورة مردود المبيعات المباشرة
+ </summary>
+ <param name="dt">الجدول الذي يحتوي على بعض البيانات المسترجعة من جدول راس فاتورة المبيعات المباشرة</param>
+ <returns>جدول البيانات الذي يحتوي على بيانات راس فاتورة مردود المبيعات المباشرة</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.frmRst_feastDetails.GetItemInfoByBarcode(System.String,System.String)">
+ <summary>
+ استرجاع بيانات الصنف حسب الباركود
+ </summary>
+ <param name="barcode"></param>
+ <param name="TabName"></param>
+ <remarks>Yunes</remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.frmRst_feastDetails.GetItemInfoByNumber(System.String,System.String)">
+ <summary>
+ استرجاع بيانات الصنف حسب رقم الصنف
+ </summary>
+ <param name="ItemNo"></param>
+ <param name="TabName"></param>
+ <remarks>Yunes</remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.frmRst_feastDetails.GetItemInfoByName(System.String,System.String)">
+ <summary>
+ استرجاع بيانات الصنف حسب أسم الصنف
+ </summary>
+ <param name="ItemName"></param>
+ <param name="TabName"></param>
+ <remarks>Yunes</remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.frmRst_feastDetails.clearall">
+ <summary>
+ تنظيف جميع البيانات في الشاشة بعد الاضافة او التحديث او الحذف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.RestaurantsSystem.RSS.RssBar.ItemCursor">
+ <summary>
+ Gets or sets the cursor that is displayed when the mouse pointer is over the feed item.
+ </summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.RSS.RssBar.ImageCursor">
+ <summary>
+ Gets or sets the cursor that is displayed when the mouse pointer is over the feed banner.
+ </summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.RSS.RssBar.RSSBanner">
+ <summary>
+ Gts the RSS feed banner.
+ </summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.RSS.RssBar.RSSFeedAddress">
+ <summary>
+ Gets the RSS feed address.
+ </summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.RSS.RssBar.ConnErrString">
+ <summary>
+ Gets or sets the error message that would be displayed to the user if failed locating to feed.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:EBS.RestaurantsSystem.RSS.RssBar.NoItemsErrString">
+ <summary>
+ Gets or sets the message that would be displayed to the user if no items are available in the selected feed.
+ </summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.RSS.RssBar.LoadErrString">
+ <summary>
+ Gets or sets the error message that would be displayed to the user if an error occurred while loading feed content.
+ </summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.RSS.RssBar.DrawBorders">
+ <summary>
+ Indicates whether to draw a border around the bar or not.
+ </summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.RSS.RssBar.ClockForeColor">
+ <summary>
+ Gets or sets clock foreground color
+ </summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.RSS.RssBar.ClockBackColor">
+ <summary>
+ Gets or sets clock background color.
+ </summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.RSS.RssBar.ClockVisible">
+ <summary>
+ Specifies whether to show clock and it's relatives or not.
+ </summary>
+</member>
+<member name="P:EBS.RestaurantsSystem.RSS.RssBar.Dock">
+ <summary>
+ Defines which borders of the control are bound to the container.
+ </summary>
+</member>
+<member name="M:EBS.RestaurantsSystem.RSS.RssBar.#ctor(System.String,System.Drawing.Image)">
+ <summary>
+ Instantiate a new instance of the RssBar object.
+ </summary>
+ <param name="rss">RSS feed path.</param>
+ <param name="image">RSS feed banner image.</param>
+</member>
+<member name="M:EBS.RestaurantsSystem.RSS.RssBar.Pause">
+ <summary>
+ Suspends bar moving.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.RSS.RssBar.Resume">
+ <summary>
+ Resumes bar moving.
+ </summary>
+</member>
+<member name="M:EBS.RestaurantsSystem.RSS.RssBar.ChangeRssFeed(System.String)">
+ <summary>
+ Changes the RSS feed on-the-fly.
+ </summary>
+</member>
+<member name="M:EBS.RestaurantsSystem.RSS.RssBar.ReadRss(System.String)">
+ <summary>
+ Reads the RSS content.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.RSS.RssBar.SetCursor(System.Boolean,System.Windows.Forms.Cursor)">
+ <summary>
+ Sets the cursor for a feed item label or banner image.
+ </summary>
+</member>
+<member name="M:EBS.RestaurantsSystem.RSS.RssBar.ClearItems">
+ <summary>
+ Clears all items and frees reserved memory.
+ </summary>
+</member>
+<member name="M:EBS.RestaurantsSystem.RSS.RssBar.IsRtl(System.Windows.Forms.Control)">
+ <summary>
+ Indicates Right-to-Left (RTL) or Left-to-Right (LTR). Used to determine moving direction.
+ </summary>
+</member>
+<member name="M:EBS.RestaurantsSystem.RSS.RssBar.SetError(System.String)">
+ <summary>
+ Displays an error message to the user.
+ </summary>
+</member>
+<member name="F:EBS.RestaurantsSystem.modMain.StateOfferEnum.WaitOffer">
+ <summary>
+ العرض في حالة انتظار
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.RestaurantsSystem.modMain.StateOfferEnum.StopOffer">
+ <summary>
+ توقيف العرض
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.RestaurantsSystem.modMain.StateOfferEnum.Contineous">
+ <summary>
+ العرض مستمر
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.RestaurantsSystem.modMain.StateOfferEnum.OutOFStock">
+ <summary>
+ نفاذ كمية العرض
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.modMain.ShowCardinfoByCardNumber(EBS.Controls.ibsDataGridView,EBS.Classes.Session)">
+ <summary>
+ باستخدام F11 لفتح نافذة معلومات البطاقه
+ </summary>
+ <param name="TheGrid"></param>
+ <param name="MySession"></param>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.frmRst_SearchInvoiceNumber.Initial_Record(System.Data.DataTable)">
+ <summary>
+ هذه الدالة تستخدم لاسناد البيانات المراد اضافتها الى جدول راس فاتورة مردود المبيعات المباشرة
+ </summary>
+ <param name="dt">الجدول الذي يحتوي على بعض البيانات المسترجعة من جدول راس فاتورة المبيعات المباشرة</param>
+ <returns>جدول البيانات الذي يحتوي على بيانات راس فاتورة مردود المبيعات المباشرة</returns>
+ <remarks></remarks>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_BuffetBillsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_BuffetBillsDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_FeastsDetailsReportsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtRst_SalesInvoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtRst_SalesInvoicePaymentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_ReportDailyDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_ReportDailyRenterDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtRst_SalesReturnInvoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtRst_SalesReturnInvoicePaymentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtbImageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtInvoiceCostByCatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_CardPaymentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtRst_SubscriprsCardDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_SalesInvoicePaymentMethodsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_SalesInvoiceCardPaymentReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewInv_AccountServiceItemsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_LotteriesCardsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_OffersDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_SalesReturnInvoiceReceivingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_BuffetBillsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_BuffetBillsDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_FeastsDetailsReportsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtRst_SalesInvoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtRst_SalesInvoicePaymentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_ReportDailyRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_ReportDailyRenterRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtRst_SalesReturnInvoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtRst_SalesReturnInvoicePaymentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtbImageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtInvoiceCostByCatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_CardPaymentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtRst_SubscriprsCardRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_SalesInvoicePaymentMethodsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_SalesInvoiceCardPaymentReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewInv_AccountServiceItemsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_LotteriesCardsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_OffersDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_SalesReturnInvoiceReceivingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_BuffetBillsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_BuffetBillsDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_FeastsDetailsReportsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtRst_SalesInvoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtRst_SalesInvoicePaymentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_ReportDailyRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_ReportDailyRenterRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtRst_SalesReturnInvoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtRst_SalesReturnInvoicePaymentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtbImageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtInvoiceCostByCatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_CardPaymentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.dtRst_SubscriprsCardRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_SalesInvoicePaymentMethodsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_SalesInvoiceCardPaymentReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewInv_AccountServiceItemsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_LotteriesCardsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_OffersDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRst.vewRst_SalesReturnInvoiceReceivingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRstTableAdapters.vewRst_BuffetBillsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRstTableAdapters.vewRst_BuffetBillsDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRstTableAdapters.vewRst_FeastsDetailsReportsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRstTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.RestaurantsSystem.dstRstTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.RestaurantsSystem.dstRst,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.RestaurantsSystem.dstRstTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.RestaurantsSystem.dstRst,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.RestaurantsSystem.dstRstTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.RestaurantsSystem.dstRst,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.RestaurantsSystem.dstRstTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.RestaurantsSystem.dstRstTableAdapters.TableAdapterManager.UpdateAll(EBS.RestaurantsSystem.dstRst)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRstTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.RestaurantsSystem.dstRstTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:EBS.RestaurantsSystem.wndRst_SalesInvoice.calulateDiscount(System.Int64,System.Double)">
+ <summary>
+ دالة لحساب الخصم على اصناف الملابس في الفاتورة حسب النسبة المحددة في الاعدادات
+ </summary>
+ <param name="Args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.wndRst_SalesReturnInvoice.AddMester_Invoice(System.Object[])">
+ <summary>
+ هذه الدالة لغرض اضافة بيانات فاتورة المردود وتفاصيلها
+ </summary>
+ <param name="args">تمرير الجداول اللازم اضافة البيانات اليها</param>
+ <returns>ارجاع رقم فاتورة المردود</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.wndRst_SalesReturnInvoice.Show_InvoiceInfo(System.Object[])">
+ <summary>
+ هذه الدالة تستخدم لاسترجاع بيانات فاتورة البيع المباشر المراد ارجاع اصناف منها
+ </summary>
+ <param name="args">هذه الوسائط تمرر الجدول المصدر لاسترجاع البيانات اللازمة</param>
+ <returns>تقوم الدالة بارجاع النتيجة كجدول لغرض عرض هذه البيانات في الواجهة</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.wndRst_SalesReturnInvoice.Show_InvoiceDetailsInfo(System.Object[])">
+ <summary>
+ هذه الدالة تستخدم لاسترجاع بيانات تفاصيل فاتورة البيع المباشر المراد ارجاع اصناف منها
+ </summary>
+ <param name="args">هذه الوسائط تمرر الجدول المصدر لاسترجاع البيانات اللازمة</param>
+ <returns>تقوم الدالة بارجاع النتيجة كجدول لغرض عرض هذه البيانات في الواجهة</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.wndRst_SalesReturnInvoiceReceiving.Show_InvoiceInfo_ForReturnInvoice(System.Object[])">
+ <summary>
+ دالة تعود  بمعلومات عن فاتورة المردود مبلغها وكم تم الدفع بواسطتها ورقمها والكاشير والنقطة 
+ </summary>
+ <param name="args"></param>
+ <returns>  يتم تمرير رقم الفاتورة</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.wndRst_SalesTotals.DeleteTotalNotBill">
+ <summary>
+ حذف الاجماليات الغير مرتبطة بفواتير بيع مباشر للمطاعم
+ </summary>
+ <returns></returns>
+ <remarks>M.gholis 24-5-2021</remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.wndRst_Feasts.AddAllDetails(System.Object[])">
+ <summary>
+ دالة تقوم باضافة تفاصيل التفاصيل لجميع الجداول يتم ارسال الجدول من الفورم
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.wndRst_Feasts.UpdateAllDetails(System.Object[])">
+ <summary>
+ دالة تقوم بتعديل تفاصيل التفاصيل لجميع الجداول يتم ارسال الجدول من الفورم
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.wndRst_Feasts.DeleteAllDetails(System.Object[])">
+ <summary>
+ دالة تقوم بحذف تفاصيل التفاصيل لجميع الجداول يتم ارسال الجدول من الفورم
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.RestaurantsSystem.wndRst_Feasts.AddDateInfo(System.Int64)">
+ <summary>
+  اضافة بيانات الحجز الى جدول DatesInfo
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,1774 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+EBS.Purchasing
+</name>
+</assembly>
+<members>
+<member name="T:EBS.Purchasing.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:EBS.Purchasing.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:EBS.Purchasing.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:EBS.Purchasing.My.Resources.Resources._007_repeat">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Purchasing.My.Resources.Resources._037_paper_printer">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Purchasing.My.Resources.Resources.Down">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Purchasing.My.Resources.Resources.index">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Purchasing.My.Resources.Resources.monitor">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Purchasing.My.Resources.Resources.printer_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Purchasing.My.Resources.Resources.repeat_2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:EBS.Purchasing.My.Resources.Resources.XproAndroid">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SalesDiscounts.CancelSellInvoiceForSalseDiscounts">
+ <summary>
+ Ibd'a: to cancel the link of costAdjusting with BuyInvoice Bill
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SalesDiscounts.GetSellInvoiceNumber(System.Int64)">
+ <summary>
+ IBD'A: a function that bring the number of the buyinvoice from its ID to be shown for the user
+ </summary>
+ <param name="BuyInvoiceID"></param>
+ <returns></returns>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_CostsAdjusting.CancelBuyInvoiceForCostAdjusting">
+ <summary>
+ Ibd'a: to cancel the link of costAdjusting with BuyInvoice Bill
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_CostsAdjusting.GetBuyInvoiceNumber(System.Int64)">
+ <summary>
+ IBD'A: a function that bring the number of the buyinvoice from its ID to be shown for the user
+ </summary>
+ <param name="BuyInvoiceID"></param>
+ <returns></returns>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_Quotation.btnConvertToSellBill_Click(System.Object,System.EventArgs)">
+ <summary>
+ تحويل الى فاتورة بيع 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks>M.gholis</remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SellInvoice.Inv_SellInvoice.PrintItemDescription(CrystalDecisions.CrystalReports.Engine.ReportDocument,System.Data.DataSet@,System.Boolean,System.Boolean)">
+ <summary>
+ تابع طباعة وصف كمية الصنف في طباعة المستند
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SellInvoice.Inv_SellInvoiceDetails.CheckAlternativeItems(System.Boolean)">
+ <summary>
+ فحص الأصناف البديلة / نظام الصيدليات
+ </summary>
+ <param name="Is_Add"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SellInvoice.Inv_SellInvoiceDetails.CheckSellPrice(System.String,System.String,System.String)">
+ <summary>
+ تابع فحص عدم البيع بأقل من سعر البيع في مجموعة الأصناف
+ </summary>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SellInvoice.CreateProfitButton">
+ <summary>
+ ارباح الفاتورة
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SellInvoice.ShowInvoiceSellProfit(System.Int64,System.DateTime)">
+ <summary>
+ تابع عرض ارباح الفاتورة في الشريط السفلي
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:EBS.Purchasing.PurshisingDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="M:EBS.Purchasing.frmInv_BuyExpendituresWithStoreTransfer.AutoNumberedTable(System.Data.DataTable)">
+ <summary>
+ أضافة عمود مسلسل
+ </summary>
+ <param name="SourceTable">DataTable</param>
+ <returns>تعيد جدول بيانات ذو حقل مسلسل تلقائي</returns>
+ <Author>Mohammed Al-Heyasi</Author>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SaleBurdenseReport.AutoNumberedTable(System.Data.DataTable)">
+ <summary>
+ أضافة عمود مسلسل
+ </summary>
+ <param name="SourceTable">DataTable</param>
+ <returns>تعيد جدول بيانات ذو حقل مسلسل تلقائي</returns>
+ <Author>Mohammed Al-Heyasi</Author>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_BuyCommand.ShowBalenceItemsTotal_BySupplier(System.Object[])">
+ <summary>
+ دالة تعود بكميه المخزون قبل الترحيل من الصنف المرسل حسب المورد
+ 
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_BuyCommand.ShowLastQuantity(System.Object[])">
+ <summary>
+ دالة تعود بكمية أخر عملية شراء من الصنف
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_BuyQuotation.ShowBalenceItemsTotal_BySupplier(System.Object[])">
+ <summary>
+ دالة تعود بكميه المخزون قبل الترحيل من الصنف المرسل حسب المورد
+ 
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_BuyQuotation.ShowLastQuantity(System.Object[])">
+ <summary>
+ دالة تعود بكمية أخر عملية شراء من الصنف
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_ReplaceMentInvoicesDetails.Test_Befor_Delete_OK">
+ <summary>
+ هذا الدالة تقوم بالتحقق من اية ارتباطات للفاتورة مع تسويات تكلفة حتىل لايتم السماح بالتعديل لمحتوى رأس الفاتورة
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SalesDiscounts.AddMester_SalseDiscounts(System.Object[])">
+ <summary>
+ دالة تضيف سند جديد بكافة بياناتة وتفاصيلة يتم استدعائها اثناء التصدير
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SalesDiscounts.GetSellInvoiceNumber(System.Object[])">
+ <summary>
+ IBD'A: a function that bring the number of the buyinvoice from its ID to be shown for the user
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SalesDiscounts.Show_InvoiceInfo(System.Object[])">
+ <summary>
+ IBD'A: to bring the datatable contains  vewInv_BuyInvoice
+ </summary>
+ <param name="args">args(0): ID, args(1): boolean,True: if the sent is the Number, False: if the sent is the ID</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SalesDiscounts.Show_InvoiceDetailsInfo(System.Object[])">
+ <summary>
+ IBD'A: to bring the datatable contains wndInv_SalesDiscounts
+ </summary>
+ <param name="args">the Parent ID of the wndInv_SalesDiscountsDetails</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SalesDiscounts.CancelSellInvoiceForSalseDiscounts(System.Object[])">
+ <summary>
+ IBD'A: to cancel the link between tblInv_SellInvoice and tblInv_SalesDiscounts
+ </summary>
+ <param name="args">ParentID: of the tblInv_SalesDiscounts</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SalesDiscounts.SetSellInvoiceForSalseDiscounts(System.Object[])">
+ <summary>
+ IBD'A: to set the link between tblInv_SellInvoice and tblInv_SalesDiscounts
+ </summary>
+ <param name="args">ParentID: of the tblInv_SalesDiscounts, BuyInvoiceID: ID of the tblInv_SellInvoice</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SellInvoiceDetails.Check_Item(System.Boolean)">
+ <summary>
+ فحص الكمية والسعر
+ </summary>
+ <returns>Boolean</returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SellInvoiceDetails.Check_BatchNumber(System.Boolean)">
+ <summary>
+ فحص رقم الدفعه **TAHA**
+ </summary>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SellInvoiceDetails.Get_BatchNumber_Quantity(System.Int64,System.Int64,System.Int64,System.Int64,System.Int64)">
+ <summary>
+ دالة تعود بكمية الصنف بحسب رقم الدفعه في أمر التشغيل **TAHA**    
+ </summary>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SellInvoiceDetails.AddItemsConverting(System.String,System.String,System.String,System.Int64)">
+ <summary>
+ دالة اضافة مستند تحويل اصناف تلقائيا وتفكيك الاصناف المركبة سابقا
+ </summary>
+ <param name="itemname"></param>
+ <param name="unitName"></param>
+ <param name="storename"></param>
+ <param name="Parentid"></param>
+ <returns></returns>
+ <remarks>M.gholis</remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SellInvoiceDetailsTemp.Check_Item(System.Boolean)">
+ <summary>
+ فحص الكمية والسعر
+ </summary>
+ <returns>Boolean</returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SellInvoiceTemp.SaveToDictionary(System.Object[])">
+ <summary>حفظ البيانات في قاموس الترجمة </summary>
+ <param name="Args"> مصفوفة معاملات </param>
+ <returns>تعيد True في حال نجاح العملية</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SellInvoiceTemp.UpdateMeritState(System.Object[])">
+ <summary>
+ دالة لتعديل  حالة تحصيل الفواتير 
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SellInvoiceDeposit.Inv_SellInvoiceDeposit.PrintItemDescription(CrystalDecisions.CrystalReports.Engine.ReportDocument,System.Data.DataSet@,System.Boolean,System.Boolean)">
+ <summary>
+ تابع طباعة وصف كمية الصنف في طباعة المستند
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SellInvoiceDeposit.Inv_SellInvoiceDepositDetails.CheckAlternativeItems(System.Boolean)">
+ <summary>
+ فحص الأصناف البديلة / نظام الصيدليات
+ </summary>
+ <param name="Is_Add"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SellInvoiceDeposit.Inv_SellInvoiceDepositDetails.CheckSellPrice(System.String,System.String,System.String)">
+ <summary>
+ تابع فحص عدم البيع بأقل من سعر البيع في مجموعة الأصناف
+ </summary>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SellInvoiceDeposit.SaveToDictionary(System.Object[])">
+ <summary>حفظ البيانات في قاموس الترجمة </summary>
+ <param name="Args"> مصفوفة معاملات </param>
+ <returns>تعيد True في حال نجاح العملية</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SellInvoiceDeposit.UpdateMeritState(System.Object[])">
+ <summary>
+ دالة لتعديل  حالة تحصيل الفواتير 
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SellInvoiceDeposit.CalcSellRate(EBS.Classes.Entries@)">
+ <summary>
+ - احتساب نسبة من اجمالي فاتورة البيع الى حساب ايراد وتحميل قيمة النسبة العميل
+ </summary>
+ <param name="MyEntries"></param>
+ <returns></returns>
+</member>
+<member name="M:EBS.Purchasing.modMain.RemoveRedundantNames(System.String)">
+ <summary> إزالة الكلمات المكررة في السلسلة </summary>
+ <param name="OldStr">سلسلة الكلمات المراد فحصها</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.modMain.TranslateText(System.String,System.String)">
+ <summary>
+ ترجمة عبر قوقل
+ </summary>
+ <param name="input"></param>
+ <param name="languagePair"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.modMain.TranslateThis(System.String)">
+ <summary> دالة للترجمة </summary>
+ <param name="txtSource"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.modMain.ISImoprted(System.Int64)">
+ <summary>
+ داله تعود هل الفاتورة مستوردة اولا
+ </summary>
+ <param name="DocID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_DiscountReport.AutoNumberedTable(System.Data.DataTable)">
+ <summary>
+ أضافة عمود مسلسل
+ </summary>
+ <param name="SourceTable">DataTable</param>
+ <returns>تعيد جدول بيانات ذو حقل مسلسل تلقائي</returns>
+ <Author>Mohammed Al-Heyasi</Author>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SellSummary.All_Items_Details_Qut">
+ <summary>
+ دالة جلب اجمالي الكميات 
+ </summary>
+ <remarks>M.Alagary-16-7-2020</remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_BuyExpenditures.AutoNumberedTable(System.Data.DataTable)">
+ <summary>
+ أضافة عمود مسلسل
+ </summary>
+ <param name="SourceTable">DataTable</param>
+ <returns>تعيد جدول بيانات ذو حقل مسلسل تلقائي</returns>
+ <Author>Mohammed Al-Heyasi</Author>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_IncomingOutgoingBeforRelay.Show_WindowW(EBS.Controls.ibsDataGridView,EBS.Classes.Session,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ دالة لعرض نافذة المستند المحدد بدلالة:
+ </summary>
+ <param name="dgvMain">الشبكة</param>
+ <param name="MySession">الجلسة</param>
+ <param name="ColIndexDocument">رقم عمود المستند</param>
+ <param name="ColIndexRecordID">رقم عمود المعرف في الجدول</param>
+ <param name="ColIndexDate">رقم عمود التاريخ</param>
+ <remarks>3qari</remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_IncomingOutgoingBeforRelay.Show_WindowW(EBS.Controls.ibsDataGridView,EBS.Classes.Session,System.String,System.String,System.String)">
+ <summary>
+ دالة لعرض نافذة المستند المحدد بدلالة:
+ </summary>
+ <param name="dgvMain">الشبكة</param>
+ <param name="MySession">الجلسة</param>
+ <param name="ColHDocument">عنوان عمود المستند</param>
+ <param name="ColHRecordID">عنوان عمود المعرف في الجدول</param>
+ <param name="ColHDate">عنوان عمود التاريخ</param>
+ <remarks>3qari</remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SalesProfits.ColsTotal.Value">
+ <summary>
+ يعود هذا التابع بصيغة الاستعلام مع مجموع الأعمدة المحددة
+ </summary>
+ <param name="strSQL">نص الاستعلام التفصيلي</param>
+ <param name="GroupingCol">حقل التجميع إن وجد مثلا حقل العملة</param>
+ <param name="TotalAtEnd">لتحديد موقع أسطر الاجمالي اما في نهاية الاستعلام أو حسب حقل التجميع</param>
+ <param name="SumCols">لتحديد الحقول التي يتم جمعها</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SalesProfits.Get_Sql_SalesProfitsNew(System.String,System.String,System.String)">
+ <summary>
+ دالة تحتوي على استعلام ارباح المبيعات لجميع انواع التقارير
+ </summary>
+ <param name="Condition"></param>
+ <param name="SupplierCondition"></param>
+ <param name="RepType">نوع التقرير</param>
+ <returns></returns>
+ <remarks>M.gholis</remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SalesProfits.Get_Sql_Average_StoreCost_SalesProfits(System.String,System.String)">
+ <summary>
+ دالة تحتوي على استعلام أرباح المبيعات 
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SalesProfits.Get_Sql_GroupBy_Category(System.String,System.String)">
+ <summary>
+ دالة تحتوي استعلام ارباح المبيعات مجمع حسب مجموعة الصنف
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SalesProfits.Get_Sql_GroupBy_TheDate(System.String,System.String)">
+ <summary>
+ دالة تحتوي استعلام ارباح المبيعات مجمع حسب التاريخ
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SalesProfits.Get_Sql_GroupBy_Item(System.String,System.String)">
+ <summary>
+ دالة تحتوي استعلام ارباح المبيعات مجمع حسب  الصنف
+ 
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SalesProfits.Get_Sql_GroupBy_Docment(System.String,System.String)">
+ <summary>
+ دالة تحتوي استعلام ارباح المبيعات مجمع حسب رقم الفاتورة
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SalesProfitsWithCostCenters.ColsTotal.Value">
+ <summary>
+ يعود هذا التابع بصيغة الاستعلام مع مجموع الأعمدة المحددة
+ </summary>
+ <param name="strSQL">نص الاستعلام التفصيلي</param>
+ <param name="GroupingCol">حقل التجميع إن وجد مثلا حقل العملة</param>
+ <param name="TotalAtEnd">لتحديد موقع أسطر الاجمالي اما في نهاية الاستعلام أو حسب حقل التجميع</param>
+ <param name="SumCols">لتحديد الحقول التي يتم جمعها</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SalesProfitsWithCostCenters.Get_Sql_SalesProfits_CostCenters(System.String,System.String,System.String)">
+ <summary>
+ دالة تحتوي على استعلام ارباح المبيعات بحسب مركز التكلفة لجميع انواع التقارير
+ </summary>
+ <param name="Condition"></param>
+ <param name="SupplierCondition"></param>
+ <param name="RepType">نوع التقرير</param>
+ <returns></returns>
+ <remarks>Taha</remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SalesProfitsWithCostCenters.Get_Sql_Average_StoreCost_SalesProfitsWithCostCenter(System.String,System.String)">
+ <summary>
+   حسب مراكز التكلفةدالة تحتوي على استعلام أرباح المبيعات 
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SalesProfitsWithCostCenters.Get_Sql_GroupBy_CategorywithCostCenter(System.String,System.String)">
+ <summary>
+ دالة تحتوي استعلام ارباح المبيعات مجمع حسب مجموعة الصنف
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SalesProfitsWithCostCenters.Get_Sql_GroupBy_TheDatewithCostCenter(System.String,System.String)">
+ <summary>
+ دالة تحتوي استعلام ارباح المبيعات مجمع حسب التاريخ
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SalesProfitsWithCostCenters.Get_Sql_GroupBy_ItemwithCostCenter(System.String,System.String)">
+ <summary>
+ دالة تحتوي استعلام ارباح المبيعات مجمع حسب  الصنف
+ 
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.frmInv_SalesProfitsWithCostCenters.Get_Sql_GroupBy_DocmentWithCostCenter(System.String,System.String)">
+ <summary>
+ دالة تحتوي استعلام ارباح المبيعات مجمع حسب رقم الفاتورة
+ </summary>
+ <param name="Condition"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_OrderCostsAdjusting.AddMester_CostAdjusting(System.Object[])">
+ <summary>
+ دالة تضيف سند جديد بكافة بياناتة وتفاصيلة يتم استدعائها اثناء التصدير
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_BuyOrder.ShowBalenceItemsTotal_BySupplier(System.Object[])">
+ <summary>
+ دالة تعود بكميه المخزون قبل الترحيل من الصنف المرسل حسب المورد
+ 
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_BuyOrder.ShowLastQuantity(System.Object[])">
+ <summary>
+ دالة تعود بكمية أخر عملية شراء من الصنف
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyCommandDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyCommandDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyQuotationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyQuotationDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyInvoicePrintDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewCurrenciesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewAccountsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_StoreSpendingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyOrderDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_StoreReceivingNotificationDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_CostsAdjustingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyOrderDetailsEnglishDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyInvoiceDetailsEnglishDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceDetailsEnglishDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceEnglishDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.dtInv_SalesInvoiceHeadDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyInvoiceEnglishDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_QuotationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_QuotationDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyOrderEnglishDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyInvoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyInvoiceDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_RedoneSellInvoiceDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_OrderCostsAdjustingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_ReturnOrderDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsEnglishDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceTempDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsTempDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyOrderDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_StoresDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_TaxValueInvoiceDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_SellInvoice_QuotationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoice1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_QuotationDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_CustomersSuppliersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_SalesBurdensDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SalesBurdensDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_VatReportDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceTax1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsTax1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.dtbImageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.dtinv_SalesInvoiceDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.dtInvoiceCostByCatDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.dtPOS_SalesInvoicePaymentDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_Items_ImageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_ExportInvoicDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_ExportInvoicDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_CompaniesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_CompanieDateDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_BuyingDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_BuyingDetailsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewCustomerImageDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsWeightDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_Details_SizesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_PartPaidDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_Quotation1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_QuotationDetails1DataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyCommandRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyCommandDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyQuotationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyQuotationDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyInvoicePrintRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewCurrenciesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewAccountsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_StoreSpendingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyOrderRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_StoreReceivingNotificationDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_CostsAdjustingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyOrderDetailsEnglishRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyInvoiceDetailsEnglishRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceDetailsEnglishRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceEnglishRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.dtInv_SalesInvoiceHeadRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyInvoiceEnglishRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_QuotationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_QuotationDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyOrderEnglishRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyInvoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyInvoiceDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_RedoneSellInvoiceDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_OrderCostsAdjustingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_ReturnOrderDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsEnglishRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceTempRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsTempRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyOrderDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_StoresRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_TaxValueInvoiceDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_SellInvoice_QuotationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoice1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_QuotationRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_CustomersSuppliersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_SalesBurdensRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SalesBurdensRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_VatReportRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceTax1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsTax1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.dtbImageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.dtinv_SalesInvoiceRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.dtInvoiceCostByCatRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.dtPOS_SalesInvoicePaymentRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_Items_ImageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_ExportInvoicRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_ExportInvoicDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_CompaniesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_CompanieDateRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_BuyingRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_BuyingDetailsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewCustomerImageRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsWeightRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_Details_SizesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_PartPaidRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_Quotation1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_QuotationDetails1Row">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyCommandRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyCommandDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyQuotationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyQuotationDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyInvoicePrintRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewCurrenciesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewAccountsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_StoreSpendingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyOrderRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_StoreReceivingNotificationDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_CostsAdjustingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyOrderDetailsEnglishRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyInvoiceDetailsEnglishRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceDetailsEnglishRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceEnglishRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.dtInv_SalesInvoiceHeadRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyInvoiceEnglishRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_QuotationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_QuotationDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyOrderEnglishRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyInvoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_RedoneBuyInvoiceDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyInvoiceDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_RedoneSellInvoiceDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_OrderCostsAdjustingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_ReturnOrderDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsEnglishRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceTempRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsTempRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_BuyOrderDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_StoresRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_TaxValueInvoiceDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_SellInvoice_QuotationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoice1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_QuotationRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_CustomersSuppliersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_SalesBurdensRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SalesBurdensRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_VatReportRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceTax1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsTax1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.dtbImageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.dtinv_SalesInvoiceRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.dtInvoiceCostByCatRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.dtPOS_SalesInvoicePaymentRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.tblInv_Items_ImageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_ExportInvoicRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_ExportInvoicDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_CompaniesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_CompanieDateRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_BuyingRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewShipping_BuyingDetailsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewCustomerImageRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_SellInvoiceDetailsWeightRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_Details_SizesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_PartPaidRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_Quotation1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSet.vewInv_QuotationDetails1RowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSetTableAdapters.vewInv_BuyCommandTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSetTableAdapters.vewInv_BuyCommandDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSetTableAdapters.vewInv_BuyQuotationTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSetTableAdapters.vewInv_BuyQuotationDetailsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.Purchasing.IBSTraderNetDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.Purchasing.IBSTraderNetDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.Purchasing.IBSTraderNetDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.Purchasing.IBSTraderNetDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.Purchasing.IBSTraderNetDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.Purchasing.IBSTraderNetDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.Purchasing.IBSTraderNetDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.Purchasing.IBSTraderNetDataSetTableAdapters.TableAdapterManager.UpdateAll(EBS.Purchasing.IBSTraderNetDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.Purchasing.IBSTraderNetDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="M:EBS.Purchasing.wndInv_BuyInvoice.CheckCostsAdjusting_BuyInvoiceLink">
+ <summary>
+ هذا الدالة تقوم بالتحقق من اية ارتباطات للفاتورة مع تسويات تكلفة حتىل لايتم السماح بالتعديل لمحتوى رأس الفاتورة
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_BuyInvoice.CalcBuyRate(EBS.Classes.Entries@)">
+ <summary>
+ - احتساب نسبة من اجمالي فاتورة الشراء الى حساب ايراد وخصم المقابل من حساب المورد
+ </summary>
+ <param name="MyEntries"></param>
+ <returns></returns>
+ <remarks>Taha</remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_BuyInvoice.Update_Price(System.Object[])">
+ <summary>
+ تحديث اسعار التجزئة والتكلفة وايضا اسعار البيع في دليل الباركود 
+ </summary>
+ <param name="args()"></param>
+ <returns> Boolean </returns>
+ <remarks>Eng-al3qari</remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_BuyInvoiceDetails.CheckCostsAdjusting_BuyInvoiceLink">
+ <summary>
+ هذا الدالة تقوم بالتحقق من اية ارتباطات للفاتورة مع تسويات تكلفة حتىل لايتم السماح بالتعديل لمحتوى رأس الفاتورة
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Purchasing.TheByMethod.UnitPriceEnum.CostPrice_Item">
+ <summary>
+ سعر التكلفه في دليل الاصناف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Purchasing.TheByMethod.UnitPriceEnum.LastItem_BuyPrice">
+ <summary>
+ آخر سعر شراء للصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Purchasing.TheByMethod.UnitPriceEnum.MaxItem_OrderPrice">
+ <summary>
+  أعلى سعر طلب للصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Purchasing.TheByMethod.UnitPriceEnum.MaxSupplier_OrderPrice">
+ <summary>
+  أعلى سعر طلب للمورد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Purchasing.TheByMethod.UnitPriceEnum.MinItem_OrderPrice">
+ <summary>
+  أقل سعر طلب للصنف
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Purchasing.TheByMethod.UnitPriceEnum.MinSupplier_OrderPrice">
+ <summary>
+  أقل سعر طلب للمورد
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:EBS.Purchasing.TheByMethod.UnitPriceEnum.Other_Price">
+ <summary>
+ سعر آخر
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.modPurshasing.NumberingInvDocument(EBS.Services.clsWindowOperation@,System.String,System.Boolean,EBS.Classes.Session,EBS.Classes.Database)">
+ <summary>
+ ترقيم الفواتير بحسب الاعدادات
+ </summary>
+ <param name="Is_Add"></param>
+ <param name="ActiveOperation"></param>
+ <param name="TableName"></param>
+ <returns></returns>
+ <remarks>TAHA</remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_BuySpendingExtra.Relay(System.Object[])">
+ <summary>
+ يتم استدعاء هذا التابع في الوندو وليس الفورم
+ </summary>
+ <param name="MyWindow"></param>
+ <param name="ID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_CostsAdjusting.AddMester_CostAdjusting(System.Object[])">
+ <summary>
+ دالة تضيف سند جديد بكافة بياناتة وتفاصيلة يتم استدعائها اثناء التصدير
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_CostsAdjusting.GetBuyInvoiceNumber(System.Object[])">
+ <summary>
+ IBD'A: a function that bring the number of the buyinvoice from its ID to be shown for the user
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks>WR</remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_CostsAdjusting.Show_InvoiceInfo(System.Object[])">
+ <summary>
+ IBD'A: to bring the datatable contains  vewInv_BuyInvoice
+ </summary>
+ <param name="args">args(0): ID, args(1): boolean,True: if the sent is the Number, False: if the sent is the ID</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_CostsAdjusting.Show_InvoiceDetailsInfo(System.Object[])">
+ <summary>
+ IBD'A: to bring the datatable contains vewInv_BuyInvoiceDetail
+ </summary>
+ <param name="args">the Parent ID of the vewInv_BuyInvoiceDetails</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_CostsAdjusting.CancelBuyInvoiceForCostAdjusting(System.Object[])">
+ <summary>
+ IBD'A: to cancel the link between tblInv_BuyInvoice and tblInv_CostsAdjusting
+ </summary>
+ <param name="args">ParentID: of the tblInv_CostsAdjusting</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_CostsAdjusting.SetBuyInvoiceForCostAdjusting(System.Object[])">
+ <summary>
+ IBD'A: to set the link between tblInv_BuyInvoice and tblInv_CostsAdjusting
+ </summary>
+ <param name="args">ParentID: of the tblInv_CostsAdjusting, BuyInvoiceID: ID of the tblInv_BuyInvoice</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_LinkItemToSupplier.Relay(System.Object[])">
+ <summary>
+ يتم استدعاء هذا التابع في الوندو وليس الفورم
+ </summary>
+ <param name="MyWindow"></param>
+ <param name="ID"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_QuotationDetails.Check_Item(System.Boolean,System.Data.DataTable)">
+ <summary>
+ فحص الكمية والسعر
+ </summary>
+ <returns>Boolean</returns>
+ <remarks>M.gholis</remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_RedoneBuyInvoice.AddInvoice_FromReturnOrder(System.Object[])">
+ <summary>
+ دالة لاستيراد طلب ارجاع الى فاتورة مردود مشتريات والتعديل على الطلب ان هو تم سحبه
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SellInvoice.SaveToDictionary(System.Object[])">
+ <summary>حفظ البيانات في قاموس الترجمة </summary>
+ <param name="Args"> مصفوفة معاملات </param>
+ <returns>تعيد True في حال نجاح العملية</returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SellInvoice.UpdateMeritState(System.Object[])">
+ <summary>
+ دالة لتعديل  حالة تحصيل الفواتير 
+ </summary>
+ <param name="args"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:EBS.Purchasing.wndInv_SellInvoice.CalcSellRate(EBS.Classes.Entries@)">
+ <summary>
+ - احتساب نسبة من اجمالي فاتورة البيع الى حساب ايراد وتحميل قيمة النسبة العميل
+ </summary>
+ <param name="MyEntries"></param>
+ <returns></returns>
+</member>
+<member name="T:EBS.Purchasing._Xpro_AhmedAli_2020_12_02DataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:EBS.Purchasing._Xpro_AhmedAli_2020_12_02DataSet.vewCst_DesignsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing._Xpro_AhmedAli_2020_12_02DataSet.vewCst_DesignsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:EBS.Purchasing._Xpro_AhmedAli_2020_12_02DataSet.vewCst_DesignsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:EBS.Purchasing._Xpro_AhmedAli_2020_12_02DataSetTableAdapters.vewCst_DesignsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:EBS.Purchasing._Xpro_AhmedAli_2020_12_02DataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:EBS.Purchasing._Xpro_AhmedAli_2020_12_02DataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(EBS.Purchasing._Xpro_AhmedAli_2020_12_02DataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.Purchasing._Xpro_AhmedAli_2020_12_02DataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(EBS.Purchasing._Xpro_AhmedAli_2020_12_02DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:EBS.Purchasing._Xpro_AhmedAli_2020_12_02DataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(EBS.Purchasing._Xpro_AhmedAli_2020_12_02DataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:EBS.Purchasing._Xpro_AhmedAli_2020_12_02DataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:EBS.Purchasing._Xpro_AhmedAli_2020_12_02DataSetTableAdapters.TableAdapterManager.UpdateAll(EBS.Purchasing._Xpro_AhmedAli_2020_12_02DataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:EBS.Purchasing._Xpro_AhmedAli_2020_12_02DataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:EBS.Purchasing._Xpro_AhmedAli_2020_12_02DataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>

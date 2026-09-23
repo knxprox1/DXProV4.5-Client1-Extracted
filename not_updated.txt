@@ -1,0 +1,27 @@
+======================================
+Version Number: 4073
+Script: 
+declare @TableName nvarchar(100)
+declare @ColumnName nvarchar(100)
+declare @AllowNull nvarchar(50)
+declare @sql nvarchar(1000)
+declare AllTables_cursor cursor for
+	Select c.name As ColumnName, t.name As TableName, Case When(c.is_nullable=0) Then ('NOT NULL') Else ('NULL') End As AllowNull From sys.columns c
+	inner join sys.tables t on t.object_id=c.object_id
+	where max_length<150 and max_length<>-1 and system_type_id in (select system_type_id from sys.types where name in ('varchar','nvarchar')) 
+	and t.name not in('tblPOS_BalancesInfo','tbl_Phone_Customers') and t.name not like 'tblSPE_%' 
+OPEN AllTables_cursor
+Fetch next from AllTables_cursor into @ColumnName, @TableName, @AllowNull
+While @@fetch_status = 0
+Begin
+	Print @TableName;
+	Set @sql=N'ALTER TABLE ['+ @TableName +'] ALTER COLUMN ['+ @ColumnName +'] varchar(150) '+ @AllowNull +';';
+	Exec(@sql);
+Fetch next from AllTables_cursor into @ColumnName, @TableName, @AllowNull
+End
+Close AllTables_cursor
+Deallocate AllTables_cursor
+
+
+Error No: 4922
+======================================
