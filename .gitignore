@@ -1,0 +1,6 @@
+# Never commit licensing/signing keys
+**/MyKey.Private
+**/MyKey.Public
+**/MyKey.txt
+**/ServiceKey.Private
+**/ServiceKey.Public
